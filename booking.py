@@ -1,10 +1,7 @@
 from client import Client
 from decimal import Decimal
 from hotel import Hotel
-from ticket import Ticket
-from ticket import PlainTicket
-from ticket import TrainTicket
-from ticket import BusTicket
+from ticket import Ticket, PlainTicket, TrainTicket, BusTicket
 import datetime
 from typing import Union
 
