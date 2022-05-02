@@ -1,0 +1,4722 @@
+[
+   {
+      "title": "Rixbackpackershostel",
+      "price": 2242,
+      "location": {
+         "street": "Mer\u0137e\u013caiela15thfloor",
+         "district": null,
+         "city": "R\u012bga",
+         "country": "Latvia"
+      }
+   },
+   {
+      "title": "WelltonRiversideSPAHotel",
+      "price": 10034,
+      "location": {
+         "street": "11.novembrakrastmala33",
+         "district": null,
+         "city": "R\u012bga",
+         "country": "Latvia"
+      }
+   },
+   {
+      "title": "GrandPoetHotelandSPAbySemarah",
+      "price": 12104,
+      "location": {
+         "street": "Rai\u0146abulv\u0101ris5/6",
+         "district": null,
+         "city": "R\u012bga",
+         "country": "Latvia"
+      }
+   },
+   {
+      "title": "BellevueParkHotelRigawithFREEParking",
+      "price": 4808,
+      "location": {
+         "street": "Slokasiela1",
+         "district": null,
+         "city": "R\u012bga",
+         "country": "Latvia"
+      }
+   },
+   {
+      "title": "ACHotelbyMarriottRiga",
+      "price": 6650,
+      "location": {
+         "street": "Dzirnavuiela33",
+         "district": null,
+         "city": "R\u012bga",
+         "country": "Latvia"
+      }
+   },
+   {
+      "title": "HanzaHotel",
+      "price": 5849,
+      "location": {
+         "street": "Elijasiela7",
+         "district": null,
+         "city": "R\u012bga",
+         "country": "Latvia"
+      }
+   },
+   {
+      "title": "RixwellOldRigaPalaceHotel",
+      "price": 5977,
+      "location": {
+         "street": "Minsterejasiela8/10",
+         "district": null,
+         "city": "R\u012bga",
+         "country": "Latvia"
+      }
+   },
+   {
+      "title": "HamptonbyHiltonRigaAirport",
+      "price": 4272,
+      "location": {
+         "street": "PriezkalniA",
+         "district": null,
+         "city": "Marupesnovads",
+         "country": "LV-2167"
+      }
+   },
+   {
+      "title": "MonikaCentrumHotels",
+      "price": 5783,
+      "location": {
+         "street": "Elizabetesiela21",
+         "district": null,
+         "city": "R\u012bga",
+         "country": "Latvia"
+      }
+   },
+   {
+      "title": "RijaDomusHotel",
+      "price": 5828,
+      "location": {
+         "street": "Tirgo\u0146uiela9",
+         "district": null,
+         "city": "R\u012bga",
+         "country": "Latvia"
+      }
+   },
+   {
+      "title": "RixwellKonventaSetaDesignHotel",
+      "price": 7494,
+      "location": {
+         "street": "Kal\u0113juiela9/11",
+         "district": null,
+         "city": "R\u012bga",
+         "country": "Latvia"
+      }
+   },
+   {
+      "title": "HestiaHotelDraugi",
+      "price": 6351,
+      "location": {
+         "street": "M\u0101rsta\u013cuiela3",
+         "district": null,
+         "city": "R\u012bga",
+         "country": "Latvia"
+      }
+   },
+   {
+      "title": "WelltonCentrumHotel&SPA",
+      "price": 9489,
+      "location": {
+         "street": "Kal\u0113juiela33",
+         "district": null,
+         "city": "R\u012bga",
+         "country": "Latvia"
+      }
+   },
+   {
+      "title": "HotelValdemarsRigamanagedbyAccor",
+      "price": 5903,
+      "location": {
+         "street": "Kr.Valdem\u0101raiela23",
+         "district": null,
+         "city": "R\u012bga",
+         "country": "Latvia"
+      }
+   },
+   {
+      "title": "GrandHotelKempinskiRiga",
+      "price": 20099,
+      "location": {
+         "street": "22Aspazijasbulv\u0101ris",
+         "district": null,
+         "city": "R\u012bga",
+         "country": "Latvia"
+      }
+   },
+   {
+      "title": "RadissonBluDaugavaHotel,Riga",
+      "price": 6321,
+      "location": {
+         "street": "Ku\u0123uiela24",
+         "district": null,
+         "city": "R\u012bga",
+         "country": "Latvia"
+      }
+   },
+   {
+      "title": "DreamBoutiqueApartments",
+      "price": 14121,
+      "location": {
+         "street": "Aldaruiela8-2",
+         "district": null,
+         "city": "R\u012bga",
+         "country": "Latvia"
+      }
+   },
+   {
+      "title": "RijaVEFHotelwithFREEParking",
+      "price": 4857,
+      "location": {
+         "street": "Br\u012bv\u012bbasgatve199C",
+         "district": null,
+         "city": "R\u012bga",
+         "country": "Latvia"
+      }
+   },
+   {
+      "title": "RadissonBluRidzeneHotel,Riga",
+      "price": 8069,
+      "location": {
+         "street": "Reimersaiela1",
+         "district": null,
+         "city": "R\u012bga",
+         "country": "Latvia"
+      }
+   },
+   {
+      "title": "NeiburgsHotel",
+      "price": 9788,
+      "location": {
+         "street": "Jauniela25/27",
+         "district": null,
+         "city": "R\u012bga",
+         "country": "Latvia"
+      }
+   },
+   {
+      "title": "RixwellElefantHotel",
+      "price": 7098,
+      "location": {
+         "street": "Kalnciemaiela90",
+         "district": null,
+         "city": "R\u012bga",
+         "country": "Latvia"
+      }
+   },
+   {
+      "title": "RadissonBluLatvijaConference&SpaHotel,Riga",
+      "price": 7733,
+      "location": {
+         "street": "Elizabetesiela55",
+         "district": null,
+         "city": "R\u012bga",
+         "country": "Latvia"
+      }
+   },
+   {
+      "title": "EasyroomsDzirnavu",
+      "price": 14943,
+      "location": {
+         "street": "Dzirnavuiela81",
+         "district": null,
+         "city": "R\u012bga",
+         "country": "Latvia"
+      }
+   },
+   {
+      "title": "RixwellGertrudeHotel",
+      "price": 8368,
+      "location": {
+         "street": "\u0122ertr\u016bdesiela70",
+         "district": null,
+         "city": "R\u012bga",
+         "country": "Latvia"
+      }
+   },
+   {
+      "title": "RigaIslandeHotelwithFREEParking",
+      "price": 9564,
+      "location": {
+         "street": "\u0136\u012bpsalasiela2",
+         "district": null,
+         "city": "R\u012bga",
+         "country": "Latvia"
+      }
+   },
+   {
+      "title": "Stefan64-302C",
+      "price": 3667,
+      "location": {
+         "street": "Bulevardul\u0218tefancelMare\u0219iSf\u00eent",
+         "district": null,
+         "city": "Chi\u015fin\u0103u",
+         "country": "Moldova"
+      }
+   },
+   {
+      "title": "Bed&BreakfastOlsi",
+      "price": 2870,
+      "location": {
+         "street": "BernardazziStreet26/3",
+         "district": null,
+         "city": "Chi\u015fin\u0103u",
+         "country": "Moldova"
+      }
+   },
+   {
+      "title": "HostelCityCenter",
+      "price": 626,
+      "location": {
+         "street": "32StradaPu\u0219kin",
+         "district": null,
+         "city": "Chi\u015fin\u0103u",
+         "country": "Moldova"
+      }
+   },
+   {
+      "title": "BristolCentralParkHotel",
+      "price": 5260,
+      "location": {
+         "street": "str.Puskin32",
+         "district": null,
+         "city": "Chi\u015fin\u0103u",
+         "country": "Moldova"
+      }
+   },
+   {
+      "title": "Apartamentconfortabil,cuoprivelistesuperba",
+      "price": 1688,
+      "location": {
+         "street": "19StradaNicolaeTestemi\u021banu103",
+         "district": null,
+         "city": "Chi\u015fin\u0103u",
+         "country": "Moldova"
+      }
+   },
+   {
+      "title": "WineHotelChisinau",
+      "price": 2923,
+      "location": {
+         "street": "streetStradela1",
+         "district": null,
+         "city": "Chi\u015fin\u0103u",
+         "country": "Moldova"
+      }
+   },
+   {
+      "title": "DiplomatClubHotel",
+      "price": 4176,
+      "location": {
+         "street": "LaculuiStr.39",
+         "district": null,
+         "city": "Chi\u015fin\u0103u",
+         "country": "Moldova"
+      }
+   },
+   {
+      "title": "Vitalie",
+      "price": 1291,
+      "location": {
+         "street": "PereulokLiviuDamian3",
+         "district": null,
+         "city": "Chi\u015fin\u0103u",
+         "country": "Moldova"
+      }
+   },
+   {
+      "title": "EdemHotel",
+      "price": 2847,
+      "location": {
+         "street": "OdessaStreet34/1",
+         "district": null,
+         "city": "Chi\u015fin\u0103u",
+         "country": "Moldova"
+      }
+   },
+   {
+      "title": "FlowersHotel",
+      "price": 5410,
+      "location": {
+         "street": "AnestiadeStreet7",
+         "district": null,
+         "city": "Chi\u015fin\u0103u",
+         "country": "Moldova"
+      }
+   },
+   {
+      "title": "PremierCityHotelChisinau",
+      "price": 3948,
+      "location": {
+         "street": "StradaAlexei\u015eciusev23A",
+         "district": null,
+         "city": "Chi\u015fin\u0103u",
+         "country": "Moldova"
+      }
+   },
+   {
+      "title": "CityParkHotel",
+      "price": 4822,
+      "location": {
+         "street": "EugenaDogaStreet2A",
+         "district": null,
+         "city": "Chi\u015fin\u0103u",
+         "country": "Moldova"
+      }
+   },
+   {
+      "title": "PresidentResortHotel",
+      "price": 7202,
+      "location": {
+         "street": "DaciaBoulvard58/5",
+         "district": null,
+         "city": "Chi\u015fin\u0103u",
+         "country": "Moldova"
+      }
+   },
+   {
+      "title": "TapokHostel",
+      "price": 380,
+      "location": {
+         "street": "AlessandroBernardazzi73",
+         "district": null,
+         "city": "Chi\u015fin\u0103u",
+         "country": "Moldova"
+      }
+   },
+   {
+      "title": "JumboHotel",
+      "price": 4617,
+      "location": {
+         "street": "Bd.Decebal23/3",
+         "district": null,
+         "city": "Chi\u015fin\u0103u",
+         "country": "Moldova"
+      }
+   },
+   {
+      "title": "Art-RusticBoutiqueHotel",
+      "price": 3198,
+      "location": {
+         "street": "A.H\u00eejdeu79/1",
+         "district": null,
+         "city": "Chi\u015fin\u0103u",
+         "country": "Moldova"
+      }
+   },
+   {
+      "title": "Santorini",
+      "price": 2278,
+      "location": {
+         "street": "44StradaHaiducilor",
+         "district": null,
+         "city": "Chi\u015fin\u0103u",
+         "country": "Moldova"
+      }
+   },
+   {
+      "title": "AriaHotelChisinau",
+      "price": 3924,
+      "location": {
+         "street": "Alba-Iulia7",
+         "district": null,
+         "city": "Chi\u015fin\u0103u",
+         "country": "Moldova"
+      }
+   },
+   {
+      "title": "LunaHotel",
+      "price": 5125,
+      "location": {
+         "street": "PetruMovilaStreet4",
+         "district": null,
+         "city": "Chi\u015fin\u0103u",
+         "country": "Moldova"
+      }
+   },
+   {
+      "title": "MonAmiVilla",
+      "price": 4825,
+      "location": {
+         "street": "StradaMihaiEminescu44/1",
+         "district": null,
+         "city": "Chi\u015fin\u0103u",
+         "country": "Moldova"
+      }
+   },
+   {
+      "title": "ZENTRUMHotel",
+      "price": 7308,
+      "location": {
+         "street": "31August1989St.103",
+         "district": null,
+         "city": "Chi\u015fin\u0103u",
+         "country": "Moldova"
+      }
+   },
+   {
+      "title": "JollyAlonHotel",
+      "price": 6479,
+      "location": {
+         "street": "MariaCibotariStreet37",
+         "district": null,
+         "city": "Chi\u015fin\u0103u",
+         "country": "Moldova"
+      }
+   },
+   {
+      "title": "Apartamentconfortabil\u00eencentrulora\u0219ului!",
+      "price": 2126,
+      "location": {
+         "street": "5StradaCarierei",
+         "district": null,
+         "city": "Chi\u015fin\u0103u",
+         "country": "Moldova"
+      }
+   },
+   {
+      "title": "HostelAmazingIonika",
+      "price": 532,
+      "location": {
+         "street": "StradaMihailKogalniceanu62/8",
+         "district": null,
+         "city": "Chi\u015fin\u0103u",
+         "country": "Moldova"
+      }
+   },
+   {
+      "title": "GlassCubeHotel",
+      "price": 5125,
+      "location": {
+         "street": "StradaBucure\u0219ti73/1",
+         "district": null,
+         "city": "Chi\u015fin\u0103u",
+         "country": "Moldova"
+      }
+   },
+   {
+      "title": "Kiki'sVilla",
+      "price": 1948,
+      "location": {
+         "street": "StreetHaiducilor",
+         "district": null,
+         "city": "Chi\u015fin\u0103u",
+         "country": "Moldova"
+      }
+   },
+   {
+      "title": "Stebuklas",
+      "price": 1366,
+      "location": {
+         "street": "Giedrai\u010di\u0173g.18",
+         "district": "Snipiskes",
+         "city": "Vilnius",
+         "country": "Lithuania"
+      }
+   },
+   {
+      "title": "DowntownForestHostel&Camping",
+      "price": 986,
+      "location": {
+         "street": "Paupiog.31A",
+         "district": "VilniusOldTown",
+         "city": "Vilnius",
+         "country": "Lithuania"
+      }
+   },
+   {
+      "title": "ArtCityInn",
+      "price": 3607,
+      "location": {
+         "street": "Jasinskiog.14",
+         "district": "Naujamiestis",
+         "city": "Vilnius",
+         "country": "Lithuania"
+      }
+   },
+   {
+      "title": "RatondaCentrumHotels",
+      "price": 6127,
+      "location": {
+         "street": "Gediminoav52/Rotundostr1",
+         "district": "Naujamiestis",
+         "city": "Vilnius",
+         "country": "Lithuania"
+      }
+   },
+   {
+      "title": "GratabyCentrumHotels",
+      "price": 4472,
+      "location": {
+         "street": "Vyteniog.9",
+         "district": "Naujamiestis",
+         "city": "Vilnius",
+         "country": "Lithuania"
+      }
+   },
+   {
+      "title": "IvolitaVilnius",
+      "price": 5081,
+      "location": {
+         "street": "Geliug.5",
+         "district": "VilniusOldTown",
+         "city": "Vilnius",
+         "country": "Lithuania"
+      }
+   },
+   {
+      "title": "OldTownTrio",
+      "price": 4408,
+      "location": {
+         "street": "Raugyklosg.15A",
+         "district": "VilniusOldTown",
+         "city": "Vilnius",
+         "country": "Lithuania"
+      }
+   },
+   {
+      "title": "MabreResidence",
+      "price": 4643,
+      "location": {
+         "street": "Maironiog.13",
+         "district": "VilniusOldTown",
+         "city": "Vilnius",
+         "country": "Lithuania"
+      }
+   },
+   {
+      "title": "GrotthussBoutiqueHotelVilnius",
+      "price": 6351,
+      "location": {
+         "street": "Ligonin\u0117sg.7",
+         "district": "VilniusOldTown",
+         "city": "Vilnius",
+         "country": "Lithuania"
+      }
+   },
+   {
+      "title": "RadissonBluHotelLietuva",
+      "price": 7771,
+      "location": {
+         "street": "Konstitucijospr.20",
+         "district": "Snipiskes",
+         "city": "Vilnius",
+         "country": "Lithuania"
+      }
+   },
+   {
+      "title": "NeringaHotel",
+      "price": 4707,
+      "location": {
+         "street": "GediminoAve.23",
+         "district": "Naujamiestis",
+         "city": "Vilnius",
+         "country": "Lithuania"
+      }
+   },
+   {
+      "title": "ArtisCentrumHotels",
+      "price": 8966,
+      "location": {
+         "street": "Totori\u0173g.23",
+         "district": "VilniusOldTown",
+         "city": "Vilnius",
+         "country": "Lithuania"
+      }
+   },
+   {
+      "title": "VilniusCityHotel",
+      "price": 3512,
+      "location": {
+         "street": "\u0160vitrigailosg.11D",
+         "district": "Naujamiestis",
+         "city": "Vilnius",
+         "country": "Lithuania"
+      }
+   },
+   {
+      "title": "SAINTCASIMIRGUESTHOUSE",
+      "price": 7240,
+      "location": {
+         "street": "32ADid\u017eiojigatv\u0117",
+         "district": "VilniusOldTown",
+         "city": "Vilnius",
+         "country": "Lithuania"
+      }
+   },
+   {
+      "title": "BestWesternVilnius",
+      "price": 5604,
+      "location": {
+         "street": "Konstitucijospr.14",
+         "district": "Snipiskes",
+         "city": "Vilnius",
+         "country": "Lithuania"
+      }
+   },
+   {
+      "title": "ComfortHotelLT-Rock'n'RollVilnius",
+      "price": 4035,
+      "location": {
+         "street": "Kaunog.14",
+         "district": "VilniusOldTown",
+         "city": "Vilnius",
+         "country": "Lithuania"
+      }
+   },
+   {
+      "title": "CityGate",
+      "price": 5230,
+      "location": {
+         "street": "Bazilijon\u0173g.3",
+         "district": "VilniusOldTown",
+         "city": "Vilnius",
+         "country": "Lithuania"
+      }
+   },
+   {
+      "title": "PARKHOTELVILNIUS",
+      "price": 3661,
+      "location": {
+         "street": "Basanavi\u010diausg.9",
+         "district": "VilniusOldTown",
+         "city": "Vilnius",
+         "country": "Lithuania"
+      }
+   },
+   {
+      "title": "CrownePlazaVilnius,anIHGHotel",
+      "price": 4188,
+      "location": {
+         "street": "M.K.\u010ciurlioniog.84",
+         "district": "Naujamiestis",
+         "city": "Vilnius",
+         "country": "Lithuania"
+      }
+   },
+   {
+      "title": "CourtyardbyMarriottVilniusCityCenter",
+      "price": 5970,
+      "location": {
+         "street": "Rinktinesg.3",
+         "district": "Snipiskes",
+         "city": "Vilnius",
+         "country": "Lithuania"
+      }
+   },
+   {
+      "title": "CityHotelsR\u016bdninkai",
+      "price": 3904,
+      "location": {
+         "street": "Rudninkug.15/46",
+         "district": "VilniusOldTown",
+         "city": "Vilnius",
+         "country": "Lithuania"
+      }
+   },
+   {
+      "title": "KesmintaApartmentsPARKINGIRECEPTION",
+      "price": 4632,
+      "location": {
+         "street": "Vilniausg.37A",
+         "district": "VilniusOldTown",
+         "city": "Vilnius",
+         "country": "Lithuania"
+      }
+   },
+   {
+      "title": "ParkVilla",
+      "price": 3437,
+      "location": {
+         "street": "Vaidilutesg.6A",
+         "district": "Antakalnis",
+         "city": "Vilnius",
+         "country": "Lithuania"
+      }
+   },
+   {
+      "title": "DomusMaria",
+      "price": 4259,
+      "location": {
+         "street": "Au\u0161rosVart\u0173g.12",
+         "district": "VilniusOldTown",
+         "city": "Vilnius",
+         "country": "Lithuania"
+      }
+   },
+   {
+      "title": "IbisStylesVilnius",
+      "price": 2839,
+      "location": {
+         "street": "Minskopl.14",
+         "district": "Rasos",
+         "city": "Vilnius",
+         "country": "Lithuania"
+      }
+   },
+   {
+      "title": "ParkPuschaSaunaDeluxeApartment&Terrace",
+      "price": 2057,
+      "location": {
+         "street": "10Novikova-PryboiaStreet",
+         "district": null,
+         "city": "Kyiv",
+         "country": "Ukraine"
+      }
+   },
+   {
+      "title": "DiplomatApartHotel",
+      "price": 2385,
+      "location": {
+         "street": "ZhylianskayaStreet59",
+         "district": null,
+         "city": "Kyiv",
+         "country": "Ukraine"
+      }
+   },
+   {
+      "title": "KyivWhiskyBoxApart-Hotel",
+      "price": 3686,
+      "location": {
+         "street": "\u0411\u043e\u043b\u044c\u0448\u0430\u044f\u0412\u0430\u0441\u0438\u043b\u044c\u043a\u043e\u0432\u0441\u043a\u0430\u044f56\u043a\u0432\u0430\u0440\u0442\u0438\u0440\u043016",
+         "district": null,
+         "city": "Kyiv",
+         "country": "Ukraine"
+      }
+   },
+   {
+      "title": "HolosiyvskyHotel",
+      "price": 771,
+      "location": {
+         "street": "Goloseevsky(40-richchaZhovtnya)Avenue93",
+         "district": null,
+         "city": "Kyiv",
+         "country": "Ukraine"
+      }
+   },
+   {
+      "title": "\u0410\u043f\u0430\u0440\u0442\u0430\u043c\u0435\u043d\u0442\u044b\u043d\u0430\u041e\u0441\u043e\u043a\u043e\u0440\u043a\u0430\u0445",
+      "price": 2168,
+      "location": {
+         "street": "182-\u0430\u0421\u0430\u0434\u043e\u0432\u0430\u0432\u0443\u043b\u0438\u0446\u044f",
+         "district": null,
+         "city": "Kyiv",
+         "country": "Ukraine"
+      }
+   },
+   {
+      "title": "SummitApartHotel",
+      "price": 2529,
+      "location": {
+         "street": "5PushkinskaStreet",
+         "district": null,
+         "city": "Kyiv",
+         "country": "Ukraine"
+      }
+   },
+   {
+      "title": "BontiakHotel",
+      "price": 2168,
+      "location": {
+         "street": "Iryninskastreet5/24",
+         "district": null,
+         "city": "Kyiv",
+         "country": "Ukraine"
+      }
+   },
+   {
+      "title": "HotelLime",
+      "price": 1659,
+      "location": {
+         "street": "Pechenizskastreet16",
+         "district": null,
+         "city": "Kyiv",
+         "country": "Ukraine"
+      }
+   },
+   {
+      "title": "irisHotels",
+      "price": 1445,
+      "location": {
+         "street": "ZhylyanskaStreet120B",
+         "district": null,
+         "city": "Kyiv",
+         "country": "Ukraine"
+      }
+   },
+   {
+      "title": "CampusCommunityA-Hotel",
+      "price": 944,
+      "location": {
+         "street": "SaksaganskohoStreet1G",
+         "district": null,
+         "city": "Kyiv",
+         "country": "Ukraine"
+      }
+   },
+   {
+      "title": "Bulgakoff",
+      "price": 482,
+      "location": {
+         "street": "Sofiivs'kaStreet1",
+         "district": null,
+         "city": "Kyiv",
+         "country": "Ukraine"
+      }
+   },
+   {
+      "title": "SenatorMaidan",
+      "price": 5203,
+      "location": {
+         "street": "TarasaShevchenkaLane8B",
+         "district": null,
+         "city": "Kyiv",
+         "country": "Ukraine"
+      }
+   },
+   {
+      "title": "MOONOTELMaidan",
+      "price": 1445,
+      "location": {
+         "street": "38Andriivs'kyidescent",
+         "district": null,
+         "city": "Kyiv",
+         "country": "Ukraine"
+      }
+   },
+   {
+      "title": "HostelVokzal",
+      "price": 382,
+      "location": {
+         "street": "126\u0410ZhylianskaStreet",
+         "district": null,
+         "city": "Kyiv",
+         "country": "Ukraine"
+      }
+   },
+   {
+      "title": "KievCityHotel",
+      "price": 1204,
+      "location": {
+         "street": "41MashynobudivnaStreet",
+         "district": null,
+         "city": "Kyiv",
+         "country": "Ukraine"
+      }
+   },
+   {
+      "title": "PremierPalaceHotelKyiv",
+      "price": 16795,
+      "location": {
+         "street": "5-7/29T.ShevchenkaBlvd./PushkinskaSt",
+         "district": null,
+         "city": "Kyiv",
+         "country": "Ukraine"
+      }
+   },
+   {
+      "title": "Smart-apartSmartHause",
+      "price": 1445,
+      "location": {
+         "street": "\u0443\u043b\u0438\u0446\u0430\u041c\u0430\u0448\u0438\u043d\u043e\u0441\u0442\u0440\u043e\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f41",
+         "district": null,
+         "city": "Kyiv",
+         "country": "Ukraine"
+      }
+   },
+   {
+      "title": "GoldenGateInn",
+      "price": 3902,
+      "location": {
+         "street": "YaroslavovValStreet33\u0410",
+         "district": null,
+         "city": "Kyiv",
+         "country": "Ukraine"
+      }
+   },
+   {
+      "title": "ApartAssistantonSmartPlaza",
+      "price": 3132,
+      "location": {
+         "street": "26PeremohyAvenue",
+         "district": null,
+         "city": "Kyiv",
+         "country": "Ukraine"
+      }
+   },
+   {
+      "title": "KievViewRailwayStation",
+      "price": 2394,
+      "location": {
+         "street": "MetropolitanVasilyLipkivskyiStreet16g",
+         "district": null,
+         "city": "Kyiv",
+         "country": "Ukraine"
+      }
+   },
+   {
+      "title": "FACTORYHostel",
+      "price": 530,
+      "location": {
+         "street": "ArtemaStreet24b",
+         "district": null,
+         "city": "Kyiv",
+         "country": "Ukraine"
+      }
+   },
+   {
+      "title": "CozyroomonKhreshchatyk(Center).",
+      "price": 2409,
+      "location": {
+         "street": "6\u0432\u0443\u043b\u0438\u0446\u044f\u041f\u0440\u043e\u0440\u0456\u0437\u043d\u0430",
+         "district": null,
+         "city": "Kyiv",
+         "country": "Ukraine"
+      }
+   },
+   {
+      "title": "PetraniNivki",
+      "price": 1927,
+      "location": {
+         "street": "\u0429\u0435\u0440\u0431\u0430\u043a\u043e\u0432\u043024",
+         "district": null,
+         "city": "Kyiv",
+         "country": "Ukraine"
+      }
+   },
+   {
+      "title": "\u041f\u043e\u0441\u0443\u0442\u043e\u0447\u043d\u043e\u043c\u0438\u043d\u0438-\u0441\u0442\u0443\u0434\u0438\u044f\u043c\u0435\u0442\u0440\u043e\u041c\u0438\u043d\u0441\u043a\u0430\u044f\u041a\u0438\u0435\u0432",
+      "price": 1903,
+      "location": {
+         "street": "28\u041e\u0431\u043e\u043b\u043e\u043d\u0441\u044c\u043a\u0438\u0439\u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442",
+         "district": null,
+         "city": "Kyiv",
+         "country": "Ukraine"
+      }
+   },
+   {
+      "title": "HermitageBoutique-Hotel",
+      "price": 3613,
+      "location": {
+         "street": "SimonaPetlury(ex.Kominterna)Street6",
+         "district": null,
+         "city": "Kyiv",
+         "country": "Ukraine"
+      }
+   },
+   {
+      "title": "SchulzHotelBerlinWallattheEastSideGallery",
+      "price": 9842,
+      "location": {
+         "street": "StralauerPlatz36",
+         "district": "Friedrichshain-Kreuzberg",
+         "city": "Berlin",
+         "country": "Germany"
+      }
+   },
+   {
+      "title": "HotelBerlin,Berlin",
+      "price": 12003,
+      "location": {
+         "street": "L\u00fctzowplatz17",
+         "district": "Mitte",
+         "city": "Berlin",
+         "country": "Germany"
+      }
+   },
+   {
+      "title": "AmstelHouseHostel",
+      "price": 2730,
+      "location": {
+         "street": "Waldenserstr.31",
+         "district": "Mitte",
+         "city": "Berlin",
+         "country": "Germany"
+      }
+   },
+   {
+      "title": "MoxyBerlinOstbahnhof",
+      "price": 11178,
+      "location": {
+         "street": "Andreasstrasse76-78",
+         "district": "Friedrichshain-Kreuzberg",
+         "city": "Berlin",
+         "country": "Germany"
+      }
+   },
+   {
+      "title": "B&BHotelBerlin-Tiergarten",
+      "price": 7524,
+      "location": {
+         "street": "EnglischeStra\u00dfe1",
+         "district": "Charlottenburg-Wilmersdorf",
+         "city": "Berlin",
+         "country": "Germany"
+      }
+   },
+   {
+      "title": "HolidayInnExpress-Berlin-Alexanderplatz,anIHGHotel",
+      "price": 13001,
+      "location": {
+         "street": "StralauerStrasse45",
+         "district": "Mitte",
+         "city": "Berlin",
+         "country": "Germany"
+      }
+   },
+   {
+      "title": "TITANICComfortKurf\u00fcrstendamm",
+      "price": 10386,
+      "location": {
+         "street": "9-12Kleiststra\u00dfeTempelhof-Sch\u00f6neberg",
+         "district": "Tempelhof-Sch\u00f6neberg",
+         "city": "Berlin",
+         "country": "Germany"
+      }
+   },
+   {
+      "title": "B\u00f6lscheHotel",
+      "price": 5977,
+      "location": {
+         "street": "B\u00f6lschestra\u00dfe126",
+         "district": "Treptow-K\u00f6penick",
+         "city": "Berlin",
+         "country": "Germany"
+      }
+   },
+   {
+      "title": "SandinoHostelBerlin",
+      "price": 1700,
+      "location": {
+         "street": "5Sandinostra\u00dfe",
+         "district": "Lichtenberg",
+         "city": "Berlin",
+         "country": "Germany"
+      }
+   },
+   {
+      "title": "TITANICChausseeBerlin",
+      "price": 14286,
+      "location": {
+         "street": "Chausseestra\u00dfe30",
+         "district": "Mitte",
+         "city": "Berlin",
+         "country": "Germany"
+      }
+   },
+   {
+      "title": "HotelKaiser",
+      "price": 6725,
+      "location": {
+         "street": "Kaiserdamm6",
+         "district": "Charlottenburg-Wilmersdorf",
+         "city": "Berlin",
+         "country": "Germany"
+      }
+   },
+   {
+      "title": "GoldPalaisHotel",
+      "price": 15317,
+      "location": {
+         "street": "GreifswalderStra\u00dfe6-7",
+         "district": "PrenzlauerBerg",
+         "city": "Berlin",
+         "country": "Germany"
+      }
+   },
+   {
+      "title": "CataloniaBerlinMitte",
+      "price": 13448,
+      "location": {
+         "street": "K\u00f6penickerStrasse",
+         "district": "80-82",
+         "city": "10179",
+         "country": "Berlin"
+      }
+   },
+   {
+      "title": "TSHBerlinAlexanderplatz",
+      "price": 21731,
+      "location": {
+         "street": "Alexanderstra\u00dfe40",
+         "district": "Mitte",
+         "city": "Berlin",
+         "country": "Germany"
+      }
+   },
+   {
+      "title": "HotelIndigoBerlin\u2013Ku\u2019damm,anIHGHotel",
+      "price": 12489,
+      "location": {
+         "street": "Hardenbergstr.15",
+         "district": "Charlottenburg-Wilmersdorf",
+         "city": "Berlin",
+         "country": "Germany"
+      }
+   },
+   {
+      "title": "EssentialbyDorintBerlin-Adlershof",
+      "price": 8092,
+      "location": {
+         "street": "RudowerChaussee15",
+         "district": "Treptow-K\u00f6penick",
+         "city": "Berlin",
+         "country": "Germany"
+      }
+   },
+   {
+      "title": "HotelPrensBerlin",
+      "price": 8705,
+      "location": {
+         "street": "KottbusserDamm102",
+         "district": "Friedrichshain-Kreuzberg",
+         "city": "Berlin",
+         "country": "Germany"
+      }
+   },
+   {
+      "title": "HotelKiezPensionBerlin",
+      "price": 10087,
+      "location": {
+         "street": "Jungstr.41",
+         "district": "Friedrichshain-Kreuzberg",
+         "city": "Berlin",
+         "country": "Germany"
+      }
+   },
+   {
+      "title": "SeminarisCampusHotelBerlin",
+      "price": 11554,
+      "location": {
+         "street": "Takustra\u00dfe39",
+         "district": "Steglitz-Zehlendorf",
+         "city": "Berlin",
+         "country": "Germany"
+      }
+   },
+   {
+      "title": "CourtyardbyMarriottBerlinCityCenter",
+      "price": 15616,
+      "location": {
+         "street": "Axel-Springer-Str.55",
+         "district": "Mitte",
+         "city": "Berlin",
+         "country": "Germany"
+      }
+   },
+   {
+      "title": "HolidayInnBerlinCityCenterEastPrenzlauerBerg,anIHGHotel",
+      "price": 15332,
+      "location": {
+         "street": "PrenzlauerAllee169",
+         "district": "PrenzlauerBerg",
+         "city": "Berlin",
+         "country": "Germany"
+      }
+   },
+   {
+      "title": "HolidayInnBerlinCityEastSide,anIHGHotel",
+      "price": 13374,
+      "location": {
+         "street": "Wanda-Kallenbach-Strasse",
+         "district": "Friedrichshain-Kreuzberg",
+         "city": "Berlin",
+         "country": "Germany"
+      }
+   },
+   {
+      "title": "HotelBrandiesanderMesse",
+      "price": 10535,
+      "location": {
+         "street": "Kaiserdamm27",
+         "district": "Charlottenburg-Wilmersdorf",
+         "city": "Berlin",
+         "country": "Germany"
+      }
+   },
+   {
+      "title": "Meli\u00e1Berlin",
+      "price": 18282,
+      "location": {
+         "street": "Friedrichstr.103",
+         "district": "Mitte",
+         "city": "Berlin",
+         "country": "Germany"
+      }
+   },
+   {
+      "title": "LindnerHotelAmKu'damm-Berlin",
+      "price": 12709,
+      "location": {
+         "street": "Kurf\u00fcrstendamm24",
+         "district": "Charlottenburg-Wilmersdorf",
+         "city": "Berlin",
+         "country": "Germany"
+      }
+   },
+   {
+      "title": "YOTELEdinburgh",
+      "price": 44303,
+      "location": {
+         "street": "68-73QueenStreet",
+         "district": null,
+         "city": "Edinburgh",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "HolidayInnExpressEdinburghCityWest,anIHGHotel",
+      "price": 27920,
+      "location": {
+         "street": "107QueensferryRd.",
+         "district": null,
+         "city": "Edinburgh",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "HolidayInnExpressEdinburghCityCentre,anIHGHotel",
+      "price": 28646,
+      "location": {
+         "street": "PicardyPlace",
+         "district": null,
+         "city": "Edinburgh",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "MalmaisonEdinburgh",
+      "price": 31594,
+      "location": {
+         "street": "OneTowerPlace",
+         "district": null,
+         "city": "Edinburgh",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "BritanniaEdinburghHotel",
+      "price": 23920,
+      "location": {
+         "street": "69BelfordRoad",
+         "district": null,
+         "city": "Edinburgh",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "MercureEdinburghCity-PrincesStreetHotel",
+      "price": 26232,
+      "location": {
+         "street": "53PrincesStreet",
+         "district": null,
+         "city": "Edinburgh",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "MoxyEdinburghFountainbridge",
+      "price": 28633,
+      "location": {
+         "street": "2FreerGait",
+         "district": null,
+         "city": "Edinburgh",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "MelvilleCastleHotel",
+      "price": 35479,
+      "location": {
+         "street": "MelvilleCastleHotelMelville",
+         "district": null,
+         "city": "Edinburgh",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "EdinburghMarriottHotel",
+      "price": 21519,
+      "location": {
+         "street": "111GlasgowRoad",
+         "district": null,
+         "city": "Edinburgh",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "SheratonGrandHotel&Spa",
+      "price": 46377,
+      "location": {
+         "street": "1FestivalSquare",
+         "district": null,
+         "city": "Edinburgh",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "EdinburghWestSideHostel",
+      "price": 2223,
+      "location": {
+         "street": "479GorgieRoad",
+         "district": null,
+         "city": "Edinburgh",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "DalmahoyHotel&CountryClub",
+      "price": 21208,
+      "location": {
+         "street": "EdinburghWest",
+         "district": null,
+         "city": "Edinburgh",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "VillageHotelEdinburgh",
+      "price": 24569,
+      "location": {
+         "street": "140CreweSouthRoad",
+         "district": null,
+         "city": "Edinburgh",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "WaldorfAstoriaEdinburgh-TheCaledonian",
+      "price": 60735,
+      "location": {
+         "street": "PrincesStreet",
+         "district": null,
+         "city": "Edinburgh",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "TheBonham",
+      "price": 45705,
+      "location": {
+         "street": "35DrumsheughGardens",
+         "district": null,
+         "city": "Edinburgh",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "StewartbyHeetonConcept-AparthotelEdinburgh",
+      "price": 75943,
+      "location": {
+         "street": "10YoungStreet",
+         "district": null,
+         "city": "Edinburgh",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "HotelDuVinEdinburgh",
+      "price": 58710,
+      "location": {
+         "street": "11BristoPlace",
+         "district": null,
+         "city": "Edinburgh",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "MalmaisonEdinburghCity",
+      "price": 33705,
+      "location": {
+         "street": "21-22StAndrewSquare",
+         "district": null,
+         "city": "Edinburgh",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "OceanMistLeith",
+      "price": 23475,
+      "location": {
+         "street": "OceanMistLeithTheShoreLeith",
+         "district": null,
+         "city": "Edinburgh",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "HomelyandQuirky2-Bed,2minsFromTheMeadows",
+      "price": 73746,
+      "location": {
+         "street": "14PanmurePlace",
+         "district": null,
+         "city": "Edinburgh",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "BruntonGardens,MontgomeryStreet",
+      "price": 64023,
+      "location": {
+         "street": "BruntonGardens3F3",
+         "district": null,
+         "city": "Edinburgh",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "HotelInjuHills",
+      "price": 1629,
+      "location": {
+         "street": "50/1MukhtarAuezovStreet",
+         "district": null,
+         "city": "Nur-Sultan",
+         "country": "Kazakhstan"
+      }
+   },
+   {
+      "title": "HELLOINNbudgethotel",
+      "price": 799,
+      "location": {
+         "street": "21/1TashenovStreet",
+         "district": null,
+         "city": "Nur-Sultan",
+         "country": "Kazakhstan"
+      }
+   },
+   {
+      "title": "HotelKapsula",
+      "price": 799,
+      "location": {
+         "street": "QabanbayBatyrAvenue7/3",
+         "district": null,
+         "city": "Nur-Sultan",
+         "country": "Kazakhstan"
+      }
+   },
+   {
+      "title": "LionHotel",
+      "price": 1847,
+      "location": {
+         "street": "MoskovskayaStreet57",
+         "district": null,
+         "city": "Nur-Sultan",
+         "country": "Kazakhstan"
+      }
+   },
+   {
+      "title": "AltynEcoPark",
+      "price": 1917,
+      "location": {
+         "street": "22KereyandZhanibekKhansStreet\u041d\u041f108",
+         "district": null,
+         "city": "Nur-Sultan",
+         "country": "Kazakhstan"
+      }
+   },
+   {
+      "title": "ComfortHotelAstana",
+      "price": 3000,
+      "location": {
+         "street": "KosmonavtovStreet60",
+         "district": null,
+         "city": "Nur-Sultan",
+         "country": "Kazakhstan"
+      }
+   },
+   {
+      "title": "TorgayHotel",
+      "price": 1757,
+      "location": {
+         "street": "Satpaeva",
+         "district": null,
+         "city": "Nur-Sultan",
+         "country": "Nur-Sultan"
+      }
+   },
+   {
+      "title": "SKYVersal",
+      "price": 1597,
+      "location": {
+         "street": "SarayshyqStreet40",
+         "district": null,
+         "city": "Nur-Sultan",
+         "country": "Nur-Sultan"
+      }
+   },
+   {
+      "title": "AirportHotel",
+      "price": 3195,
+      "location": {
+         "street": "\u041a\u0430\u0431\u0430\u043d\u0431\u0430\u0439\u0411\u0430\u0442\u044b\u0440\u0430.Kazakhstan119\u0432\u0437\u0434\u0430\u043d\u0438\u0438\u0410\u041e\"\u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0439\u0430\u044d\u0440\u043e\u043f\u043e\u0440\u0442\u0410\u0441\u0442\u0430\u043d\u0430\"",
+         "district": null,
+         "city": "Nur-Sultan",
+         "country": "Kazakhstan"
+      }
+   },
+   {
+      "title": "AltynDalaHotel",
+      "price": 1725,
+      "location": {
+         "street": "BegeldinovaStreet8/1",
+         "district": null,
+         "city": "Nur-Sultan",
+         "country": "Kazakhstan"
+      }
+   },
+   {
+      "title": "BrownHotel",
+      "price": 2492,
+      "location": {
+         "street": "MalikGhabdullinStreet",
+         "district": null,
+         "city": "Nur-Sultan",
+         "country": "Nur-Sultan"
+      }
+   },
+   {
+      "title": "HotelDuman",
+      "price": 4270,
+      "location": {
+         "street": "Korgalzhynhighway",
+         "district": null,
+         "city": "Nur-Sultan",
+         "country": "Nur-Sultan"
+      }
+   },
+   {
+      "title": "WyndhamGardenAstana",
+      "price": 4553,
+      "location": {
+         "street": "\u0443\u043b.\u0425\u0443\u0441\u0435\u0439\u043d\u0431\u0435\u043d\u0422\u0430\u043b\u0430\u043b",
+         "district": null,
+         "city": "Nur-Sultan",
+         "country": "Nur-Sultan"
+      }
+   },
+   {
+      "title": "HiltonGardenInnAstana",
+      "price": 5343,
+      "location": {
+         "street": "KabanbayBatyrAvenue15",
+         "district": null,
+         "city": "Nur-Sultan",
+         "country": "Kazakhstan"
+      }
+   },
+   {
+      "title": "HostelSsize",
+      "price": 527,
+      "location": {
+         "street": "36\u0423\u043b\u0438\u0446\u0430\u0411\u0443\u0445\u0430\u0440\u0416\u044b\u0440\u0430\u044313\u043e\u0444\u0438\u0441",
+         "district": null,
+         "city": "Nur-Sultan",
+         "country": "Kazakhstan"
+      }
+   },
+   {
+      "title": "AstanaMarriottHotel",
+      "price": 4745,
+      "location": {
+         "street": "DostykStreet2",
+         "district": null,
+         "city": "Nur-Sultan",
+         "country": "Kazakhstan"
+      }
+   },
+   {
+      "title": "VipHouseHotel",
+      "price": 3666,
+      "location": {
+         "street": "DostykStreet5/1",
+         "district": null,
+         "city": "Nur-Sultan",
+         "country": "Kazakhstan"
+      }
+   },
+   {
+      "title": "RamadabyWyndhamNur-Sultan",
+      "price": 3688,
+      "location": {
+         "street": "BeibitshilikStreet8",
+         "district": null,
+         "city": "Nur-Sultan",
+         "country": "Kazakhstan"
+      }
+   },
+   {
+      "title": "HamptonByHiltonAstanaTriumphalArch",
+      "price": 3465,
+      "location": {
+         "street": "MangilikElAvenue43a",
+         "district": null,
+         "city": "Nur-Sultan",
+         "country": "Kazakhstan"
+      }
+   },
+   {
+      "title": "NomadHotel",
+      "price": 1597,
+      "location": {
+         "street": "\u0443\u043b.\u041a\u0443\u0439\u0448\u0438\u0414\u0438\u043d\u043025/1",
+         "district": null,
+         "city": "Nur-Sultan",
+         "country": "Kazakhstan"
+      }
+   },
+   {
+      "title": "OrynborBoutiqueHotel",
+      "price": 2875,
+      "location": {
+         "street": "MangilikYelAvenue50",
+         "district": null,
+         "city": "Nur-Sultan",
+         "country": "Kazakhstan"
+      }
+   },
+   {
+      "title": "Prospect",
+      "price": 1438,
+      "location": {
+         "street": "\u0421\u044b\u0433\u0430\u043d\u0430\u043a9\u0416\u041a\u00ab7\u0431\u043e\u0447\u0435\u043a\u00bb",
+         "district": null,
+         "city": "\u043a\u0432.2",
+         "country": "010000"
+      }
+   },
+   {
+      "title": "Mini-HotelPulsar",
+      "price": 2157,
+      "location": {
+         "street": "ProspektTauyelsizdik",
+         "district": null,
+         "city": "Nur-Sultan",
+         "country": "Kazakhstan"
+      }
+   },
+   {
+      "title": "HotelMonaco",
+      "price": 3527,
+      "location": {
+         "street": "CharlesDeGaulleSt1",
+         "district": null,
+         "city": "Nur-Sultan",
+         "country": "Kazakhstan"
+      }
+   },
+   {
+      "title": "KingHotelAstana",
+      "price": 3195,
+      "location": {
+         "street": "ValikhanovaStr.7",
+         "district": null,
+         "city": "Nur-Sultan",
+         "country": "Kazakhstan"
+      }
+   },
+   {
+      "title": "HERAKLESHOTEL",
+      "price": 4259,
+      "location": {
+         "street": "Ild\u0131rMah.GaziMustafaKemalCad.No:21\u00c7e\u015fme",
+         "district": null,
+         "city": "Izmir",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "MAR\u0130NAHOTEL",
+      "price": 1569,
+      "location": {
+         "street": "\u0130SMETKAPTANMAH.1361SK.NO.14B1",
+         "district": "Konak",
+         "city": "Izmir",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "DoubleTreeByHiltonIzmirAirport",
+      "price": 3151,
+      "location": {
+         "street": "FatihMh.EgeCad.N:4AGaziemirIzmir",
+         "district": "Gaziemir",
+         "city": "Izmir",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "HayHotelAlsancak",
+      "price": 3736,
+      "location": {
+         "street": "1476/1sokakno5Alsancak",
+         "district": "Konak",
+         "city": "Izmir",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "GrandCornerBoutiqueHotel",
+      "price": 1943,
+      "location": {
+         "street": "AnafartalarCaddesiNo:783Basmane",
+         "district": "Konak",
+         "city": "Izmir",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "SwissotelBuyukEfesIzmir",
+      "price": 8715,
+      "location": {
+         "street": "GaziosmanpasaBulvar\u0131No:1Alsancak",
+         "district": "Konak",
+         "city": "Izmir",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "IzmirMarriottHotel",
+      "price": 8368,
+      "location": {
+         "street": "AkdenizMahallesiGaziBulvariNo1Alsancak",
+         "district": "Konak",
+         "city": "Izmir",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "IzmirPalasHotel",
+      "price": 2989,
+      "location": {
+         "street": "Atat\u00fcrkBulvari",
+         "district": "Konak",
+         "city": "Izmir",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "BestWesternPremierKarsiyakaConvention&SpaHotel",
+      "price": 3411,
+      "location": {
+         "street": "AnadoluCaddesiNo:695Kar\u015f\u0131yaka",
+         "district": "Karsiyaka",
+         "city": "Izmir",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "PianoHotel",
+      "price": 1718,
+      "location": {
+         "street": "1364SokakNo:11Basmane",
+         "district": "Konak",
+         "city": "35260Izmir",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "TempoResidenceComfortIzmir",
+      "price": 2914,
+      "location": {
+         "street": "GazilerCaddesi.No:206Yenisehir/Basmane",
+         "district": "Konak",
+         "city": "Izmir",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "SmartHotel\u0130zmir",
+      "price": 3315,
+      "location": {
+         "street": "Fevzipa\u015faBulvar\u0131N:o153Konakizmir",
+         "district": "Konak",
+         "city": "Izmir",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "TAVAirportHotelIzmir",
+      "price": 3631,
+      "location": {
+         "street": "AdnanMenderesHavaalaniYeniDisHatlarTerminaliGaziemir",
+         "district": "Gaziemir",
+         "city": "Izmir",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "ibisStylesIzmirBornova",
+      "price": 4132,
+      "location": {
+         "street": "KazimDirikMahBornova",
+         "district": "Bornova",
+         "city": "Izmir",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "TheNewHotelZeybek",
+      "price": 1718,
+      "location": {
+         "street": "FevzipasaBulvari1368No:5",
+         "district": "Konak",
+         "city": "Izmir",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "AntikhanHotel",
+      "price": 1195,
+      "location": {
+         "street": "AnafartalarCad.No:600Cankaya",
+         "district": "Konak",
+         "city": "Izmir",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "OglakciogluParkBoutiqueHotel",
+      "price": 2242,
+      "location": {
+         "street": "1367SokakNo:9Basmane",
+         "district": "Konak",
+         "city": "Izmir",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "WyndhamGrand\u0130zmir\u00d6zdilek",
+      "price": 7869,
+      "location": {
+         "street": "InciraltiCaddesiNo:67Balcova",
+         "district": "Balcova",
+         "city": "Izmir",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "OrtyAirportHotel",
+      "price": 2981,
+      "location": {
+         "street": "AdnanMenderesHavaliman\u0131Girisi-Gaziemir",
+         "district": "Gaziemir",
+         "city": "Izmir",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "Ye\u015filyurtResidence",
+      "price": 1569,
+      "location": {
+         "street": "177/7sokno:4Bas\u0131nsitesikaraba\u011flar\u0130zmir",
+         "district": null,
+         "city": "Izmir",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "BestWesternPlusHotelKonak",
+      "price": 5525,
+      "location": {
+         "street": "Mithatpasacad.No:128",
+         "district": "Konak",
+         "city": "Izmir",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "BalcovaTermalHotel",
+      "price": 2466,
+      "location": {
+         "street": "ValiH\u00fcseyin\u00d6g\u00fctcenCad.No:2Bal\u00e7ova",
+         "district": "Balcova",
+         "city": "Izmir",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "NewParkHotel",
+      "price": 2058,
+      "location": {
+         "street": "ZiyaG\u00f6kalpBulvariNo:58Cankaya",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "OccidentalAnkara",
+      "price": 3586,
+      "location": {
+         "street": "GunizSokNo:42Kavaklidere",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "KahyaHotelAnkara",
+      "price": 1987,
+      "location": {
+         "street": "YesilirmakSok.No:14Demirtepe",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "G\u00fcvenayBusinessHotel",
+      "price": 2548,
+      "location": {
+         "street": "G.M.KBulvar\u0131No139",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "TheWingsHotelsNevaPalas",
+      "price": 3400,
+      "location": {
+         "street": "EsatCad.No:32Kucukesat",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "HotelIckale",
+      "price": 2615,
+      "location": {
+         "street": "GaziMustafaKemalBulvariNo:89Maltepe",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "HotelCinnah",
+      "price": 2075,
+      "location": {
+         "street": "CinnahCaddesino:3\u00c7ankaya",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "GrandMercureAnkara",
+      "price": 3934,
+      "location": {
+         "street": "BestepelerMah.YasamCad.No.7/BSogutozu",
+         "district": "Ankara",
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "AnkaraPlazaHotel",
+      "price": 2210,
+      "location": {
+         "street": "BestekarSok.No:5",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "IlciResidenceHotel",
+      "price": 2466,
+      "location": {
+         "street": "GaziMustafaKemalBulvariNo:135Tandogan",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "ibisAnkaraAirportHotel",
+      "price": 3833,
+      "location": {
+         "street": "BalikhisarMahOzalBulvari6750",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "Inn14Hostel",
+      "price": 448,
+      "location": {
+         "street": "bah\u00e7elievlermah.a\u015fkabatcad.no:14\u00e7ankayaankara",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "MovenpickHotelAnkara",
+      "price": 5371,
+      "location": {
+         "street": "BestepelerMah.YasamCad.No:1Sogutozu",
+         "district": "Yenimahalle",
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "LionCityHotelK\u0131z\u0131lay",
+      "price": 1521,
+      "location": {
+         "street": "Bay\u0131nd\u0131r2Sok.No:35Kizilay",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "DemontiHotel",
+      "price": 3979,
+      "location": {
+         "street": "AkayCaddesiNo:8Kavaklidere",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "LatanyaHotelAnkara",
+      "price": 7098,
+      "location": {
+         "street": "BuklumSokakNo:1Kavaklidere",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "FirstApartHotel",
+      "price": 1729,
+      "location": {
+         "street": "InkilapSokakNo:29Kizilay",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "GrandSeraHotel",
+      "price": 1420,
+      "location": {
+         "street": "AnafartalarMahallesiDenizcilercaddesiNo:16Ulus",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "GrandAnkaraHotelConventionCenter",
+      "price": 6650,
+      "location": {
+         "street": "Atat\u00fcrkBlv.No:183Kavaklidere",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "DemoraHotel",
+      "price": 3291,
+      "location": {
+         "street": "KavaklidereMah.EsatCad.No:51Cankaya",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "LionCityHotelAnkara",
+      "price": 1073,
+      "location": {
+         "street": "\u00d6rnekMahallesi\u015eehit\u00d6merHalisdemirBulvar\u0131No:1Alt\u0131nda\u011f",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "SonnoBoutiqueRooms&Suites",
+      "price": 3063,
+      "location": {
+         "street": "TunusCaddesiNo:52Kavaklidere",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "AnkaraHiltonSA",
+      "price": 7182,
+      "location": {
+         "street": "TahranCaddesiNo:12",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "WyndhamAnkara",
+      "price": 5366,
+      "location": {
+         "street": "YasamCad.4.Sok.No:4Sogutozu",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "NewParkHotel",
+      "price": 2058,
+      "location": {
+         "street": "ZiyaG\u00f6kalpBulvariNo:58Cankaya",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "OccidentalAnkara",
+      "price": 3586,
+      "location": {
+         "street": "GunizSokNo:42Kavaklidere",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "KahyaHotelAnkara",
+      "price": 1987,
+      "location": {
+         "street": "YesilirmakSok.No:14Demirtepe",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "G\u00fcvenayBusinessHotel",
+      "price": 2548,
+      "location": {
+         "street": "G.M.KBulvar\u0131No139",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "TheWingsHotelsNevaPalas",
+      "price": 3400,
+      "location": {
+         "street": "EsatCad.No:32Kucukesat",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "HotelIckale",
+      "price": 2615,
+      "location": {
+         "street": "GaziMustafaKemalBulvariNo:89Maltepe",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "HotelCinnah",
+      "price": 2075,
+      "location": {
+         "street": "CinnahCaddesino:3\u00c7ankaya",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "GrandMercureAnkara",
+      "price": 3934,
+      "location": {
+         "street": "BestepelerMah.YasamCad.No.7/BSogutozu",
+         "district": "Ankara",
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "AnkaraPlazaHotel",
+      "price": 2210,
+      "location": {
+         "street": "BestekarSok.No:5",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "IlciResidenceHotel",
+      "price": 2466,
+      "location": {
+         "street": "GaziMustafaKemalBulvariNo:135Tandogan",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "ibisAnkaraAirportHotel",
+      "price": 3833,
+      "location": {
+         "street": "BalikhisarMahOzalBulvari6750",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "Inn14Hostel",
+      "price": 448,
+      "location": {
+         "street": "bah\u00e7elievlermah.a\u015fkabatcad.no:14\u00e7ankayaankara",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "MovenpickHotelAnkara",
+      "price": 5371,
+      "location": {
+         "street": "BestepelerMah.YasamCad.No:1Sogutozu",
+         "district": "Yenimahalle",
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "LionCityHotelK\u0131z\u0131lay",
+      "price": 1521,
+      "location": {
+         "street": "Bay\u0131nd\u0131r2Sok.No:35Kizilay",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "DemontiHotel",
+      "price": 3979,
+      "location": {
+         "street": "AkayCaddesiNo:8Kavaklidere",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "LatanyaHotelAnkara",
+      "price": 7098,
+      "location": {
+         "street": "BuklumSokakNo:1Kavaklidere",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "FirstApartHotel",
+      "price": 1729,
+      "location": {
+         "street": "InkilapSokakNo:29Kizilay",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "GrandSeraHotel",
+      "price": 1420,
+      "location": {
+         "street": "AnafartalarMahallesiDenizcilercaddesiNo:16Ulus",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "GrandAnkaraHotelConventionCenter",
+      "price": 6650,
+      "location": {
+         "street": "Atat\u00fcrkBlv.No:183Kavaklidere",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "DemoraHotel",
+      "price": 3291,
+      "location": {
+         "street": "KavaklidereMah.EsatCad.No:51Cankaya",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "LionCityHotelAnkara",
+      "price": 1073,
+      "location": {
+         "street": "\u00d6rnekMahallesi\u015eehit\u00d6merHalisdemirBulvar\u0131No:1Alt\u0131nda\u011f",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "SonnoBoutiqueRooms&Suites",
+      "price": 3063,
+      "location": {
+         "street": "TunusCaddesiNo:52Kavaklidere",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "AnkaraHiltonSA",
+      "price": 7182,
+      "location": {
+         "street": "TahranCaddesiNo:12",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "WyndhamAnkara",
+      "price": 5366,
+      "location": {
+         "street": "YasamCad.4.Sok.No:4Sogutozu",
+         "district": null,
+         "city": "Ankara",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "Mai\u0130nciHotel",
+      "price": 3980,
+      "location": {
+         "street": "155.Sokak",
+         "district": null,
+         "city": "Antalya",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "ArgosHotel",
+      "price": 4173,
+      "location": {
+         "street": "BalikpazariSkNo6/1",
+         "district": "Kaleici",
+         "city": "Antalya",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "AleApartmentsHotel",
+      "price": 2615,
+      "location": {
+         "street": "ArapsuyuMah.661.Sok.No:8Konyaalt\u0131",
+         "district": null,
+         "city": "Antalya",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "ElysiumGreenSuites",
+      "price": 7397,
+      "location": {
+         "street": "GuzelobaMahallesi2348sokakNo:21",
+         "district": null,
+         "city": "Antalya",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "ZeynelHotel",
+      "price": 3228,
+      "location": {
+         "street": "610.SokakNo:9",
+         "district": null,
+         "city": "Antalya",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "OnHotel",
+      "price": 3147,
+      "location": {
+         "street": "CaglayanMah.2050SokakNo:2Lara",
+         "district": null,
+         "city": "Antalya",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "OldTownPointHotel&SpaAntalya",
+      "price": 3228,
+      "location": {
+         "street": "Alt\u0131nda\u011fmahallesiG\u00fcll\u00fckCaddesiNo:63Muratpa\u015faAntalyaAlt\u0131nda\u011fmahallesiG\u00fcll\u00fckCaddesiNo:63Muratpa\u015faAntalya",
+         "district": null,
+         "city": "Antalya",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "CrownePlazaAntalya,anIHGHotel",
+      "price": 5903,
+      "location": {
+         "street": "AkdenizBulvariGursuMah306.Sk.Konyaalti",
+         "district": null,
+         "city": "Antalya",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "GrandGullukHotel&Spa",
+      "price": 3228,
+      "location": {
+         "street": "K\u0131\u015flamahallesiG\u00fcll\u00fckCaddesiNo:28/BMURATPA\u015eA/ANTALYA",
+         "district": null,
+         "city": "Antalya",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "OlbiaHotel",
+      "price": 2690,
+      "location": {
+         "street": "AkdenizBlvNo:66",
+         "district": null,
+         "city": "Antalya",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "AntroyalHotel",
+      "price": 2466,
+      "location": {
+         "street": "AnafartalarCad.No:66",
+         "district": null,
+         "city": "Antalya",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "ToprakApartOtel",
+      "price": 2466,
+      "location": {
+         "street": "KIZILTOPRAKMH.978SK.NO:14MURATPA\u015eA/ANTALYA",
+         "district": null,
+         "city": "Antalya",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "HolidayInnAntalya-Lara,anIHGHotel",
+      "price": 5820,
+      "location": {
+         "street": "GuzelobaMah.2290Sok.No:5",
+         "district": null,
+         "city": "Antalya",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "LaraDincHotel",
+      "price": 2017,
+      "location": {
+         "street": "GuzelobaMah.LaraCad.No:583Lara",
+         "district": null,
+         "city": "Antalya",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "AdalyaPortHotel",
+      "price": 4217,
+      "location": {
+         "street": "IskeleSkNo:72",
+         "district": null,
+         "city": "Antalya",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "RixosDowntownAntalyaAllInclusive-TheLandofLegendsAccess",
+      "price": 26898,
+      "location": {
+         "street": "SakipSabanciBulvariKonyaaltiPlaji",
+         "district": null,
+         "city": "Antalya",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "WhiteGardenHotel-AdultOnly",
+      "price": 4483,
+      "location": {
+         "street": "Kalei\u00e7iK\u0131l\u0131\u00e7aslanMah.Hesap\u00e7iGe\u00e7idiNo:9",
+         "district": "Kaleici",
+         "city": "Antalya",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "GoldenOrangeHotel",
+      "price": 4483,
+      "location": {
+         "street": "G\u00fcrsuMah.304Sok.no:52",
+         "district": "Konyaalti",
+         "city": "Antalya",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "TrianaHotel",
+      "price": 2510,
+      "location": {
+         "street": "Gen\u00e7likMah.1330SkNo:1",
+         "district": null,
+         "city": "Antalya",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "Ayd\u0131nOtelPansiyon",
+      "price": 598,
+      "location": {
+         "street": "K\u0131\u015flaMah43.SokNo:7N\u00fcfusM\u00fcd\u00fcrl\u00fcg\u00fcYan\u0131Muratpasa/ANTALYA",
+         "district": null,
+         "city": "Antalya",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "HeldHotel",
+      "price": 1192,
+      "location": {
+         "street": "K\u0131l\u0131\u00e7arslanMahallesiTabakhaneSokakNo:4Kaleici",
+         "district": "Kaleici",
+         "city": "Antalya",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "PudingMarinaResidence",
+      "price": 7262,
+      "location": {
+         "street": "MermerliSok.No15Kaleici",
+         "district": "Kaleici",
+         "city": "Antalya",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "TheMoriClubHotel",
+      "price": 4044,
+      "location": {
+         "street": "\u00c7a\u011flayanMahallesi2053SokNo46Bar\u0131naklarMuratpa\u015fa",
+         "district": null,
+         "city": "Antalya",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "LarenSeaSideHotelSpa",
+      "price": 3956,
+      "location": {
+         "street": "\u00c7a\u011flayanMahallesi2069sokakNo11Muratpa\u015faAntalya",
+         "district": null,
+         "city": "Antalya",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "BestWesternPlusKhanHotel",
+      "price": 3671,
+      "location": {
+         "street": "KazimOzalpCad.No:55",
+         "district": null,
+         "city": "Antalya",
+         "country": "Turkey"
+      }
+   },
+   {
+      "title": "PrimeHotelTours",
+      "price": 2189,
+      "location": {
+         "street": "31Nalbandyanstr.",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "SaryanHotelYerevan",
+      "price": 6743,
+      "location": {
+         "street": "MartirosSaryanStreet26/1",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "YerevanCentreHotel",
+      "price": 3790,
+      "location": {
+         "street": "TeryanStreet68/3",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "AndorHotel",
+      "price": 1141,
+      "location": {
+         "street": "AygedzorStreet34/1",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "RegardHotel",
+      "price": 3356,
+      "location": {
+         "street": "23/2YervandKocharStreet",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "RamadaHotel&SuitesbyWyndhamYerevan",
+      "price": 4895,
+      "location": {
+         "street": "15PavstosBusandSt",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "A&SHOTEL",
+      "price": 1137,
+      "location": {
+         "street": "58PushkinStreet",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "VanGuesthouse",
+      "price": 1680,
+      "location": {
+         "street": "49thBagrevand1",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "KomitasAvenueGuestHouse",
+      "price": 1586,
+      "location": {
+         "street": "Komitas51/1",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "DominoHostel&Tours",
+      "price": 711,
+      "location": {
+         "street": "3MesropMashtotsAvenue",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "METROPOLHOTELYerevan",
+      "price": 3790,
+      "location": {
+         "street": "MashtotsAvenue2",
+         "district": "Bldg2",
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "NuryanHotelYerevan",
+      "price": 3306,
+      "location": {
+         "street": "CharentsStreetbuilding76/1",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "IngaHotelYerevan",
+      "price": 3067,
+      "location": {
+         "street": "27LeningradyanStreet",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "NorthAvenueHotelYerevan",
+      "price": 9143,
+      "location": {
+         "street": "10/1NorthAvenue",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "AvenueHostelYerevan",
+      "price": 632,
+      "location": {
+         "street": "TeryanStreet8",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "CenterHostelandTours",
+      "price": 632,
+      "location": {
+         "street": "VardanantsStreet4",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "BonjourGuestHouse",
+      "price": 2511,
+      "location": {
+         "street": "KristaporStreet61",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "DiamondHotelYerevan",
+      "price": 8622,
+      "location": {
+         "street": "AramStreet86",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "CastleFamilyHotel",
+      "price": 3553,
+      "location": {
+         "street": "SevkareciSaqo90",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "LoftHostYerevan",
+      "price": 711,
+      "location": {
+         "street": "TeryanStreet",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "Ar\u00e8veR\u00e9sidenceBoutiqueHotel",
+      "price": 2685,
+      "location": {
+         "street": "13thStreetNorkMarash",
+         "district": "16",
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "AzoyanGuestHouse",
+      "price": 3948,
+      "location": {
+         "street": "HanrapetutyanStreet32",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "ErebuniHotelYerevan",
+      "price": 3474,
+      "location": {
+         "street": "VazgenSargsyanStreet26/4",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "HolidayInnExpress-Yerevan,anIHGHotel",
+      "price": 5116,
+      "location": {
+         "street": "Buzand97/2",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "PrimeHotelTours",
+      "price": 2189,
+      "location": {
+         "street": "31Nalbandyanstr.",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "SaryanHotelYerevan",
+      "price": 6743,
+      "location": {
+         "street": "MartirosSaryanStreet26/1",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "YerevanCentreHotel",
+      "price": 3790,
+      "location": {
+         "street": "TeryanStreet68/3",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "AndorHotel",
+      "price": 1141,
+      "location": {
+         "street": "AygedzorStreet34/1",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "RegardHotel",
+      "price": 3356,
+      "location": {
+         "street": "23/2YervandKocharStreet",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "RamadaHotel&SuitesbyWyndhamYerevan",
+      "price": 4895,
+      "location": {
+         "street": "15PavstosBusandSt",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "A&SHOTEL",
+      "price": 1137,
+      "location": {
+         "street": "58PushkinStreet",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "VanGuesthouse",
+      "price": 1680,
+      "location": {
+         "street": "49thBagrevand1",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "KomitasAvenueGuestHouse",
+      "price": 1586,
+      "location": {
+         "street": "Komitas51/1",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "DominoHostel&Tours",
+      "price": 711,
+      "location": {
+         "street": "3MesropMashtotsAvenue",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "METROPOLHOTELYerevan",
+      "price": 3790,
+      "location": {
+         "street": "MashtotsAvenue2",
+         "district": "Bldg2",
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "NuryanHotelYerevan",
+      "price": 3306,
+      "location": {
+         "street": "CharentsStreetbuilding76/1",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "IngaHotelYerevan",
+      "price": 3067,
+      "location": {
+         "street": "27LeningradyanStreet",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "NorthAvenueHotelYerevan",
+      "price": 9143,
+      "location": {
+         "street": "10/1NorthAvenue",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "AvenueHostelYerevan",
+      "price": 632,
+      "location": {
+         "street": "TeryanStreet8",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "CenterHostelandTours",
+      "price": 632,
+      "location": {
+         "street": "VardanantsStreet4",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "BonjourGuestHouse",
+      "price": 2511,
+      "location": {
+         "street": "KristaporStreet61",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "DiamondHotelYerevan",
+      "price": 8622,
+      "location": {
+         "street": "AramStreet86",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "CastleFamilyHotel",
+      "price": 3553,
+      "location": {
+         "street": "SevkareciSaqo90",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "LoftHostYerevan",
+      "price": 711,
+      "location": {
+         "street": "TeryanStreet",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "Ar\u00e8veR\u00e9sidenceBoutiqueHotel",
+      "price": 2685,
+      "location": {
+         "street": "13thStreetNorkMarash",
+         "district": "16",
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "AzoyanGuestHouse",
+      "price": 3948,
+      "location": {
+         "street": "HanrapetutyanStreet32",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "ErebuniHotelYerevan",
+      "price": 3474,
+      "location": {
+         "street": "VazgenSargsyanStreet26/4",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "HolidayInnExpress-Yerevan,anIHGHotel",
+      "price": 5116,
+      "location": {
+         "street": "Buzand97/2",
+         "district": null,
+         "city": "Yerevan",
+         "country": "Armenia"
+      }
+   },
+   {
+      "title": "SolePalace",
+      "price": 3576,
+      "location": {
+         "street": "2",
+         "district": "IakobTsurtavelistreet",
+         "city": "TbilisiCity",
+         "country": "Georgia"
+      }
+   },
+   {
+      "title": "IrmeniHotel",
+      "price": 2043,
+      "location": {
+         "street": "1MartkofiStreet",
+         "district": null,
+         "city": "TbilisiCity",
+         "country": "Georgia"
+      }
+   },
+   {
+      "title": "BricksHotel",
+      "price": 3866,
+      "location": {
+         "street": "17WineRise",
+         "district": null,
+         "city": "TbilisiCity",
+         "country": "Georgia"
+      }
+   },
+   {
+      "title": "DiumaHotel",
+      "price": 3701,
+      "location": {
+         "street": "5GiaAbesadzeStreet5GiaAbesadzeStreet",
+         "district": null,
+         "city": "TbilisiCity",
+         "country": "Georgia"
+      }
+   },
+   {
+      "title": "AtFunicularHostel",
+      "price": 564,
+      "location": {
+         "street": "MtatsmindaStreet6/1",
+         "district": "Mtatsminda",
+         "city": "TbilisiCity",
+         "country": "Georgia"
+      }
+   },
+   {
+      "title": "TheOneTerrace",
+      "price": 2903,
+      "location": {
+         "street": "EleneAkhvledianiKhevi32",
+         "district": null,
+         "city": "TbilisiCity",
+         "country": "Georgia"
+      }
+   },
+   {
+      "title": "HotelBrigitteTbilisi",
+      "price": 3553,
+      "location": {
+         "street": "18PaoloIashviliStreet",
+         "district": null,
+         "city": "TbilisiCity",
+         "country": "Georgia"
+      }
+   },
+   {
+      "title": "TbilisiTimes",
+      "price": 3065,
+      "location": {
+         "street": "75DavidAgmashnebeliAve",
+         "district": "Chugureti",
+         "city": "TbilisiCity",
+         "country": "Georgia"
+      }
+   },
+   {
+      "title": "Guesthousedifferent",
+      "price": 1412,
+      "location": {
+         "street": "59PaataSaakadzeStreet",
+         "district": null,
+         "city": "TbilisiCity",
+         "country": "Georgia"
+      }
+   },
+   {
+      "title": "SotaMetekhiHotel",
+      "price": 4458,
+      "location": {
+         "street": "32ViktorJorbenadzeStreet",
+         "district": null,
+         "city": "TbilisiCity",
+         "country": "Georgia"
+      }
+   },
+   {
+      "title": "TbiliSeeBoutiqueHotel",
+      "price": 5476,
+      "location": {
+         "street": "BetlemiStreet24",
+         "district": null,
+         "city": "TbilisiCity",
+         "country": "Georgia"
+      }
+   },
+   {
+      "title": "RedrumTbilisiBoutiqueHotel",
+      "price": 6038,
+      "location": {
+         "street": "OvanesTumanianiStreet1",
+         "district": null,
+         "city": "TbilisiCity",
+         "country": "Georgia"
+      }
+   },
+   {
+      "title": "ReikartzOrientalTbilisi",
+      "price": 2879,
+      "location": {
+         "street": "MakhataStreet17",
+         "district": null,
+         "city": "TbilisiCity",
+         "country": "Georgia"
+      }
+   },
+   {
+      "title": "MargoPalaceHotel",
+      "price": 3379,
+      "location": {
+         "street": "MikheilDjavakhishvili(Elbakidze)Street12",
+         "district": null,
+         "city": "TbilisiCity",
+         "country": "Georgia"
+      }
+   },
+   {
+      "title": "HotelCorner",
+      "price": 2090,
+      "location": {
+         "street": "StreetMoseToidze16/12",
+         "district": "Chugureti",
+         "city": "TbilisiCity",
+         "country": "Georgia"
+      }
+   },
+   {
+      "title": "HotelImperialHouse",
+      "price": 2892,
+      "location": {
+         "street": "13KalistrateTsintsandzeStreet",
+         "district": null,
+         "city": "TbilisiCity",
+         "country": "Georgia"
+      }
+   },
+   {
+      "title": "BrosseGarden",
+      "price": 4157,
+      "location": {
+         "street": "MariBroseStreet6/8",
+         "district": "Mtatsminda",
+         "city": "TbilisiCity",
+         "country": "Georgia"
+      }
+   },
+   {
+      "title": "PenthouseHotel",
+      "price": 2868,
+      "location": {
+         "street": "MetekhiStreet12",
+         "district": null,
+         "city": "TbilisiCity",
+         "country": "Georgia"
+      }
+   },
+   {
+      "title": "HotelAquaLiberty",
+      "price": 5573,
+      "location": {
+         "street": "15AleksandrPushkinStreet",
+         "district": null,
+         "city": "TbilisiCity",
+         "country": "Georgia"
+      }
+   },
+   {
+      "title": "TribecaHotel",
+      "price": 4305,
+      "location": {
+         "street": "115DavitAghmashenebeliAvenue",
+         "district": "Chugureti",
+         "city": "TbilisiCity",
+         "country": "Georgia"
+      }
+   },
+   {
+      "title": "KindliHotel",
+      "price": 4075,
+      "location": {
+         "street": "13I.ChakhrukhadzeStreet",
+         "district": null,
+         "city": "TbilisiCity",
+         "country": "Georgia"
+      }
+   },
+   {
+      "title": "MarionnHotel",
+      "price": 4598,
+      "location": {
+         "street": "9AleksandreTsurtsumiastreet",
+         "district": null,
+         "city": "TbilisiCity",
+         "country": "Georgia"
+      }
+   },
+   {
+      "title": "GeorgianGuestHouseonAsatiani",
+      "price": 3019,
+      "location": {
+         "street": "LadoAsatianiStreet7",
+         "district": null,
+         "city": "TbilisiCity",
+         "country": "Georgia"
+      }
+   },
+   {
+      "title": "HotelVIP",
+      "price": 3177,
+      "location": {
+         "street": "KoteApkhazi(Leselidze)Street31",
+         "district": null,
+         "city": "TbilisiCity",
+         "country": "Georgia"
+      }
+   },
+   {
+      "title": "OctavaBoutiqueHotel",
+      "price": 6479,
+      "location": {
+         "street": "14ShotaRustaveliAvenue14ShotaRustaveliAvenue",
+         "district": "Mtatsminda",
+         "city": "TbilisiCity",
+         "country": "Georgia"
+      }
+   },
+   {
+      "title": "HestiaHotelKentmanni",
+      "price": 6904,
+      "location": {
+         "street": "13Kentmanni",
+         "district": "TallinnCity-Centre",
+         "city": "Tallinn",
+         "country": "Estonia"
+      }
+   },
+   {
+      "title": "HestiaHotelEuropa",
+      "price": 8368,
+      "location": {
+         "street": "Paadi5",
+         "district": "TallinnCity-Centre",
+         "city": "Tallinn",
+         "country": "Estonia"
+      }
+   },
+   {
+      "title": "CityboxTallinn",
+      "price": 5155,
+      "location": {
+         "street": "Laeva1",
+         "district": "TallinnCity-Centre",
+         "city": "Tallinn",
+         "country": "Estonia"
+      }
+   },
+   {
+      "title": "Liivalaia40cozykitchenstudio",
+      "price": 4035,
+      "location": {
+         "street": "40Liivalaia",
+         "district": "TallinnCity-Centre",
+         "city": "Tallinn",
+         "country": "Estonia"
+      }
+   },
+   {
+      "title": "TallinkSpa&ConferenceHotel",
+      "price": 14869,
+      "location": {
+         "street": "Sadama11A",
+         "district": "TallinnCity-Centre",
+         "city": "Tallinn",
+         "country": "Estonia"
+      }
+   },
+   {
+      "title": "HotelRegentTallinn",
+      "price": 12328,
+      "location": {
+         "street": "69Pikk",
+         "district": "TallinnCity-Centre",
+         "city": "Tallinn",
+         "country": "Estonia"
+      }
+   },
+   {
+      "title": "HotelSt.Barbara",
+      "price": 6181,
+      "location": {
+         "street": "Roosikrantsi2A",
+         "district": "TallinnCity-Centre",
+         "city": "Tallinn",
+         "country": "Estonia"
+      }
+   },
+   {
+      "title": "RijaOldTownHotel",
+      "price": 6874,
+      "location": {
+         "street": "Lai49",
+         "district": "TallinnCity-Centre",
+         "city": "Tallinn",
+         "country": "Estonia"
+      }
+   },
+   {
+      "title": "HestiaHotelBaronsOldTown",
+      "price": 9115,
+      "location": {
+         "street": "Suur-Karja7/V\u00e4ike-Karja2",
+         "district": "TallinnCity-Centre",
+         "city": "Tallinn",
+         "country": "Estonia"
+      }
+   },
+   {
+      "title": "ReveltonSuitesTallinn",
+      "price": 6725,
+      "location": {
+         "street": "EHA6",
+         "district": "TallinnCity-Centre",
+         "city": "Tallinn",
+         "country": "Estonia"
+      }
+   },
+   {
+      "title": "NordicHotelForum",
+      "price": 10012,
+      "location": {
+         "street": "ViruV\u00e4ljak3",
+         "district": "TallinnCity-Centre",
+         "city": "Tallinn",
+         "country": "Estonia"
+      }
+   },
+   {
+      "title": "OriginalSokosHotelViru",
+      "price": 7561,
+      "location": {
+         "street": "ViruV\u00e4ljak4",
+         "district": "TallinnCity-Centre",
+         "city": "Tallinn",
+         "country": "Estonia"
+      }
+   },
+   {
+      "title": "RevalHomeSelfCheck-InStudios",
+      "price": 7098,
+      "location": {
+         "street": "23Majaka2ndfloor",
+         "district": "Lasnamae",
+         "city": "Tallinn",
+         "country": "Estonia"
+      }
+   },
+   {
+      "title": "16eur-OldTownMunkenhof",
+      "price": 990,
+      "location": {
+         "street": "Munga4",
+         "district": "TallinnCity-Centre",
+         "city": "Tallinn",
+         "country": "Estonia"
+      }
+   },
+   {
+      "title": "RijaFonnentalDesignHotelTallinn",
+      "price": 7322,
+      "location": {
+         "street": "13aL.Koidula",
+         "district": "TallinnCity-Centre",
+         "city": "Tallinn",
+         "country": "Estonia"
+      }
+   },
+   {
+      "title": "TallinkExpressHotel",
+      "price": 5903,
+      "location": {
+         "street": "Sadama9",
+         "district": "TallinnCity-Centre",
+         "city": "Tallinn",
+         "country": "Estonia"
+      }
+   },
+   {
+      "title": "HotelRoccaalMare",
+      "price": 5043,
+      "location": {
+         "street": "Vaba\u00f5humuuseumitee11/Lillev\u00e4lja2",
+         "district": "Haabersti",
+         "city": "Tallinn",
+         "country": "Estonia"
+      }
+   },
+   {
+      "title": "OldTownAlurHostel&Bar",
+      "price": 961,
+      "location": {
+         "street": "Lai22",
+         "district": "TallinnCity-Centre",
+         "city": "Tallinn",
+         "country": "Estonia"
+      }
+   },
+   {
+      "title": "CRUHotel",
+      "price": 8219,
+      "location": {
+         "street": "Viru8",
+         "district": "TallinnCity-Centre",
+         "city": "Tallinn",
+         "country": "Estonia"
+      }
+   },
+   {
+      "title": "HektorContainerHotel",
+      "price": 7472,
+      "location": {
+         "street": "Telliskivi62",
+         "district": "P\u00f5hja-Tallinn",
+         "city": "Tallinn",
+         "country": "Estonia"
+      }
+   },
+   {
+      "title": "RoccaApartments",
+      "price": 2859,
+      "location": {
+         "street": "Vana-Rannam\u00f5isatee1",
+         "district": "Haabersti",
+         "city": "Tallinn",
+         "country": "Estonia"
+      }
+   },
+   {
+      "title": "Freedom65HostelandCaravan",
+      "price": 1227,
+      "location": {
+         "street": "Vabadusepuiestee65",
+         "district": "Nomme",
+         "city": "Tallinn",
+         "country": "Estonia"
+      }
+   },
+   {
+      "title": "CapsuleHostelsTallinn",
+      "price": 2547,
+      "location": {
+         "street": "P\u00e4rnumnt106",
+         "district": "TallinnCity-Centre",
+         "city": "Tallinn",
+         "country": "Estonia"
+      }
+   },
+   {
+      "title": "HotelTelegraaf,AutographCollection",
+      "price": 31381,
+      "location": {
+         "street": "Vene9",
+         "district": "TallinnCity-Centre",
+         "city": "Tallinn",
+         "country": "Estonia"
+      }
+   },
+   {
+      "title": "\u00dclemisteCityResidences",
+      "price": 6949,
+      "location": {
+         "street": "Valukoja10",
+         "district": "Lasnamae",
+         "city": "Tallinn",
+         "country": "Estonia"
+      }
+   },
+   {
+      "title": "HolidayInnLondon-Regent'sPark,anIHGHotel",
+      "price": 18985,
+      "location": {
+         "street": "CarburtonStreet",
+         "district": "WestminsterBorough",
+         "city": "London",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "COGIEHOUSE",
+      "price": 4535,
+      "location": {
+         "street": "22StocktonRoad",
+         "district": null,
+         "city": "London",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "KensalGreenBackpackers2",
+      "price": 1436,
+      "location": {
+         "street": "637HarrowRoadBrent",
+         "district": "Brent",
+         "city": "London",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "CaringHotel",
+      "price": 11254,
+      "location": {
+         "street": "24CravenHillGardens",
+         "district": "WestminsterBorough",
+         "city": "London",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "Hotel55",
+      "price": 12894,
+      "location": {
+         "street": "HangerLane",
+         "district": "Ealing",
+         "city": "London",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "TheLondoner",
+      "price": 39934,
+      "location": {
+         "street": "38LeicesterSquare",
+         "district": "WestminsterBorough",
+         "city": "London",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "TheBeaufort",
+      "price": 16612,
+      "location": {
+         "street": "33BeaufortGardens",
+         "district": "KensingtonandChelsea",
+         "city": "London",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "EuroHotel",
+      "price": 10137,
+      "location": {
+         "street": "51-53CartwrightGardens",
+         "district": "Camden",
+         "city": "London",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "GladstoneParkGuestHouse",
+      "price": 4891,
+      "location": {
+         "street": "58GladstoneParkGardens-Cricklewood",
+         "district": "Brent",
+         "city": "London",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "AstorVictoriaHostel",
+      "price": 3201,
+      "location": {
+         "street": "71BelgraveRoad",
+         "district": "WestminsterBorough",
+         "city": "London",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "GeorgeHotel",
+      "price": 14494,
+      "location": {
+         "street": "58-60CartwrightGardens",
+         "district": "Camden",
+         "city": "London",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "ibisStylesLondonGloucesterRoad",
+      "price": 23030,
+      "location": {
+         "street": "110-112CromwellRoad",
+         "district": "KensingtonandChelsea",
+         "city": "London",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "DraycottHotel",
+      "price": 17784,
+      "location": {
+         "street": "26CadoganGardens",
+         "district": "KensingtonandChelsea",
+         "city": "London",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "citizenMLondonBankside",
+      "price": 17695,
+      "location": {
+         "street": "20LavingtonStreet",
+         "district": "Southwark",
+         "city": "London",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "HolidayInnExpressLondon-Hammersmith,anIHGHotel",
+      "price": 11915,
+      "location": {
+         "street": "124KingStreet",
+         "district": "HammersmithandFulham",
+         "city": "London",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "DurrantsHotel",
+      "price": 20007,
+      "location": {
+         "street": "GeorgeStreet",
+         "district": "WestminsterBorough",
+         "city": "London",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "BestWesternBuckinghamPalaceRd",
+      "price": 16806,
+      "location": {
+         "street": "8-12St.GeorgesDrive",
+         "district": "WestminsterBorough",
+         "city": "London",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "citizenMLondonShoreditch",
+      "price": 16806,
+      "location": {
+         "street": "6HolywellLane",
+         "district": "Hackney",
+         "city": "London",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "BlueprintLivingApartments-TurnmillStreet",
+      "price": 88921,
+      "location": {
+         "street": "TurnmillStreet",
+         "district": null,
+         "city": "London",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "citizenMTowerofLondon",
+      "price": 17695,
+      "location": {
+         "street": "40trinitysquare",
+         "district": "CityofLondon",
+         "city": "London",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "AmericanaHotel",
+      "price": 13872,
+      "location": {
+         "street": "172GloucesterPlace",
+         "district": "WestminsterBorough",
+         "city": "London",
+         "country": "UnitedKingdom"
+      }
+   },
+   {
+      "title": "WhiteHouseHotel&SPA",
+      "price": 2981,
+      "location": {
+         "street": "Mir\u0259liQa\u015fqay115",
+         "district": "Nasimi",
+         "city": "Baku",
+         "country": "Azerbaijan"
+      }
+   },
+   {
+      "title": "MaksimHotel",
+      "price": 980,
+      "location": {
+         "street": "Ilyasefendiyevkucno72",
+         "district": "Sabayil",
+         "city": "Baku",
+         "country": "Azerbaijan"
+      }
+   },
+   {
+      "title": "HappyInnHotel",
+      "price": 800,
+      "location": {
+         "street": "H\u0259s\u0259nSalmaniKuce11",
+         "district": null,
+         "city": "Baku",
+         "country": "Azerbaijan"
+      }
+   },
+   {
+      "title": "ElevenHotelBaku",
+      "price": 2938,
+      "location": {
+         "street": "11IslamSafarliStreetIslamSafarli11",
+         "district": "Yasamal",
+         "city": "Baku",
+         "country": "Azerbaijan"
+      }
+   },
+   {
+      "title": "CenterCityHotelBaku",
+      "price": 2270,
+      "location": {
+         "street": "EzizEliyevstreetNo:32",
+         "district": "Sabayil",
+         "city": "Baku",
+         "country": "Azerbaijan"
+      }
+   },
+   {
+      "title": "AltusHotelBaku",
+      "price": 634,
+      "location": {
+         "street": "ehmedrecebli-2kvartal-1965",
+         "district": null,
+         "city": "Baku",
+         "country": "Azerbaijan"
+      }
+   },
+   {
+      "title": "MensenHotelBaku",
+      "price": 1251,
+      "location": {
+         "street": "EhmedRecebliEhmedRecebli",
+         "district": null,
+         "city": "Baku",
+         "country": "Azerbaijan"
+      }
+   },
+   {
+      "title": "BestCenterHotel",
+      "price": 3252,
+      "location": {
+         "street": "52H\u0259ziAslanovStreet",
+         "district": "Nasimi",
+         "city": "Baku",
+         "country": "Azerbaijan"
+      }
+   },
+   {
+      "title": "TourHotelBaku",
+      "price": 2501,
+      "location": {
+         "street": "QurbanAbbasov24",
+         "district": "Sabayil",
+         "city": "Baku",
+         "country": "Azerbaijan"
+      }
+   },
+   {
+      "title": "RenaissancePalaceHotelBaku",
+      "price": 2614,
+      "location": {
+         "street": "I.Qutqashinli107",
+         "district": "Yasamal",
+         "city": "Baku",
+         "country": "Azerbaijan"
+      }
+   },
+   {
+      "title": "ACCESSHotel",
+      "price": 1667,
+      "location": {
+         "street": "100NizamiStreet\u0421\u0442\u0440\u043e\u0435\u043d\u0438\u0435",
+         "district": "Nasimi",
+         "city": "Baku",
+         "country": "Azerbaijan"
+      }
+   },
+   {
+      "title": "MossArtBoutiqueHotel",
+      "price": 2626,
+      "location": {
+         "street": "15IslamSafarliStreet1etaj",
+         "district": "Sabayil",
+         "city": "Baku",
+         "country": "Azerbaijan"
+      }
+   },
+   {
+      "title": "BakuExoticaHotel",
+      "price": 2501,
+      "location": {
+         "street": "QurbanAbbasov24Str.Sabayil",
+         "district": "Sabayil",
+         "city": "Baku",
+         "country": "Azerbaijan"
+      }
+   },
+   {
+      "title": "SupremeHotelBaku",
+      "price": 2501,
+      "location": {
+         "street": "B\u0259\u015firB\u00fcnyadov",
+         "district": null,
+         "city": "Baku",
+         "country": "Azerbaijan"
+      }
+   },
+   {
+      "title": "CityInnBoutiqueHotel",
+      "price": 2032,
+      "location": {
+         "street": "M\u0259rdanovQardashlar\u0131",
+         "district": "Nasimi",
+         "city": "Baku",
+         "country": "Azerbaijan"
+      }
+   },
+   {
+      "title": "ZamZamHotel",
+      "price": 2501,
+      "location": {
+         "street": "24QurbanAbbasov",
+         "district": "Sabayil",
+         "city": "Baku",
+         "country": "Azerbaijan"
+      }
+   },
+   {
+      "title": "NordHotelBaku",
+      "price": 1334,
+      "location": {
+         "street": "64\u015eirinMirz\u0259yevk\u00fc\u00e7\u0259si",
+         "district": null,
+         "city": "Baku",
+         "country": "Azerbaijan"
+      }
+   },
+   {
+      "title": "HazzHotel",
+      "price": 3673,
+      "location": {
+         "street": "H\u0259ziAslanovStreet51-65",
+         "district": "Nasimi",
+         "city": "Baku",
+         "country": "Azerbaijan"
+      }
+   },
+   {
+      "title": "KristalHotel",
+      "price": 1126,
+      "location": {
+         "street": "R\u0259\u015fid\u0130smay\u0131lov11dBinagadiregionBilajaridistrict",
+         "district": null,
+         "city": "Baku",
+         "country": "Azerbaijan"
+      }
+   },
+   {
+      "title": "PrestigeApartmentVIPH\u0130LTTON",
+      "price": 6910,
+      "location": {
+         "street": "10RasulRza",
+         "district": "Sabayil",
+         "city": "Baku",
+         "country": "Azerbaijan"
+      }
+   },
+   {
+      "title": "RoyalPalaceHotelBaku",
+      "price": 2801,
+      "location": {
+         "street": "IslamSafarliStreet21",
+         "district": "Yasamal",
+         "city": "Baku",
+         "country": "Azerbaijan"
+      }
+   },
+   {
+      "title": "YOTELNewYorkTimesSquare",
+      "price": 20695,
+      "location": {
+         "street": "57010thAvenue",
+         "district": "Hell'sKitchen",
+         "city": "NewYork",
+         "country": "UnitedStates"
+      }
+   },
+   {
+      "title": "Pod51",
+      "price": 18344,
+      "location": {
+         "street": "230East51stStreet",
+         "district": "MidtownEast",
+         "city": "NewYork",
+         "country": "UnitedStates"
+      }
+   },
+   {
+      "title": "PodTimesSquare",
+      "price": 23301,
+      "location": {
+         "street": "400West42ndStreet",
+         "district": "Hell'sKitchen",
+         "city": "NewYork",
+         "country": "UnitedStates"
+      }
+   },
+   {
+      "title": "RiuPlazaManhattanTimesSquare",
+      "price": 31093,
+      "location": {
+         "street": "145West47thStreet",
+         "district": null,
+         "city": "NewYork",
+         "country": "UnitedStates"
+      }
+   },
+   {
+      "title": "HyattPlaceNewYorkCity/TimesSquare",
+      "price": 45186,
+      "location": {
+         "street": "350West39thSt",
+         "district": "Hell'sKitchen",
+         "city": "NewYork",
+         "country": "UnitedStates"
+      }
+   },
+   {
+      "title": "TheNewYorker,AWyndhamHotel",
+      "price": 21106,
+      "location": {
+         "street": "481EighthAvenue",
+         "district": "Hell'sKitchen",
+         "city": "NewYork",
+         "country": "UnitedStates"
+      }
+   },
+   {
+      "title": "HINYCHostel",
+      "price": 4709,
+      "location": {
+         "street": "891AmsterdamAvenue",
+         "district": "UpperWestSide",
+         "city": "NewYork",
+         "country": "UnitedStates"
+      }
+   },
+   {
+      "title": "TheKnickerbocker",
+      "price": 49578,
+      "location": {
+         "street": "6TimesSquare",
+         "district": null,
+         "city": "NewYork",
+         "country": "UnitedStates"
+      }
+   },
+   {
+      "title": "HyattPlaceNYCChelsea",
+      "price": 38316,
+      "location": {
+         "street": "140West24thStreet",
+         "district": "Chelsea",
+         "city": "NewYork",
+         "country": "UnitedStates"
+      }
+   },
+   {
+      "title": "HotelEdisonTimesSquare",
+      "price": 30384,
+      "location": {
+         "street": "228West47thStreet",
+         "district": null,
+         "city": "NewYork",
+         "country": "UnitedStates"
+      }
+   },
+   {
+      "title": "citizenMNewYorkTimesSquare",
+      "price": 29322,
+      "location": {
+         "street": "218West50thStreet",
+         "district": null,
+         "city": "NewYork",
+         "country": "UnitedStates"
+      }
+   },
+   {
+      "title": "NHCollectionNewYorkMadisonAvenue",
+      "price": 25826,
+      "location": {
+         "street": "22East38thStreet",
+         "district": "MurrayHill",
+         "city": "NewYork",
+         "country": "UnitedStates"
+      }
+   },
+   {
+      "title": "SpringHillSuitesbyMarriottNewYorkMidtownManhattan/ParkAve",
+      "price": 25426,
+      "location": {
+         "street": "111East24thStreet",
+         "district": "FlatironDistrict",
+         "city": "NewYork",
+         "country": "UnitedStates"
+      }
+   },
+   {
+      "title": "FairfieldInn&SuitesbyMarriottNewYorkManhattan/TimesSquareSouth",
+      "price": 26708,
+      "location": {
+         "street": "338West36thStreet",
+         "district": "Hell'sKitchen",
+         "city": "NewYork",
+         "country": "UnitedStates"
+      }
+   },
+   {
+      "title": "HolidayInnManhattanFinancialDistrict,anIHGHotel",
+      "price": 20791,
+      "location": {
+         "street": "99WashingtonStreet",
+         "district": "WallStreet-FinancialDistrict",
+         "city": "NewYork",
+         "country": "UnitedStates"
+      }
+   },
+   {
+      "title": "SoHo54",
+      "price": 26843,
+      "location": {
+         "street": "54WattsStreet",
+         "district": "SoHo",
+         "city": "NewYork",
+         "country": "UnitedStates"
+      }
+   },
+   {
+      "title": "WestSideYMCA",
+      "price": 9151,
+      "location": {
+         "street": "5West63rdStreet",
+         "district": "UpperWestSide",
+         "city": "NewYork",
+         "country": "UnitedStates"
+      }
+   },
+   {
+      "title": "UHotelFifthAvenueIEmpireStateBuilding",
+      "price": 25915,
+      "location": {
+         "street": "373FifthAvenue",
+         "district": null,
+         "city": "NewYork",
+         "country": "UnitedStates"
+      }
+   },
+   {
+      "title": "FairfieldInn&SuitesbyMarriottNewYorkMidtownManhattan/PennStation",
+      "price": 28620,
+      "location": {
+         "street": "325West33rdStreet",
+         "district": "Hell'sKitchen",
+         "city": "NewYork",
+         "country": "UnitedStates"
+      }
+   },
+   {
+      "title": "FairfieldInnbyMarriottNewYorkManhattan/FinancialDistrict",
+      "price": 21010,
+      "location": {
+         "street": "161FrontStreet",
+         "district": "WallStreet-FinancialDistrict",
+         "city": "NewYork",
+         "country": "UnitedStates"
+      }
+   },
+   {
+      "title": "HolidayInnManhattan6thAve-Chelsea,anIHGHotel",
+      "price": 24158,
+      "location": {
+         "street": "125West26thStreet",
+         "district": "Chelsea",
+         "city": "NewYork",
+         "country": "UnitedStates"
+      }
+   },
+   {
+      "title": "RadissonHotelNewYorkMidtown-FifthAvenue",
+      "price": 24868,
+      "location": {
+         "street": "25West51stStreet",
+         "district": null,
+         "city": "NewYork",
+         "country": "UnitedStates"
+      }
+   },
+   {
+      "title": "HGUNewYork",
+      "price": 25231,
+      "location": {
+         "street": "34East32ndStreet",
+         "district": null,
+         "city": "NewYork",
+         "country": "UnitedStates"
+      }
+   },
+   {
+      "title": "TownePlaceSuitesbyMarriottNewYorkManhattan/TimesSquare",
+      "price": 29538,
+      "location": {
+         "street": "324W44ThStreet",
+         "district": "Hell'sKitchen",
+         "city": "NewYork",
+         "country": "UnitedStates"
+      }
+   },
+   {
+      "title": "Nyma,TheNewYorkManhattanHotel",
+      "price": 25426,
+      "location": {
+         "street": "6West32ndStreet",
+         "district": null,
+         "city": "NewYork",
+         "country": "UnitedStates"
+      }
+   },
+   {
+      "title": "PentahotelMoscow.Arbat-HotelinArbat",
+      "price": 5700,
+      "location": {
+         "street": "UlitsaNovyyArbat15",
+         "district": "Arbat",
+         "city": "Moscow",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "AZIMUTHotelSmolenskayaMoscow-HotelinArbat",
+      "price": 3300,
+      "location": {
+         "street": "UlitsaSmolenskaya8",
+         "district": "Arbat",
+         "city": "Moscow",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "HiltonMoscowLeningradskaya-HotelinKrasnoselsky",
+      "price": 5100,
+      "location": {
+         "street": "KalanchevskayaStreet21/40",
+         "district": "Krasnoselsky",
+         "city": "Moscow",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "RadissonCollectionHotelMoscow-HotelinThirdTransportRing",
+      "price": 6600,
+      "location": {
+         "street": "KutuzovskyProspekt2/1bld.1",
+         "district": "Dorogomilovo",
+         "city": "Moscow",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "SelectHotelPaveletskaya-HotelinZamoskvorechye",
+      "price": 3700,
+      "location": {
+         "street": "StremyannyPereulok11",
+         "district": "Zamoskvorechye",
+         "city": "Moscow",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "RadissonBluBelorusskaya-HotelinThirdTransportRing",
+      "price": 9990,
+      "location": {
+         "street": "3rdStreetofYamskogoPolya26A",
+         "district": "Begovoy",
+         "city": "Moscow",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "AZIMUTHotelOlympicMoscow-HotelinMeshchansky",
+      "price": 3612,
+      "location": {
+         "street": "OlympiskiProspekt18/1",
+         "district": "Meshchansky",
+         "city": "Moscow",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "RadissonSlavyanskayaHotel&BusinessCenter-HotelinThirdTransportRing",
+      "price": 6600,
+      "location": {
+         "street": "Pl.Evropi2",
+         "district": "Dorogomilovo",
+         "city": "Moscow",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "MoscowMarriottTverskayaHotel-HotelinTverskoy",
+      "price": 5400,
+      "location": {
+         "street": "1-yaTverskaya-YamskayaStreet34",
+         "district": "Tverskoy",
+         "city": "Moscow",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "RadissonBluOlympiyskiyHotel-HotelinMeshchansky",
+      "price": 6600,
+      "location": {
+         "street": "UlitsaSamarskaya1",
+         "district": "Meshchansky",
+         "city": "Moscow",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "ParkInnbyRadissonYaroslavl-HotelinYaroslavl",
+      "price": 4150,
+      "location": {
+         "street": "PavlikaMorozovaStreet3B",
+         "district": null,
+         "city": "Yaroslavl",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "HotelComplexLubim-HotelinYaroslavl",
+      "price": 2900,
+      "location": {
+         "street": "Ulitsa2-yaMelnichnaya3",
+         "district": null,
+         "city": "Yaroslavl",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "HotelBaccara-HotelinYaroslavl",
+      "price": 2500,
+      "location": {
+         "street": "KooperativnayaStreet9",
+         "district": null,
+         "city": "Yaroslavl",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "IbisYaroslavlCenter-HotelinYaroslavl",
+      "price": 3650,
+      "location": {
+         "street": "PervomayskyPereulok2A",
+         "district": null,
+         "city": "Yaroslavl",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "AleshaPopovitchDvor-HotelinYaroslavl",
+      "price": 2600,
+      "location": {
+         "street": "55PervomaiskayaSt.",
+         "district": null,
+         "city": "Yaroslavl",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "BoutiqueHotelIoannVasilievich-HotelinYaroslavl",
+      "price": 3300,
+      "location": {
+         "street": "RevolutsionnayaStreet34",
+         "district": null,
+         "city": "Yaroslavl",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "RingPremierHotel-HotelinYaroslavl",
+      "price": 4750,
+      "location": {
+         "street": "UlitsaSvobody55",
+         "district": null,
+         "city": "Yaroslavl",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "KuptsovDom-HotelinYaroslavl",
+      "price": 3652,
+      "location": {
+         "street": "UlitsaTrefoleva21",
+         "district": null,
+         "city": "Yaroslavl",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "BoutiqueHotelModern-HotelinYaroslavl",
+      "price": 2500,
+      "location": {
+         "street": "PushkinaStreet5",
+         "district": null,
+         "city": "Yaroslavl",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "AZIMUTHotelYaroslavl-HotelinYaroslavl",
+      "price": 2999,
+      "location": {
+         "street": "MoskovskiyProspekt10/15",
+         "district": null,
+         "city": "Yaroslavl",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "DonKikhotHotel-HotelinCityCentre,Kazan",
+      "price": 3136,
+      "location": {
+         "street": "UlitsaBurkhanaShakhidi11/16",
+         "district": null,
+         "city": "Kazan",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "AMAKSSafarHotel-HotelinKazan",
+      "price": 2805,
+      "location": {
+         "street": "UlitsaOdnostoronkaGrivki1",
+         "district": null,
+         "city": "Kazan",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "Parkhotel-HotelinCityCentre,Kazan",
+      "price": 3400,
+      "location": {
+         "street": "67UlitsaOstrovskogo",
+         "district": null,
+         "city": "Kazan",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "IbisKazanHotel-HotelinCityCentre,Kazan",
+      "price": 4250,
+      "location": {
+         "street": "Pravo-BulachnayaStr.43/1",
+         "district": null,
+         "city": "Kazan",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "OsobnyaknaTeatralnoy-HotelinCityCentre,Kazan",
+      "price": 3700,
+      "location": {
+         "street": "TeatralnayaUlitsa3",
+         "district": null,
+         "city": "Kazan",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "MirageHotel-HotelinCityCentre,Kazan",
+      "price": 8000,
+      "location": {
+         "street": "UlitsaMoskovskaya5",
+         "district": null,
+         "city": "Kazan",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "VolgaHotel-HotelinCityCentre,Kazan",
+      "price": 1450,
+      "location": {
+         "street": "Said-GaleevaStreet1",
+         "district": null,
+         "city": "Kazan",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "DoubleTreebyHiltonKazanCityCenter-HotelinCityCentre,Kazan",
+      "price": 6970,
+      "location": {
+         "street": "UlitsaChernyshevskogo21",
+         "district": null,
+         "city": "Kazan",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "TatarstanHotel-HotelinCityCentre,Kazan",
+      "price": 2500,
+      "location": {
+         "street": "PushkinaUlitsa4",
+         "district": null,
+         "city": "Kazan",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "BilyarPalace-HotelinCityCentre,Kazan",
+      "price": 5900,
+      "location": {
+         "street": "OstrovskogoStreet61",
+         "district": null,
+         "city": "Kazan",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "Saint-PetersburgHotel-HotelinVyborgsky,SaintPetersburg",
+      "price": 6500,
+      "location": {
+         "street": "PirogovskayaNaberezhnaya5/2",
+         "district": "Vyborgsky",
+         "city": "SaintPetersburg",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "ParkInnbyRadissonPulkovoAirport-HotelinMoskovskiy,SaintPetersburg",
+      "price": 8390,
+      "location": {
+         "street": "PulkovskoeShosse413D",
+         "district": "Moskovskiy",
+         "city": "SaintPetersburg",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "ParkInnbyRadissonPulkovskayaHotel&ConferenceCentreStPetersburg-HotelinMoskovskiy,SaintPetersburg",
+      "price": 10530,
+      "location": {
+         "street": "PloshchadPobedy1",
+         "district": "Moskovskiy",
+         "city": "SaintPetersburg",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "RadissonRoyalHotel-HotelinTsentralny,SaintPetersburg",
+      "price": 8390,
+      "location": {
+         "street": "NevskyProspekt49",
+         "district": "Tsentralny",
+         "city": "SaintPetersburg",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "ParkInnbyRadissonPribaltiyskayaHotelandCongressCentre-HotelinVasileostrovskiy,SaintPetersburg",
+      "price": 8390,
+      "location": {
+         "street": "UlitsaKorablestroyteley14",
+         "district": "Vasileostrovskiy",
+         "city": "SaintPetersburg",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "VedenskyHotel-HotelinPetrogradskiy,SaintPetersburg",
+      "price": 5700,
+      "location": {
+         "street": "BolshoyProspekt37",
+         "district": "Petrogradskiy",
+         "city": "SaintPetersburg",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "CorinthiaHotelStPetersburg-HotelinTsentralny,SaintPetersburg",
+      "price": 11940,
+      "location": {
+         "street": "NevskyProspekt57",
+         "district": "Tsentralny",
+         "city": "SaintPetersburg",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "ParkInnbyRadissonNevsky-HotelinTsentralny,SaintPetersburg",
+      "price": 8390,
+      "location": {
+         "street": "GoncharnayaStreet4A",
+         "district": "Tsentralny",
+         "city": "SaintPetersburg",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "AZIMUTHotelSaint-Petersburg-HotelinAdmiralteyskiy,SaintPetersburg",
+      "price": 4250,
+      "location": {
+         "street": "LermontovskyProspekt43/1",
+         "district": "Admiralteyskiy",
+         "city": "SaintPetersburg",
+         "country": "Russia"
+      }
+   },
+   {
+      "title": "AkyanSt.Petersburg-HotelinTsentralny,SaintPetersburg",
+      "price": 4675,
+      "location": {
+         "street": "UlitsaVosstaniya19",
+         "district": "Tsentralny",
+         "city": "SaintPetersburg",
+         "country": "Russia"
+      }
+   }
+]
