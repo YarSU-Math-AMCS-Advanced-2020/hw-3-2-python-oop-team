@@ -1,11 +1,12 @@
 class Location:
-    def __init__(self, country: str, region: str, city: str, street: str, building: str, apartment: int):
-        self.country = country
-        self.region = region
-        self.city = city
+    def __init__(self, street: str, district: str, city: str, country: str):
         self.street = street
-        self.building = building
-        self.apartments = apartment
+        self.district = district
+        self.city = city
+        self.country = country
 
-    def get_location(self):
-        return f'{self.country}, {self.region}, {self.city}, {self.street}, {self.building}, {self.apartments}'
+    def print_location(self):
+        if self.district:
+            return f'{self.country}, {self.city}, {self.district}, {self.street}'
+        else:
+            return f'{self.country}, {self.city}, {self.street}'

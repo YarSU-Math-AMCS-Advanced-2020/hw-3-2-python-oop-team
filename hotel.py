@@ -3,8 +3,10 @@ from decimal import Decimal
 
 
 class Hotel:
-    def __init__(self, location: Location, price: Decimal):
-        self.location = location
+    def __init__(self, title: str, price: Decimal, location: Location):
+        self.title = title
         self.price = price
-    # TODO:
-    #  print hotel info
+        self.location = location
+
+    def print_hotel_info(self):
+        print(f'{self.title}, {self.price}, {self.location.print_location()}')
