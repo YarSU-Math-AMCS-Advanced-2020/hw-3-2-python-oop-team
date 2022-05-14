@@ -74,7 +74,7 @@ class Ticket(Purchase):
         self.price = price
 
 
-class PlainTicket(Ticket):
+class PlaneTicket(Ticket):
     def __init__(self, from_location: Location, to_location: Location,
                  departure_date: datetime, arrival_date: datetime,
                  price: Decimal, plain_ticket_type: PlainTicketType):

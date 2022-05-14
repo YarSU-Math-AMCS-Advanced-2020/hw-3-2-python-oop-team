@@ -1,4 +1,4 @@
-from ticket import PlainTicket
+from ticket import PlaneTicket
 from ticket import TrainTicket
 from ticket import BusTicket
 from location import Location
@@ -6,7 +6,7 @@ from decimal import Decimal
 import datetime
 
 
-class PurchasedPlainTicket(PlainTicket):
+class PurchasedPlainTicket(PlaneTicket):
     def __init__(self, from_location: Location, to_location: Location,
                  departure_date: datetime, arrival_date: datetime,
                  price: Decimal, place: int):
@@ -18,7 +18,7 @@ class PurchasedPlainTicket(PlainTicket):
         return self.place
 
 
-class TrainPlainTicket(TrainTicket):
+class PurchasedTrainTicket(TrainTicket):
     def __init__(self, from_location: Location, to_location: Location,
                  departure_date: datetime, arrival_date: datetime,
                  price: Decimal, place: int, car: int):
@@ -34,7 +34,7 @@ class TrainPlainTicket(TrainTicket):
         return self.car
 
 
-class BusPlainTicket(BusTicket):
+class PurchasedBusTicket(BusTicket):
     def __init__(self, from_location: Location, to_location: Location,
                  departure_date: datetime, arrival_date: datetime,
                  price: Decimal, place: int, car: int):
