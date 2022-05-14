@@ -1,8 +1,9 @@
 from location import Location
 from decimal import Decimal
+from purchase import Purchase
 
 
-class Hotel:
+class Hotel(Purchase):
     def __init__(self, title: str, price: Decimal, location: Location):
         self.title = title
         self.price = price
