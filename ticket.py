@@ -6,12 +6,12 @@ import datetime
 
 
 class TicketType(Enum):
-    plain = 1
+    plane = 1
     train = 2
     bus = 3
 
 
-class PlainTicketType(Enum):
+class PlaneTicketType(Enum):
     economy = 1
     business = 2
     first = 3
@@ -77,10 +77,10 @@ class Ticket(Purchase):
 class PlaneTicket(Ticket):
     def __init__(self, from_location: Location, to_location: Location,
                  departure_date: datetime, arrival_date: datetime,
-                 price: Decimal, plain_ticket_type: PlainTicketType):
+                 price: Decimal, plane_ticket_type: PlaneTicketType):
         super().__init__(from_location, to_location, departure_date,
                          arrival_date, price)
-        self.plain_ticket_type = plain_ticket_type
+        self.plane_ticket_type = plane_ticket_type
 
 
 class TrainTicket(Ticket):
