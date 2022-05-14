@@ -1,7 +1,8 @@
 from location import Location
-import datetime
 from decimal import Decimal
 from enum import Enum
+from purchase import Purchase
+import datetime
 
 
 class TicketType(Enum):
@@ -28,7 +29,7 @@ class BusTicketType(Enum):
     big = 3
 
 
-class Ticket:
+class Ticket(Purchase):
     def __init__(self, from_location: Location, to_location: Location,
                  departure_date: datetime, arrival_date: datetime,
                  price: Decimal):
@@ -37,17 +38,49 @@ class Ticket:
         self.departure_date = departure_date
         self.arrival_date = arrival_date
         self.price = price
-    # TODO: print_info(for ticket)
+
+    def print_info(self):
+        print(f'{self.from_location.print_location()}, {self.to_location.print_location()}, {self.departure_date},\
+        {self.arrival_date}, {self.price}')
+
+    def get_from_location(self):
+        return self.from_location
+
+    def get_to_location(self):
+        return self.to_location
+
+    def get_departure_date(self):
+        return self.departure_date
+
+    def get_arrival_date(self):
+        return self.arrival_date
+
+    def get_price(self):
+        return self.price
+
+    def set_from_location(self, from_location: Location):
+        self.from_location = from_location
+
+    def set_to_location(self, to_location: Location):
+        self.from_location = to_location
+
+    def set_departure_date(self, departure_date: datetime):
+        self.departure_date = departure_date
+
+    def set_arrival_date(self, arrival_date: datetime):
+        self.arrival_date = arrival_date
+
+    def set_price(self, price: Decimal):
+        self.price = price
 
 
-class PlainTicket(Ticket):
+class PlaneTicket(Ticket):
     def __init__(self, from_location: Location, to_location: Location,
                  departure_date: datetime, arrival_date: datetime,
                  price: Decimal, plain_ticket_type: PlainTicketType):
         super().__init__(from_location, to_location, departure_date,
                          arrival_date, price)
         self.plain_ticket_type = plain_ticket_type
-    # TODO: changing print_info for plain_ticket
 
 
 class TrainTicket(Ticket):
@@ -57,7 +90,6 @@ class TrainTicket(Ticket):
         super().__init__(from_location, to_location, departure_date,
                          arrival_date, price)
         self.train_ticket_type = train_ticket_type
-    # TODO: changing print_info for train_ticket
 
 
 class BusTicket(Ticket):
@@ -67,4 +99,3 @@ class BusTicket(Ticket):
         super().__init__(from_location, to_location, departure_date,
                          arrival_date, price)
         self.bus_ticket_type = bus_ticket_type
-    # TODO: changing print_info for bus_ticket

@@ -13,7 +13,7 @@ class PurchasedHotel(Hotel):
     def set_check_in(self, check_in: datetime):
         self.check_in = check_in
 
-    def set_check_in(self, check_out: datetime):
+    def set_check_out(self, check_out: datetime):
         self.check_out = check_out
 
     def set_people_count(self, people_count: int):
@@ -25,7 +25,7 @@ class PurchasedHotel(Hotel):
     def get_check_in(self):
         return self.check_in
 
-    def get_check_in(self):
+    def get_check_out(self):
         return self.check_out
 
     def get_people_count(self):
