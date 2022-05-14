@@ -6,7 +6,7 @@ from decimal import Decimal
 import datetime
 
 
-class PurchasedPlainTicket(PlaneTicket):
+class PurchasedPlaneTicket(PlaneTicket):
     def __init__(self, from_location: Location, to_location: Location,
                  departure_date: datetime, arrival_date: datetime,
                  price: Decimal, place: int):
