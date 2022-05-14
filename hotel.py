@@ -10,3 +10,12 @@ class Hotel:
 
     def print_hotel_info(self):
         print(f'{self.title}, {self.price}, {self.location.print_location()}')
+
+    def get_title(self):
+        return self.title
+
+    def get_price(self):
+        return self.price
+
+    def get_location(self):
+        return self.location
