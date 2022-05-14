@@ -58,6 +58,21 @@ class Ticket(Purchase):
     def get_price(self):
         return self.price
 
+    def set_from_location(self, from_location: Location):
+        self.from_location = from_location
+
+    def set_to_location(self, to_location: Location):
+        self.from_location = to_location
+
+    def set_departure_date(self, departure_date: datetime):
+        self.departure_date = departure_date
+
+    def set_arrival_date(self, arrival_date: datetime):
+        self.arrival_date = arrival_date
+
+    def set_price(self, price: Decimal):
+        self.price = price
+
 
 class PlainTicket(Ticket):
     def __init__(self, from_location: Location, to_location: Location,
