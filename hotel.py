@@ -11,6 +11,15 @@ class Hotel:
     def print_hotel_info(self):
         print(f'{self.title}, {self.price}, {self.location.print_location()}')
 
+    def set_title(self, title: str):
+        self.title = title
+
+    def set_title(self, price: Decimal):
+        self.price = price
+
+    def set_location(self, location: Location):
+        self.location = location
+
     def get_title(self):
         return self.title
 
@@ -19,3 +28,4 @@ class Hotel:
 
     def get_location(self):
         return self.location
+
