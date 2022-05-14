@@ -1,8 +1,8 @@
 from location import Location
-import datetime
 from decimal import Decimal
 from enum import Enum
 from purchase import Purchase
+import datetime
 
 
 class TicketType(Enum):
