@@ -30,17 +30,18 @@ class BusTicketType(Enum):
 
 
 class Ticket(Purchase):
-    def __init__(self, from_location: Location, to_location: Location,
-                 departure_date: datetime, arrival_date: datetime,
-                 price: Decimal):
-        self.from_location = from_location
-        self.to_location = to_location
+    def __init__(self, departure_time: datetime, arrival_time: datetime, departure_date: datetime,
+                 arrival_date: datetime, price: Decimal, from_location: str, to_location: str):
+        super().__init__(price)
+        self.departure_time = departure_time
+        self.arrival_time = arrival_time
         self.departure_date = departure_date
         self.arrival_date = arrival_date
-        self.price = price
+        self.from_location = from_location
+        self.to_location = to_location
 
     def print_info(self):
-        print(f'{self.from_location.print_location()}, {self.to_location.print_location()}, {self.departure_date},\
+        print(f'{self.from_location}, {self.to_location}, {self.departure_date},\
         {self.arrival_date}, {self.price}')
 
     def get_from_location(self):
@@ -75,27 +76,24 @@ class Ticket(Purchase):
 
 
 class PlaneTicket(Ticket):
-    def __init__(self, from_location: Location, to_location: Location,
-                 departure_date: datetime, arrival_date: datetime,
-                 price: Decimal, plane_ticket_type: PlaneTicketType):
-        super().__init__(from_location, to_location, departure_date,
-                         arrival_date, price)
+    def __init__(self, departure_time: datetime, arrival_time: datetime, departure_date: datetime,
+                 arrival_date: datetime, price: Decimal, from_location: str, to_location: str,
+                 plane_ticket_type: PlaneTicketType):
+        super().__init__(departure_time, arrival_time, departure_date, arrival_date, price, from_location, to_location)
         self.plane_ticket_type = plane_ticket_type
 
 
 class TrainTicket(Ticket):
-    def __init__(self, from_location: Location, to_location: Location,
-                 departure_date: datetime, arrival_date: datetime,
-                 price: Decimal, train_ticket_type: TrainTicketType):
-        super().__init__(from_location, to_location, departure_date,
-                         arrival_date, price)
+    def __init__(self, departure_time: datetime, arrival_time: datetime, departure_date: datetime,
+                 arrival_date: datetime, price: Decimal, from_location: str, to_location: str,
+                 train_ticket_type: TrainTicketType):
+        super().__init__(departure_time, arrival_time, departure_date, arrival_date, price, from_location, to_location)
         self.train_ticket_type = train_ticket_type
 
 
 class BusTicket(Ticket):
-    def __init__(self, from_location: Location, to_location: Location,
-                 departure_date: datetime, arrival_date: datetime,
-                 price: Decimal, bus_ticket_type: BusTicketType):
-        super().__init__(from_location, to_location, departure_date,
-                         arrival_date, price)
+    def __init__(self, departure_time: datetime, arrival_time: datetime, departure_date: datetime,
+                 arrival_date: datetime, price: Decimal, from_location: str, to_location: str,
+                 bus_ticket_type: BusTicketType):
+        super().__init__(departure_time, arrival_time, departure_date, arrival_date, price, from_location, to_location)
         self.bus_ticket_type = bus_ticket_type
