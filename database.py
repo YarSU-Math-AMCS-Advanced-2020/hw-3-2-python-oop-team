@@ -3,6 +3,16 @@ import pandas as pd
 from typing import *
 
 
+class Singleton(type):
+    __instance = {}
+
+    def __call__(cls, *args, **kwargs):
+        if cls not in Singleton.__instance:
+            Singleton.__instance[cls] = cls.__new__(cls)
+            Singleton.__instance[cls].__init__(*args, **kwargs)
+        return Singleton.__instance[cls]
+
+
 class DB:
     def __init__(self, filename: str):
         self.filename = filename
