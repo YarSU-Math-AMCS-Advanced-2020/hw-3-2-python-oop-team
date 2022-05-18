@@ -1,11 +1,13 @@
 from hotel import Hotel
+from location import Location
+from decimal import Decimal
 import datetime
 
 
 class PurchasedHotel(Hotel):
-    def __init__(self, check_in: datetime, check_out: datetime, people_count: int):
-        price = super().price * (check_in.days() - check_out.days()) * people_count
-        super().__init__(price)
+    def __init__(self, title: str, price: Decimal, location: Location, check_in: datetime, check_out: datetime,
+                 people_count: int):
+        super().__init__(title, price, location)
         self.check_in = check_in
         self.check_out = check_out
         self.people_count = people_count
@@ -19,9 +21,6 @@ class PurchasedHotel(Hotel):
     def set_people_count(self, people_count: int):
         self.people_count = people_count
 
-    def get_hotel(self):
-        return self.hotel
-
     def get_check_in(self):
         return self.check_in
 
@@ -30,3 +29,6 @@ class PurchasedHotel(Hotel):
 
     def get_people_count(self):
         return self.people_count
+
+    def count_price(self):
+        return self.price * (self.check_in.days() - self.check_out.days()) * self.people_count

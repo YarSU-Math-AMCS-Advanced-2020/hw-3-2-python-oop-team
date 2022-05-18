@@ -44,3 +44,5 @@ class PurchasedBusTicket(BusTicket):
 
     def get_place(self):
         return self.place
+
+# TODO Добавить такие же поля, как и в Ticket
