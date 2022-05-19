@@ -13,17 +13,20 @@ class Singleton(type):
         return Singleton.__instance[cls]
 
 
-class DB:
-    def __init__(self, filename: str):
-        self.filename = filename
-        with open(filename, 'r', encoding='utf-8') as file:
-            self.data = json.load(file)
+class DB(metaclass=Singleton):
+    def __init__(self):
+        self.hotel_data = HotelStorage()
+        self.train_ticket_data = TrainTicketStorage()
+        self.plane_ticket_data = PlaneTicketStorage()
 
     def find_hotels(self, hotel_filters: HotelFilters):
-        return self.__find(self.data, hotel_filters.is_valid)
+        return self.__find(self.hotel_data.get_content(), hotel_filters.is_valid)
 
-    def find_tickets(self, ticket_filters: TicketFilters):
-        return self.__find(self.data, ticket_filters.is_valid)
+    def find_train_tickets(self, ticket_filters: TicketFilters):
+        return self.__find(self.train_ticket_data.get_content(), ticket_filters.is_valid)
+
+    def find_plane_tickets(self, ticket_filters: TicketFilters):
+        return self.__find(self.plane_ticket_data.get_content(), ticket_filters.is_valid)
 
     @staticmethod
     def __find(data: Iterable, filter_func: Callable):
@@ -32,3 +35,30 @@ class DB:
             if filter_func(item):
                 res.append(item)
         return res
+
+
+class Storage:
+    def __init__(self, filename: str):
+        with open(filename, 'r', encoding='utf-8') as file:
+            self.data = json.load(file)
+
+    def get_content(self):
+        res = []
+        for item in self.data:
+            res.append(item)
+        return res
+
+
+class HotelStorage(Storage):
+    def __init__(self):
+        super().__init__('modified_hotels.json')
+
+
+class TrainTicketStorage(Storage):
+    def __init__(self):
+        super().__init__('modified_train_tickets.json')
+
+
+class PlaneTicketStorage(Storage):
+    def __init__(self):
+        super().__init__('modified_plane_tickets.json')
