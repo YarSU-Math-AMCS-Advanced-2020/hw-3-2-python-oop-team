@@ -1,6 +1,6 @@
 import json
-import pandas as pd
 from typing import *
+from filters import *
 
 
 class Singleton(type):
@@ -16,27 +16,19 @@ class Singleton(type):
 class DB:
     def __init__(self, filename: str):
         self.filename = filename
-        with open(filename, 'r') as file:
+        with open(filename, 'r', encoding='utf-8') as file:
             self.data = json.load(file)
 
-    def find_hotels(self, filters: dict):
-        filters_list = []
-        res = []
-        if filters.get('city'):
-            filters_list.append(lambda x: x.get('location', {}).get('city') == filters['city'])
-        if filters.get('country'):
-            filters_list.append(lambda x: x.get('location', {}).get('country') == filters['country'])
-        if filters.get('price'):
-            filters_list.append(lambda x: filters['price'][0] <= x.get('price') <= filters['price'][1])
-        return self.__find(self.data, filters_list)
+    def find_hotels(self, hotel_filters: HotelFilters):
+        return self.__find(self.data, hotel_filters.is_valid)
+
+    def find_tickets(self, ticket_filters: TicketFilters):
+        return self.__find(self.data, ticket_filters.is_valid)
 
     @staticmethod
-    def __find(data: Iterable, filter_funcs: Iterable[Callable]):
+    def __find(data: Iterable, filter_func: Callable):
         res = []
         for item in data:
-            for filter in filter_funcs:
-                if not filter(item):
-                    break
-            else:
+            if filter_func(item):
                 res.append(item)
         return res
