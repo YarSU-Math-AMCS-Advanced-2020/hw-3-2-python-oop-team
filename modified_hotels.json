@@ -5,7 +5,7 @@
       "location": {
          "street": "Mer\u0137e\u013caiela15thfloor",
          "district": null,
-         "city": "R\u012bga",
+         "city": "Riga",
          "country": "Latvia"
       }
    },
@@ -15,7 +15,7 @@
       "location": {
          "street": "11.novembrakrastmala33",
          "district": null,
-         "city": "R\u012bga",
+         "city": "Riga",
          "country": "Latvia"
       }
    },
@@ -25,7 +25,7 @@
       "location": {
          "street": "Rai\u0146abulv\u0101ris5/6",
          "district": null,
-         "city": "R\u012bga",
+         "city": "Riga",
          "country": "Latvia"
       }
    },
@@ -35,7 +35,7 @@
       "location": {
          "street": "Slokasiela1",
          "district": null,
-         "city": "R\u012bga",
+         "city": "Riga",
          "country": "Latvia"
       }
    },
@@ -45,7 +45,7 @@
       "location": {
          "street": "Dzirnavuiela33",
          "district": null,
-         "city": "R\u012bga",
+         "city": "Riga",
          "country": "Latvia"
       }
    },
@@ -55,7 +55,7 @@
       "location": {
          "street": "Elijasiela7",
          "district": null,
-         "city": "R\u012bga",
+         "city": "Riga",
          "country": "Latvia"
       }
    },
@@ -65,7 +65,7 @@
       "location": {
          "street": "Minsterejasiela8/10",
          "district": null,
-         "city": "R\u012bga",
+         "city": "Riga",
          "country": "Latvia"
       }
    },
@@ -73,10 +73,10 @@
       "title": "HamptonbyHiltonRigaAirport",
       "price": 4272,
       "location": {
-         "street": "PriezkalniA",
-         "district": null,
-         "city": "Marupesnovads",
-         "country": "LV-2167"
+         "street": "Priezkalni",
+         "district": "Marupesnovads",
+         "city": "Riga",
+         "country": "Latvia"
       }
    },
    {
@@ -85,7 +85,7 @@
       "location": {
          "street": "Elizabetesiela21",
          "district": null,
-         "city": "R\u012bga",
+         "city": "Riga",
          "country": "Latvia"
       }
    },
@@ -95,7 +95,7 @@
       "location": {
          "street": "Tirgo\u0146uiela9",
          "district": null,
-         "city": "R\u012bga",
+         "city": "Riga",
          "country": "Latvia"
       }
    },
@@ -105,7 +105,7 @@
       "location": {
          "street": "Kal\u0113juiela9/11",
          "district": null,
-         "city": "R\u012bga",
+         "city": "Riga",
          "country": "Latvia"
       }
    },
@@ -115,7 +115,7 @@
       "location": {
          "street": "M\u0101rsta\u013cuiela3",
          "district": null,
-         "city": "R\u012bga",
+         "city": "Riga",
          "country": "Latvia"
       }
    },
@@ -125,7 +125,7 @@
       "location": {
          "street": "Kal\u0113juiela33",
          "district": null,
-         "city": "R\u012bga",
+         "city": "Riga",
          "country": "Latvia"
       }
    },
@@ -135,7 +135,7 @@
       "location": {
          "street": "Kr.Valdem\u0101raiela23",
          "district": null,
-         "city": "R\u012bga",
+         "city": "Riga",
          "country": "Latvia"
       }
    },
@@ -145,7 +145,7 @@
       "location": {
          "street": "22Aspazijasbulv\u0101ris",
          "district": null,
-         "city": "R\u012bga",
+         "city": "Riga",
          "country": "Latvia"
       }
    },
@@ -155,7 +155,7 @@
       "location": {
          "street": "Ku\u0123uiela24",
          "district": null,
-         "city": "R\u012bga",
+         "city": "Riga",
          "country": "Latvia"
       }
    },
@@ -165,7 +165,7 @@
       "location": {
          "street": "Aldaruiela8-2",
          "district": null,
-         "city": "R\u012bga",
+         "city": "Riga",
          "country": "Latvia"
       }
    },
@@ -175,7 +175,7 @@
       "location": {
          "street": "Br\u012bv\u012bbasgatve199C",
          "district": null,
-         "city": "R\u012bga",
+         "city": "Riga",
          "country": "Latvia"
       }
    },
@@ -185,7 +185,7 @@
       "location": {
          "street": "Reimersaiela1",
          "district": null,
-         "city": "R\u012bga",
+         "city": "Riga",
          "country": "Latvia"
       }
    },
@@ -195,7 +195,7 @@
       "location": {
          "street": "Jauniela25/27",
          "district": null,
-         "city": "R\u012bga",
+         "city": "Riga",
          "country": "Latvia"
       }
    },
@@ -205,7 +205,7 @@
       "location": {
          "street": "Kalnciemaiela90",
          "district": null,
-         "city": "R\u012bga",
+         "city": "Riga",
          "country": "Latvia"
       }
    },
@@ -215,7 +215,7 @@
       "location": {
          "street": "Elizabetesiela55",
          "district": null,
-         "city": "R\u012bga",
+         "city": "Riga",
          "country": "Latvia"
       }
    },
@@ -225,7 +225,7 @@
       "location": {
          "street": "Dzirnavuiela81",
          "district": null,
-         "city": "R\u012bga",
+         "city": "Riga",
          "country": "Latvia"
       }
    },
@@ -235,7 +235,7 @@
       "location": {
          "street": "\u0122ertr\u016bdesiela70",
          "district": null,
-         "city": "R\u012bga",
+         "city": "Riga",
          "country": "Latvia"
       }
    },
@@ -245,7 +245,7 @@
       "location": {
          "street": "\u0136\u012bpsalasiela2",
          "district": null,
-         "city": "R\u012bga",
+         "city": "Riga",
          "country": "Latvia"
       }
    },
@@ -255,7 +255,7 @@
       "location": {
          "street": "Bulevardul\u0218tefancelMare\u0219iSf\u00eent",
          "district": null,
-         "city": "Chi\u015fin\u0103u",
+         "city": "Chisinau",
          "country": "Moldova"
       }
    },
@@ -265,7 +265,7 @@
       "location": {
          "street": "BernardazziStreet26/3",
          "district": null,
-         "city": "Chi\u015fin\u0103u",
+         "city": "Chisinau",
          "country": "Moldova"
       }
    },
@@ -275,7 +275,7 @@
       "location": {
          "street": "32StradaPu\u0219kin",
          "district": null,
-         "city": "Chi\u015fin\u0103u",
+         "city": "Chisinau",
          "country": "Moldova"
       }
    },
@@ -285,7 +285,7 @@
       "location": {
          "street": "str.Puskin32",
          "district": null,
-         "city": "Chi\u015fin\u0103u",
+         "city": "Chisinau",
          "country": "Moldova"
       }
    },
@@ -295,7 +295,7 @@
       "location": {
          "street": "19StradaNicolaeTestemi\u021banu103",
          "district": null,
-         "city": "Chi\u015fin\u0103u",
+         "city": "Chisinau",
          "country": "Moldova"
       }
    },
@@ -305,7 +305,7 @@
       "location": {
          "street": "streetStradela1",
          "district": null,
-         "city": "Chi\u015fin\u0103u",
+         "city": "Chisinau",
          "country": "Moldova"
       }
    },
@@ -315,7 +315,7 @@
       "location": {
          "street": "LaculuiStr.39",
          "district": null,
-         "city": "Chi\u015fin\u0103u",
+         "city": "Chisinau",
          "country": "Moldova"
       }
    },
@@ -325,7 +325,7 @@
       "location": {
          "street": "PereulokLiviuDamian3",
          "district": null,
-         "city": "Chi\u015fin\u0103u",
+         "city": "Chisinau",
          "country": "Moldova"
       }
    },
@@ -335,7 +335,7 @@
       "location": {
          "street": "OdessaStreet34/1",
          "district": null,
-         "city": "Chi\u015fin\u0103u",
+         "city": "Chisinau",
          "country": "Moldova"
       }
    },
@@ -345,7 +345,7 @@
       "location": {
          "street": "AnestiadeStreet7",
          "district": null,
-         "city": "Chi\u015fin\u0103u",
+         "city": "Chisinau",
          "country": "Moldova"
       }
    },
@@ -355,7 +355,7 @@
       "location": {
          "street": "StradaAlexei\u015eciusev23A",
          "district": null,
-         "city": "Chi\u015fin\u0103u",
+         "city": "Chisinau",
          "country": "Moldova"
       }
    },
@@ -365,7 +365,7 @@
       "location": {
          "street": "EugenaDogaStreet2A",
          "district": null,
-         "city": "Chi\u015fin\u0103u",
+         "city": "Chisinau",
          "country": "Moldova"
       }
    },
@@ -375,7 +375,7 @@
       "location": {
          "street": "DaciaBoulvard58/5",
          "district": null,
-         "city": "Chi\u015fin\u0103u",
+         "city": "Chisinau",
          "country": "Moldova"
       }
    },
@@ -385,7 +385,7 @@
       "location": {
          "street": "AlessandroBernardazzi73",
          "district": null,
-         "city": "Chi\u015fin\u0103u",
+         "city": "Chisinau",
          "country": "Moldova"
       }
    },
@@ -395,7 +395,7 @@
       "location": {
          "street": "Bd.Decebal23/3",
          "district": null,
-         "city": "Chi\u015fin\u0103u",
+         "city": "Chisinau",
          "country": "Moldova"
       }
    },
@@ -405,7 +405,7 @@
       "location": {
          "street": "A.H\u00eejdeu79/1",
          "district": null,
-         "city": "Chi\u015fin\u0103u",
+         "city": "Chisinau",
          "country": "Moldova"
       }
    },
@@ -415,7 +415,7 @@
       "location": {
          "street": "44StradaHaiducilor",
          "district": null,
-         "city": "Chi\u015fin\u0103u",
+         "city": "Chisinau",
          "country": "Moldova"
       }
    },
@@ -425,7 +425,7 @@
       "location": {
          "street": "Alba-Iulia7",
          "district": null,
-         "city": "Chi\u015fin\u0103u",
+         "city": "Chisinau",
          "country": "Moldova"
       }
    },
@@ -435,7 +435,7 @@
       "location": {
          "street": "PetruMovilaStreet4",
          "district": null,
-         "city": "Chi\u015fin\u0103u",
+         "city": "Chisinau",
          "country": "Moldova"
       }
    },
@@ -445,7 +445,7 @@
       "location": {
          "street": "StradaMihaiEminescu44/1",
          "district": null,
-         "city": "Chi\u015fin\u0103u",
+         "city": "Chisinau",
          "country": "Moldova"
       }
    },
@@ -455,7 +455,7 @@
       "location": {
          "street": "31August1989St.103",
          "district": null,
-         "city": "Chi\u015fin\u0103u",
+         "city": "Chisinau",
          "country": "Moldova"
       }
    },
@@ -465,7 +465,7 @@
       "location": {
          "street": "MariaCibotariStreet37",
          "district": null,
-         "city": "Chi\u015fin\u0103u",
+         "city": "Chisinau",
          "country": "Moldova"
       }
    },
@@ -475,7 +475,7 @@
       "location": {
          "street": "5StradaCarierei",
          "district": null,
-         "city": "Chi\u015fin\u0103u",
+         "city": "Chisinau",
          "country": "Moldova"
       }
    },
@@ -485,7 +485,7 @@
       "location": {
          "street": "StradaMihailKogalniceanu62/8",
          "district": null,
-         "city": "Chi\u015fin\u0103u",
+         "city": "Chisinau",
          "country": "Moldova"
       }
    },
@@ -495,7 +495,7 @@
       "location": {
          "street": "StradaBucure\u0219ti73/1",
          "district": null,
-         "city": "Chi\u015fin\u0103u",
+         "city": "Chisinau",
          "country": "Moldova"
       }
    },
@@ -505,7 +505,7 @@
       "location": {
          "street": "StreetHaiducilor",
          "district": null,
-         "city": "Chi\u015fin\u0103u",
+         "city": "Chisinau",
          "country": "Moldova"
       }
    },
@@ -1134,9 +1134,9 @@
       "price": 13448,
       "location": {
          "street": "K\u00f6penickerStrasse",
-         "district": "80-82",
-         "city": "10179",
-         "country": "Berlin"
+         "district": "Mitte",
+         "city": "Berlin",
+         "country": "Germany"
       }
    },
    {
@@ -1680,16 +1680,6 @@
       }
    },
    {
-      "title": "Prospect",
-      "price": 1438,
-      "location": {
-         "street": "\u0421\u044b\u0433\u0430\u043d\u0430\u043a9\u0416\u041a\u00ab7\u0431\u043e\u0447\u0435\u043a\u00bb",
-         "district": null,
-         "city": "\u043a\u0432.2",
-         "country": "010000"
-      }
-   },
-   {
       "title": "Mini-HotelPulsar",
       "price": 2157,
       "location": {
@@ -1815,7 +1805,7 @@
       "location": {
          "street": "1364SokakNo:11Basmane",
          "district": "Konak",
-         "city": "35260Izmir",
+         "city": "Izmir",
          "country": "Turkey"
       }
    },
@@ -3155,7 +3145,7 @@
       "location": {
          "street": "2",
          "district": "IakobTsurtavelistreet",
-         "city": "TbilisiCity",
+         "city": "Tbilisi",
          "country": "Georgia"
       }
    },
@@ -3165,7 +3155,7 @@
       "location": {
          "street": "1MartkofiStreet",
          "district": null,
-         "city": "TbilisiCity",
+         "city": "Tbilisi",
          "country": "Georgia"
       }
    },
@@ -3175,7 +3165,7 @@
       "location": {
          "street": "17WineRise",
          "district": null,
-         "city": "TbilisiCity",
+         "city": "Tbilisi",
          "country": "Georgia"
       }
    },
@@ -3185,7 +3175,7 @@
       "location": {
          "street": "5GiaAbesadzeStreet5GiaAbesadzeStreet",
          "district": null,
-         "city": "TbilisiCity",
+         "city": "Tbilisi",
          "country": "Georgia"
       }
    },
@@ -3195,7 +3185,7 @@
       "location": {
          "street": "MtatsmindaStreet6/1",
          "district": "Mtatsminda",
-         "city": "TbilisiCity",
+         "city": "Tbilisi",
          "country": "Georgia"
       }
    },
@@ -3205,7 +3195,7 @@
       "location": {
          "street": "EleneAkhvledianiKhevi32",
          "district": null,
-         "city": "TbilisiCity",
+         "city": "Tbilisi",
          "country": "Georgia"
       }
    },
@@ -3215,7 +3205,7 @@
       "location": {
          "street": "18PaoloIashviliStreet",
          "district": null,
-         "city": "TbilisiCity",
+         "city": "Tbilisi",
          "country": "Georgia"
       }
    },
@@ -3225,7 +3215,7 @@
       "location": {
          "street": "75DavidAgmashnebeliAve",
          "district": "Chugureti",
-         "city": "TbilisiCity",
+         "city": "Tbilisi",
          "country": "Georgia"
       }
    },
@@ -3235,7 +3225,7 @@
       "location": {
          "street": "59PaataSaakadzeStreet",
          "district": null,
-         "city": "TbilisiCity",
+         "city": "Tbilisi",
          "country": "Georgia"
       }
    },
@@ -3245,7 +3235,7 @@
       "location": {
          "street": "32ViktorJorbenadzeStreet",
          "district": null,
-         "city": "TbilisiCity",
+         "city": "Tbilisi",
          "country": "Georgia"
       }
    },
@@ -3255,7 +3245,7 @@
       "location": {
          "street": "BetlemiStreet24",
          "district": null,
-         "city": "TbilisiCity",
+         "city": "Tbilisi",
          "country": "Georgia"
       }
    },
@@ -3265,7 +3255,7 @@
       "location": {
          "street": "OvanesTumanianiStreet1",
          "district": null,
-         "city": "TbilisiCity",
+         "city": "Tbilisi",
          "country": "Georgia"
       }
    },
@@ -3275,7 +3265,7 @@
       "location": {
          "street": "MakhataStreet17",
          "district": null,
-         "city": "TbilisiCity",
+         "city": "Tbilisi",
          "country": "Georgia"
       }
    },
@@ -3285,7 +3275,7 @@
       "location": {
          "street": "MikheilDjavakhishvili(Elbakidze)Street12",
          "district": null,
-         "city": "TbilisiCity",
+         "city": "Tbilisi",
          "country": "Georgia"
       }
    },
@@ -3295,7 +3285,7 @@
       "location": {
          "street": "StreetMoseToidze16/12",
          "district": "Chugureti",
-         "city": "TbilisiCity",
+         "city": "Tbilisi",
          "country": "Georgia"
       }
    },
@@ -3305,7 +3295,7 @@
       "location": {
          "street": "13KalistrateTsintsandzeStreet",
          "district": null,
-         "city": "TbilisiCity",
+         "city": "Tbilisi",
          "country": "Georgia"
       }
    },
@@ -3315,7 +3305,7 @@
       "location": {
          "street": "MariBroseStreet6/8",
          "district": "Mtatsminda",
-         "city": "TbilisiCity",
+         "city": "Tbilisi",
          "country": "Georgia"
       }
    },
@@ -3325,7 +3315,7 @@
       "location": {
          "street": "MetekhiStreet12",
          "district": null,
-         "city": "TbilisiCity",
+         "city": "Tbilisi",
          "country": "Georgia"
       }
    },
@@ -3335,7 +3325,7 @@
       "location": {
          "street": "15AleksandrPushkinStreet",
          "district": null,
-         "city": "TbilisiCity",
+         "city": "Tbilisi",
          "country": "Georgia"
       }
    },
@@ -3345,7 +3335,7 @@
       "location": {
          "street": "115DavitAghmashenebeliAvenue",
          "district": "Chugureti",
-         "city": "TbilisiCity",
+         "city": "Tbilisi",
          "country": "Georgia"
       }
    },
@@ -3355,7 +3345,7 @@
       "location": {
          "street": "13I.ChakhrukhadzeStreet",
          "district": null,
-         "city": "TbilisiCity",
+         "city": "Tbilisi",
          "country": "Georgia"
       }
    },
@@ -3365,7 +3355,7 @@
       "location": {
          "street": "9AleksandreTsurtsumiastreet",
          "district": null,
-         "city": "TbilisiCity",
+         "city": "Tbilisi",
          "country": "Georgia"
       }
    },
@@ -3375,7 +3365,7 @@
       "location": {
          "street": "LadoAsatianiStreet7",
          "district": null,
-         "city": "TbilisiCity",
+         "city": "Tbilisi",
          "country": "Georgia"
       }
    },
@@ -3385,7 +3375,7 @@
       "location": {
          "street": "KoteApkhazi(Leselidze)Street31",
          "district": null,
-         "city": "TbilisiCity",
+         "city": "Tbilisi",
          "country": "Georgia"
       }
    },
@@ -3395,7 +3385,7 @@
       "location": {
          "street": "14ShotaRustaveliAvenue14ShotaRustaveliAvenue",
          "district": "Mtatsminda",
-         "city": "TbilisiCity",
+         "city": "Tbilisi",
          "country": "Georgia"
       }
    },
