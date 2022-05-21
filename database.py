@@ -1,6 +1,11 @@
 import json
 from typing import *
-from filters import *
+from client import Client
+from filters import HotelFilters, TicketFilters
+from purchase import Purchase
+from purchased_hotel import PurchasedHotel
+from purchased_ticket import PurchasedPlaneTicket, PurchasedTrainTicket
+from tour import Tour
 
 
 class Singleton(type):
@@ -18,6 +23,7 @@ class DB(metaclass=Singleton):
         self.hotel_storage = HotelStorage()
         self.train_ticket_storage = TrainTicketStorage()
         self.plane_ticket_storage = PlaneTicketStorage()
+        self.client_storage = ClientStorage()
 
     def find_hotels(self, hotel_filters: HotelFilters):
         return self.hotel_storage.find_hotels(hotel_filters)
@@ -27,6 +33,22 @@ class DB(metaclass=Singleton):
 
     def find_plane_tickets(self, ticket_filters: TicketFilters):
         self.plane_ticket_storage.find_plane_tickets(ticket_filters)
+
+    @staticmethod
+    def add_purchased_hotel_to_client(client: Client, purchased_hotel: PurchasedHotel):
+        client.add_purchased_hotel(purchased_hotel)
+
+    @staticmethod
+    def add_purchased_plane_ticket_to_client(client: Client, purchased_plane_ticket: PurchasedPlaneTicket):
+        client.add_purchased_plane_ticket(purchased_plane_ticket)
+
+    @staticmethod
+    def add_purchased_train_ticket_to_client(client: Client, purchased_train_ticket: PurchasedTrainTicket):
+        client.add_purchased_train_ticket(purchased_train_ticket)
+
+    @staticmethod
+    def add_tour_to_client(client: Client, tour: Tour):
+        client.add_tour(tour)
 
 
 class Storage:
@@ -68,3 +90,17 @@ class PlaneTicketStorage(Storage):
 
     def find_plane_tickets(self, ticket_filters: TicketFilters):
         return PlaneTicketStorage.find(self.data, ticket_filters.is_valid)
+
+
+class ClientStorage(Storage):
+    def __init__(self):
+        super().__init__('modified_clients.json')
+
+    def add_purchase(self, client: Client, purchase: Purchase):
+        if not self.data.get(client.client_id):
+            self.data[client.client_id] = []
+        self.data[client.client_id].append(purchase)
+
+    def find_purchases(self, client: Client) -> List[Purchase]:  # Зробити фільтри
+        return self.data.get(client.client_id, [])
+

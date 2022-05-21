@@ -1,13 +1,10 @@
-from client import Client
-from decimal import Decimal
-from hotel import Hotel
-from ticket import Ticket, PlainTicket, TrainTicket, BusTicket
 from purchase import Purchase
-import datetime
 
 
 class Tour(Purchase):
-    def __init__(self, purchase_list: list[Purchase]):
+    def __init__(self, purchase_id: str, purchase_list: list[Purchase]):
+        # Айди задаётся в конструкторе тура, изначальная цена - 0
+        super().__init__(purchase_id, 0)
         self.purchase_list = purchase_list
 
     def get_purchase_list(self):
@@ -20,5 +17,5 @@ class Tour(Purchase):
             price_sum += i
         return price_sum
 
-
-# TODO add super().__init__
+    def add_purchase(self, purchase: Purchase):
+        self.purchase_list.append(purchase)
