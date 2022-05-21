@@ -3,9 +3,20 @@ from hotel import Hotel
 from ticket import *
 
 
-class HotelFilters:
-    def __init__(self, hotel_filters: dict):
+class Filters:
+    def __init__(self):
         self.filter_list = []
+
+    def is_valid(self, item: Purchase):
+        for filter in self.filter_list:
+            if not filter(item):
+                return False
+        return True
+
+
+class HotelFilters(Filters):
+    def __init__(self, hotel_filters: dict):
+        super().__init__()
         if hotel_filters.get('city'):
             self.filter_list.append(lambda x: x.get('location', {}).get('city') == hotel_filters['city'])
         if hotel_filters.get('country'):
@@ -13,16 +24,10 @@ class HotelFilters:
         if hotel_filters.get('price'):
             self.filter_list.append(lambda x: hotel_filters['price'][0] <= x.get('price') <= hotel_filters['price'][1])
 
-    def is_valid(self, hotel: Hotel):
-        for filter in self.filter_list:
-            if not filter(hotel):
-                return False
-        return True
 
-
-class TicketFilters:
+class TicketFilters(Filters):
     def __init__(self, ticket_filters: dict):
-        self.filter_list = []
+        super().__init__()
         if ticket_filters.get('departure_time'):
             self.filter_list.append(lambda x: x.get('departure_time') == ticket_filters['departure_time'])
         if ticket_filters.get('arrival_time'):
@@ -40,9 +45,3 @@ class TicketFilters:
             self.filter_list.append(lambda x: x.get('from') == ticket_filters['from'])
         if ticket_filters.get('to'):
             self.filter_list.append(lambda x: x.get('to') == ticket_filters['to'])
-
-    def is_valid(self, ticket: Ticket):
-        for filter in self.filter_list:
-            if not filter(ticket):
-                return False
-        return True
