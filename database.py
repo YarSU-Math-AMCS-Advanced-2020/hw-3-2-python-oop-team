@@ -1,6 +1,8 @@
 import json
 from typing import *
 from filters import *
+from client import *
+from purchased_ticket import *
 
 
 class Singleton(type):
@@ -35,6 +37,18 @@ class DB(metaclass=Singleton):
             if filter_func(item):
                 res.append(item)
         return res
+
+    @staticmethod
+    def add_purchased_hotel_to_client(client: Client, purchased_hotel: PurchasedHotel):
+        client.add_purchased_hotel(purchased_hotel)
+
+    @staticmethod
+    def add_purchased_plane_ticket_to_client(client: Client, purchased_plane_ticket: PurchasedPlaneTicket):
+        client.add_purchased_plane_ticket(purchased_plane_ticket)
+
+    @staticmethod
+    def add_purchased_train_ticket_to_client(client: Client, purchased_train_ticket: PurchasedTrainTicket):
+        client.add_purchased_train_ticket(purchased_train_ticket)
 
 
 class Storage:
