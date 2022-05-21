@@ -1,11 +1,4 @@
-from client import Client
-from decimal import Decimal
-from hotel import Hotel
-from ticket import Ticket
 from purchase import Purchase
-from purchased_ticket import *
-from purchased_hotel import *
-import datetime
 
 
 class Tour(Purchase):

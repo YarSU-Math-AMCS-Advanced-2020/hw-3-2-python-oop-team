@@ -1,8 +1,8 @@
 import datetime
 from typing import List
-from purchased_hotel import *
-from purchased_ticket import *
-from tour import *
+from purchased_hotel import PurchasedHotel
+from purchased_ticket import PurchasedTrainTicket, PurchasedPlaneTicket
+from tour import Tour
 
 
 class Client:
@@ -16,10 +16,10 @@ class Client:
         self.phone_number = '+79000000000'
         self.password = 'qwerty123'
 
-        self.list_of_purchased_hotels: List[PurchasedHotel]
-        self.list_of_purchased_train_tickets: List[PurchasedTrainTicket]
-        self.list_of_purchased_plane_tickets: List[PurchasedPlaneTicket]
-        self.list_of_tours: List[Tour]
+        self.list_of_purchased_hotels: List[PurchasedHotel] = []
+        self.list_of_purchased_train_tickets: List[PurchasedTrainTicket] = []
+        self.list_of_purchased_plane_tickets: List[PurchasedPlaneTicket] = []
+        self.list_of_tours: List[Tour] = []
 
     def registration(self, first_name: str, last_name: str, birthdate: datetime, mail: str, phone_number: str,
                      password: str):

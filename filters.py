@@ -1,6 +1,4 @@
-import database
-from hotel import Hotel
-from ticket import *
+from purchase import Purchase
 
 
 class Filters:
