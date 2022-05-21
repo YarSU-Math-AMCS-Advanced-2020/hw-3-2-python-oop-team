@@ -1,48 +1,62 @@
-from ticket import PlaneTicket
-from ticket import TrainTicket
-from ticket import BusTicket
+from ticket import Ticket
 from location import Location
 from decimal import Decimal
 import datetime
 
 
-class PurchasedPlaneTicket(PlaneTicket):
-    def __init__(self, from_location: Location, to_location: Location,
-                 departure_date: datetime, arrival_date: datetime,
-                 price: Decimal, place: int):
-        super().__init__(from_location, to_location, departure_date,
-                         arrival_date, price)
-        self.place = place
+class PurchasedPlaneTicket(Ticket):
+    def __init__(self, ticket: Ticket, seat: int):
+        super().__init__(ticket.get_purchase_id(), ticket.get_departure_time(), ticket.get_arrival_time(),
+                         ticket.get_departure_date(), ticket.get_arrival_date(), ticket.get_duration(),
+                         ticket.get_price(), ticket.get_from_location(), ticket.get_to_location())
+        self.seat = seat
 
-    def get_place(self):
-        return self.place
+    def get_seat(self):
+        return self.seat
 
-
-class PurchasedTrainTicket(TrainTicket):
-    def __init__(self, from_location: Location, to_location: Location,
-                 departure_date: datetime, arrival_date: datetime,
-                 price: Decimal, place: int, car: int):
-        super().__init__(from_location, to_location, departure_date,
-                         arrival_date, price)
-        self.place = place
-        self.car = car
-
-    def get_place(self):
-        return self.place
-
-    def get_car(self):
-        return self.car
+    def set_seat(self, seat: int):
+        self.seat = seat
 
 
-class PurchasedBusTicket(BusTicket):
-    def __init__(self, from_location: Location, to_location: Location,
-                 departure_date: datetime, arrival_date: datetime,
-                 price: Decimal, place: int, car: int):
-        super().__init__(from_location, to_location, departure_date,
-                         arrival_date, price)
-        self.place = place
+class PurchasedTrainTicket(Ticket):
+    def __init__(self, ticket: Ticket, seat: int, carriage: int):
+        super().__init__(ticket.get_purchase_id(), ticket.get_departure_time(), ticket.get_arrival_time(),
+                         ticket.get_departure_date(), ticket.get_arrival_date(), ticket.get_duration(),
+                         ticket.get_price(), ticket.get_from_location(), ticket.get_to_location())
+        self.seat = seat
+        self.carriage = carriage
 
-    def get_place(self):
-        return self.place
+    def get_seat(self):
+        return self.seat
+
+    def get_carriage(self):
+        return self.carriage
+
+    def set_seat(self, seat: int):
+        self.seat = seat
+
+    def set_carriage(self, carriage: int):
+        self.carriage = carriage
+
+
+class PurchasedBusTicket(Ticket):
+    def __init__(self, ticket: Ticket, seat: int, bus_number: str):
+        super().__init__(ticket.get_purchase_id(), ticket.get_departure_time(), ticket.get_arrival_time(),
+                         ticket.get_departure_date(), ticket.get_arrival_date(), ticket.get_duration(),
+                         ticket.get_price(), ticket.get_from_location(), ticket.get_to_location())
+        self.seat = seat
+        self.bus_number = bus_number
+
+    def get_seat(self):
+        return self.seat
+
+    def get_bus_number(self):
+        return self.bus_number
+
+    def set_seat(self, seat: int):
+        self.seat = seat
+
+    def set_bus_number(self, bus_number: str):
+        self.bus_number = bus_number
 
 # TODO Добавить такие же поля, как и в Ticket
