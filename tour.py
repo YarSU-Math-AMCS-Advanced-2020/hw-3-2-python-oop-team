@@ -19,3 +19,6 @@ class Tour(Purchase):
         for i in self.purchase_list:
             price_sum += i
         return price_sum
+
+
+# TODO add super().__init__

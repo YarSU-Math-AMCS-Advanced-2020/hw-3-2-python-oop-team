@@ -1,5 +1,6 @@
 [
    {
+      "id": "h-84cb641f",
       "title": "Rixbackpackershostel",
       "price": 2242,
       "location": {
@@ -10,6 +11,7 @@
       }
    },
    {
+      "id": "h-1b1379dc",
       "title": "WelltonRiversideSPAHotel",
       "price": 10034,
       "location": {
@@ -20,6 +22,7 @@
       }
    },
    {
+      "id": "h-2ef61fe9",
       "title": "GrandPoetHotelandSPAbySemarah",
       "price": 12104,
       "location": {
@@ -30,6 +33,7 @@
       }
    },
    {
+      "id": "h-f2f29922",
       "title": "BellevueParkHotelRigawithFREEParking",
       "price": 4808,
       "location": {
@@ -40,6 +44,7 @@
       }
    },
    {
+      "id": "h-b9e88a00",
       "title": "ACHotelbyMarriottRiga",
       "price": 6650,
       "location": {
@@ -50,6 +55,7 @@
       }
    },
    {
+      "id": "h-53fee436",
       "title": "HanzaHotel",
       "price": 5849,
       "location": {
@@ -60,6 +66,7 @@
       }
    },
    {
+      "id": "h-baa56639",
       "title": "RixwellOldRigaPalaceHotel",
       "price": 5977,
       "location": {
@@ -70,6 +77,7 @@
       }
    },
    {
+      "id": "h-aa84dc1e",
       "title": "HamptonbyHiltonRigaAirport",
       "price": 4272,
       "location": {
@@ -80,6 +88,7 @@
       }
    },
    {
+      "id": "h-18295d6f",
       "title": "MonikaCentrumHotels",
       "price": 5783,
       "location": {
@@ -90,6 +99,7 @@
       }
    },
    {
+      "id": "h-6a700e27",
       "title": "RijaDomusHotel",
       "price": 5828,
       "location": {
@@ -100,6 +110,7 @@
       }
    },
    {
+      "id": "h-4f99940c",
       "title": "RixwellKonventaSetaDesignHotel",
       "price": 7494,
       "location": {
@@ -110,6 +121,7 @@
       }
    },
    {
+      "id": "h-9687cadd",
       "title": "HestiaHotelDraugi",
       "price": 6351,
       "location": {
@@ -120,6 +132,7 @@
       }
    },
    {
+      "id": "h-e7b5b50d",
       "title": "WelltonCentrumHotel&SPA",
       "price": 9489,
       "location": {
@@ -130,6 +143,7 @@
       }
    },
    {
+      "id": "h-cf2165d5",
       "title": "HotelValdemarsRigamanagedbyAccor",
       "price": 5903,
       "location": {
@@ -140,6 +154,7 @@
       }
    },
    {
+      "id": "h-cd261a30",
       "title": "GrandHotelKempinskiRiga",
       "price": 20099,
       "location": {
@@ -150,6 +165,7 @@
       }
    },
    {
+      "id": "h-32ac06d1",
       "title": "RadissonBluDaugavaHotel,Riga",
       "price": 6321,
       "location": {
@@ -160,6 +176,7 @@
       }
    },
    {
+      "id": "h-2d0e509a",
       "title": "DreamBoutiqueApartments",
       "price": 14121,
       "location": {
@@ -170,6 +187,7 @@
       }
    },
    {
+      "id": "h-cc955d63",
       "title": "RijaVEFHotelwithFREEParking",
       "price": 4857,
       "location": {
@@ -180,6 +198,7 @@
       }
    },
    {
+      "id": "h-d145bb6f",
       "title": "RadissonBluRidzeneHotel,Riga",
       "price": 8069,
       "location": {
@@ -190,6 +209,7 @@
       }
    },
    {
+      "id": "h-99174299",
       "title": "NeiburgsHotel",
       "price": 9788,
       "location": {
@@ -200,6 +220,7 @@
       }
    },
    {
+      "id": "h-67baa8e2",
       "title": "RixwellElefantHotel",
       "price": 7098,
       "location": {
@@ -210,6 +231,7 @@
       }
    },
    {
+      "id": "h-13e9ac95",
       "title": "RadissonBluLatvijaConference&SpaHotel,Riga",
       "price": 7733,
       "location": {
@@ -220,6 +242,7 @@
       }
    },
    {
+      "id": "h-9817953d",
       "title": "EasyroomsDzirnavu",
       "price": 14943,
       "location": {
@@ -230,6 +253,7 @@
       }
    },
    {
+      "id": "h-83f5337e",
       "title": "RixwellGertrudeHotel",
       "price": 8368,
       "location": {
@@ -240,6 +264,7 @@
       }
    },
    {
+      "id": "h-1f9f1eaa",
       "title": "RigaIslandeHotelwithFREEParking",
       "price": 9564,
       "location": {
@@ -250,6 +275,7 @@
       }
    },
    {
+      "id": "h-589c0caa",
       "title": "Stefan64-302C",
       "price": 3667,
       "location": {
@@ -260,6 +286,7 @@
       }
    },
    {
+      "id": "h-62cac550",
       "title": "Bed&BreakfastOlsi",
       "price": 2870,
       "location": {
@@ -270,6 +297,7 @@
       }
    },
    {
+      "id": "h-0571fd4c",
       "title": "HostelCityCenter",
       "price": 626,
       "location": {
@@ -280,6 +308,7 @@
       }
    },
    {
+      "id": "h-e01f1d4b",
       "title": "BristolCentralParkHotel",
       "price": 5260,
       "location": {
@@ -290,6 +319,7 @@
       }
    },
    {
+      "id": "h-fb86a8bc",
       "title": "Apartamentconfortabil,cuoprivelistesuperba",
       "price": 1688,
       "location": {
@@ -300,6 +330,7 @@
       }
    },
    {
+      "id": "h-7fb93cfd",
       "title": "WineHotelChisinau",
       "price": 2923,
       "location": {
@@ -310,6 +341,7 @@
       }
    },
    {
+      "id": "h-8ffa8a73",
       "title": "DiplomatClubHotel",
       "price": 4176,
       "location": {
@@ -320,6 +352,7 @@
       }
    },
    {
+      "id": "h-bed82bc5",
       "title": "Vitalie",
       "price": 1291,
       "location": {
@@ -330,6 +363,7 @@
       }
    },
    {
+      "id": "h-f148e3dd",
       "title": "EdemHotel",
       "price": 2847,
       "location": {
@@ -340,6 +374,7 @@
       }
    },
    {
+      "id": "h-a3f2c5bd",
       "title": "FlowersHotel",
       "price": 5410,
       "location": {
@@ -350,6 +385,7 @@
       }
    },
    {
+      "id": "h-532b3c7d",
       "title": "PremierCityHotelChisinau",
       "price": 3948,
       "location": {
@@ -360,6 +396,7 @@
       }
    },
    {
+      "id": "h-9d6d1c80",
       "title": "CityParkHotel",
       "price": 4822,
       "location": {
@@ -370,6 +407,7 @@
       }
    },
    {
+      "id": "h-3144b2a4",
       "title": "PresidentResortHotel",
       "price": 7202,
       "location": {
@@ -380,6 +418,7 @@
       }
    },
    {
+      "id": "h-8c5ef83a",
       "title": "TapokHostel",
       "price": 380,
       "location": {
@@ -390,6 +429,7 @@
       }
    },
    {
+      "id": "h-25935b5f",
       "title": "JumboHotel",
       "price": 4617,
       "location": {
@@ -400,6 +440,7 @@
       }
    },
    {
+      "id": "h-ed1cfbcb",
       "title": "Art-RusticBoutiqueHotel",
       "price": 3198,
       "location": {
@@ -410,6 +451,7 @@
       }
    },
    {
+      "id": "h-c7ce9b33",
       "title": "Santorini",
       "price": 2278,
       "location": {
@@ -420,6 +462,7 @@
       }
    },
    {
+      "id": "h-d8c5530a",
       "title": "AriaHotelChisinau",
       "price": 3924,
       "location": {
@@ -430,6 +473,7 @@
       }
    },
    {
+      "id": "h-b1f30345",
       "title": "LunaHotel",
       "price": 5125,
       "location": {
@@ -440,6 +484,7 @@
       }
    },
    {
+      "id": "h-07011fc0",
       "title": "MonAmiVilla",
       "price": 4825,
       "location": {
@@ -450,6 +495,7 @@
       }
    },
    {
+      "id": "h-b064a838",
       "title": "ZENTRUMHotel",
       "price": 7308,
       "location": {
@@ -460,6 +506,7 @@
       }
    },
    {
+      "id": "h-2a618bdb",
       "title": "JollyAlonHotel",
       "price": 6479,
       "location": {
@@ -470,6 +517,7 @@
       }
    },
    {
+      "id": "h-c1f6b0b3",
       "title": "Apartamentconfortabil\u00eencentrulora\u0219ului!",
       "price": 2126,
       "location": {
@@ -480,6 +528,7 @@
       }
    },
    {
+      "id": "h-9e43fd63",
       "title": "HostelAmazingIonika",
       "price": 532,
       "location": {
@@ -490,6 +539,7 @@
       }
    },
    {
+      "id": "h-f711a670",
       "title": "GlassCubeHotel",
       "price": 5125,
       "location": {
@@ -500,6 +550,7 @@
       }
    },
    {
+      "id": "h-49d3fc5e",
       "title": "Kiki'sVilla",
       "price": 1948,
       "location": {
@@ -510,6 +561,7 @@
       }
    },
    {
+      "id": "h-f8abec8f",
       "title": "Stebuklas",
       "price": 1366,
       "location": {
@@ -520,6 +572,7 @@
       }
    },
    {
+      "id": "h-7ef1c880",
       "title": "DowntownForestHostel&Camping",
       "price": 986,
       "location": {
@@ -530,6 +583,7 @@
       }
    },
    {
+      "id": "h-5dfb8a16",
       "title": "ArtCityInn",
       "price": 3607,
       "location": {
@@ -540,6 +594,7 @@
       }
    },
    {
+      "id": "h-43d9094f",
       "title": "RatondaCentrumHotels",
       "price": 6127,
       "location": {
@@ -550,6 +605,7 @@
       }
    },
    {
+      "id": "h-fba9bf9c",
       "title": "GratabyCentrumHotels",
       "price": 4472,
       "location": {
@@ -560,6 +616,7 @@
       }
    },
    {
+      "id": "h-c7741a65",
       "title": "IvolitaVilnius",
       "price": 5081,
       "location": {
@@ -570,6 +627,7 @@
       }
    },
    {
+      "id": "h-6c6b1ebe",
       "title": "OldTownTrio",
       "price": 4408,
       "location": {
@@ -580,6 +638,7 @@
       }
    },
    {
+      "id": "h-21efd841",
       "title": "MabreResidence",
       "price": 4643,
       "location": {
@@ -590,6 +649,7 @@
       }
    },
    {
+      "id": "h-529642d5",
       "title": "GrotthussBoutiqueHotelVilnius",
       "price": 6351,
       "location": {
@@ -600,6 +660,7 @@
       }
    },
    {
+      "id": "h-ed2b46d5",
       "title": "RadissonBluHotelLietuva",
       "price": 7771,
       "location": {
@@ -610,6 +671,7 @@
       }
    },
    {
+      "id": "h-c52e81e2",
       "title": "NeringaHotel",
       "price": 4707,
       "location": {
@@ -620,6 +682,7 @@
       }
    },
    {
+      "id": "h-ae087aa8",
       "title": "ArtisCentrumHotels",
       "price": 8966,
       "location": {
@@ -630,6 +693,7 @@
       }
    },
    {
+      "id": "h-7cc2e1d5",
       "title": "VilniusCityHotel",
       "price": 3512,
       "location": {
@@ -640,6 +704,7 @@
       }
    },
    {
+      "id": "h-94acfa53",
       "title": "SAINTCASIMIRGUESTHOUSE",
       "price": 7240,
       "location": {
@@ -650,6 +715,7 @@
       }
    },
    {
+      "id": "h-eb27b4f0",
       "title": "BestWesternVilnius",
       "price": 5604,
       "location": {
@@ -660,6 +726,7 @@
       }
    },
    {
+      "id": "h-bcaeb871",
       "title": "ComfortHotelLT-Rock'n'RollVilnius",
       "price": 4035,
       "location": {
@@ -670,6 +737,7 @@
       }
    },
    {
+      "id": "h-eac0b37a",
       "title": "CityGate",
       "price": 5230,
       "location": {
@@ -680,6 +748,7 @@
       }
    },
    {
+      "id": "h-d333d009",
       "title": "PARKHOTELVILNIUS",
       "price": 3661,
       "location": {
@@ -690,6 +759,7 @@
       }
    },
    {
+      "id": "h-4db36ee9",
       "title": "CrownePlazaVilnius,anIHGHotel",
       "price": 4188,
       "location": {
@@ -700,6 +770,7 @@
       }
    },
    {
+      "id": "h-6f01edd8",
       "title": "CourtyardbyMarriottVilniusCityCenter",
       "price": 5970,
       "location": {
@@ -710,6 +781,7 @@
       }
    },
    {
+      "id": "h-683f8851",
       "title": "CityHotelsR\u016bdninkai",
       "price": 3904,
       "location": {
@@ -720,6 +792,7 @@
       }
    },
    {
+      "id": "h-04652acc",
       "title": "KesmintaApartmentsPARKINGIRECEPTION",
       "price": 4632,
       "location": {
@@ -730,6 +803,7 @@
       }
    },
    {
+      "id": "h-319f2234",
       "title": "ParkVilla",
       "price": 3437,
       "location": {
@@ -740,6 +814,7 @@
       }
    },
    {
+      "id": "h-ef59c08f",
       "title": "DomusMaria",
       "price": 4259,
       "location": {
@@ -750,6 +825,7 @@
       }
    },
    {
+      "id": "h-e61c0904",
       "title": "IbisStylesVilnius",
       "price": 2839,
       "location": {
@@ -760,6 +836,7 @@
       }
    },
    {
+      "id": "h-25f3bfba",
       "title": "ParkPuschaSaunaDeluxeApartment&Terrace",
       "price": 2057,
       "location": {
@@ -770,6 +847,7 @@
       }
    },
    {
+      "id": "h-9e956f5e",
       "title": "DiplomatApartHotel",
       "price": 2385,
       "location": {
@@ -780,6 +858,7 @@
       }
    },
    {
+      "id": "h-c6b58723",
       "title": "KyivWhiskyBoxApart-Hotel",
       "price": 3686,
       "location": {
@@ -790,6 +869,7 @@
       }
    },
    {
+      "id": "h-2e81225c",
       "title": "HolosiyvskyHotel",
       "price": 771,
       "location": {
@@ -800,6 +880,7 @@
       }
    },
    {
+      "id": "h-eef53f30",
       "title": "\u0410\u043f\u0430\u0440\u0442\u0430\u043c\u0435\u043d\u0442\u044b\u043d\u0430\u041e\u0441\u043e\u043a\u043e\u0440\u043a\u0430\u0445",
       "price": 2168,
       "location": {
@@ -810,6 +891,7 @@
       }
    },
    {
+      "id": "h-4672a9bc",
       "title": "SummitApartHotel",
       "price": 2529,
       "location": {
@@ -820,6 +902,7 @@
       }
    },
    {
+      "id": "h-ea458986",
       "title": "BontiakHotel",
       "price": 2168,
       "location": {
@@ -830,6 +913,7 @@
       }
    },
    {
+      "id": "h-476154dc",
       "title": "HotelLime",
       "price": 1659,
       "location": {
@@ -840,6 +924,7 @@
       }
    },
    {
+      "id": "h-5b805e22",
       "title": "irisHotels",
       "price": 1445,
       "location": {
@@ -850,6 +935,7 @@
       }
    },
    {
+      "id": "h-9f2d059f",
       "title": "CampusCommunityA-Hotel",
       "price": 944,
       "location": {
@@ -860,6 +946,7 @@
       }
    },
    {
+      "id": "h-2c324b22",
       "title": "Bulgakoff",
       "price": 482,
       "location": {
@@ -870,6 +957,7 @@
       }
    },
    {
+      "id": "h-ef416db0",
       "title": "SenatorMaidan",
       "price": 5203,
       "location": {
@@ -880,6 +968,7 @@
       }
    },
    {
+      "id": "h-2392e360",
       "title": "MOONOTELMaidan",
       "price": 1445,
       "location": {
@@ -890,6 +979,7 @@
       }
    },
    {
+      "id": "h-7959499f",
       "title": "HostelVokzal",
       "price": 382,
       "location": {
@@ -900,6 +990,7 @@
       }
    },
    {
+      "id": "h-b1043b8c",
       "title": "KievCityHotel",
       "price": 1204,
       "location": {
@@ -910,6 +1001,7 @@
       }
    },
    {
+      "id": "h-51d00189",
       "title": "PremierPalaceHotelKyiv",
       "price": 16795,
       "location": {
@@ -920,6 +1012,7 @@
       }
    },
    {
+      "id": "h-6dacdd2d",
       "title": "Smart-apartSmartHause",
       "price": 1445,
       "location": {
@@ -930,6 +1023,7 @@
       }
    },
    {
+      "id": "h-3c606d53",
       "title": "GoldenGateInn",
       "price": 3902,
       "location": {
@@ -940,6 +1034,7 @@
       }
    },
    {
+      "id": "h-fd6c8857",
       "title": "ApartAssistantonSmartPlaza",
       "price": 3132,
       "location": {
@@ -950,6 +1045,7 @@
       }
    },
    {
+      "id": "h-4a833345",
       "title": "KievViewRailwayStation",
       "price": 2394,
       "location": {
@@ -960,6 +1056,7 @@
       }
    },
    {
+      "id": "h-0fc51a32",
       "title": "FACTORYHostel",
       "price": 530,
       "location": {
@@ -970,6 +1067,7 @@
       }
    },
    {
+      "id": "h-a96448b9",
       "title": "CozyroomonKhreshchatyk(Center).",
       "price": 2409,
       "location": {
@@ -980,6 +1078,7 @@
       }
    },
    {
+      "id": "h-3ef6443f",
       "title": "PetraniNivki",
       "price": 1927,
       "location": {
@@ -990,6 +1089,7 @@
       }
    },
    {
+      "id": "h-62ececd9",
       "title": "\u041f\u043e\u0441\u0443\u0442\u043e\u0447\u043d\u043e\u043c\u0438\u043d\u0438-\u0441\u0442\u0443\u0434\u0438\u044f\u043c\u0435\u0442\u0440\u043e\u041c\u0438\u043d\u0441\u043a\u0430\u044f\u041a\u0438\u0435\u0432",
       "price": 1903,
       "location": {
@@ -1000,6 +1100,7 @@
       }
    },
    {
+      "id": "h-b78800e6",
       "title": "HermitageBoutique-Hotel",
       "price": 3613,
       "location": {
@@ -1010,6 +1111,7 @@
       }
    },
    {
+      "id": "h-1070f95a",
       "title": "SchulzHotelBerlinWallattheEastSideGallery",
       "price": 9842,
       "location": {
@@ -1020,6 +1122,7 @@
       }
    },
    {
+      "id": "h-e7efa375",
       "title": "HotelBerlin,Berlin",
       "price": 12003,
       "location": {
@@ -1030,6 +1133,7 @@
       }
    },
    {
+      "id": "h-8d006baa",
       "title": "AmstelHouseHostel",
       "price": 2730,
       "location": {
@@ -1040,6 +1144,7 @@
       }
    },
    {
+      "id": "h-aa10bb11",
       "title": "MoxyBerlinOstbahnhof",
       "price": 11178,
       "location": {
@@ -1050,6 +1155,7 @@
       }
    },
    {
+      "id": "h-b739906d",
       "title": "B&BHotelBerlin-Tiergarten",
       "price": 7524,
       "location": {
@@ -1060,6 +1166,7 @@
       }
    },
    {
+      "id": "h-9f7980f1",
       "title": "HolidayInnExpress-Berlin-Alexanderplatz,anIHGHotel",
       "price": 13001,
       "location": {
@@ -1070,6 +1177,7 @@
       }
    },
    {
+      "id": "h-7db2c1ee",
       "title": "TITANICComfortKurf\u00fcrstendamm",
       "price": 10386,
       "location": {
@@ -1080,6 +1188,7 @@
       }
    },
    {
+      "id": "h-95c9a290",
       "title": "B\u00f6lscheHotel",
       "price": 5977,
       "location": {
@@ -1090,6 +1199,7 @@
       }
    },
    {
+      "id": "h-21c3d208",
       "title": "SandinoHostelBerlin",
       "price": 1700,
       "location": {
@@ -1100,6 +1210,7 @@
       }
    },
    {
+      "id": "h-df46f0ad",
       "title": "TITANICChausseeBerlin",
       "price": 14286,
       "location": {
@@ -1110,6 +1221,7 @@
       }
    },
    {
+      "id": "h-20852e0f",
       "title": "HotelKaiser",
       "price": 6725,
       "location": {
@@ -1120,6 +1232,7 @@
       }
    },
    {
+      "id": "h-c01706f0",
       "title": "GoldPalaisHotel",
       "price": 15317,
       "location": {
@@ -1130,6 +1243,7 @@
       }
    },
    {
+      "id": "h-6f7771fb",
       "title": "CataloniaBerlinMitte",
       "price": 13448,
       "location": {
@@ -1140,6 +1254,7 @@
       }
    },
    {
+      "id": "h-52e1d771",
       "title": "TSHBerlinAlexanderplatz",
       "price": 21731,
       "location": {
@@ -1150,6 +1265,7 @@
       }
    },
    {
+      "id": "h-ba7d39cf",
       "title": "HotelIndigoBerlin\u2013Ku\u2019damm,anIHGHotel",
       "price": 12489,
       "location": {
@@ -1160,6 +1276,7 @@
       }
    },
    {
+      "id": "h-af3187f9",
       "title": "EssentialbyDorintBerlin-Adlershof",
       "price": 8092,
       "location": {
@@ -1170,6 +1287,7 @@
       }
    },
    {
+      "id": "h-6ec09c68",
       "title": "HotelPrensBerlin",
       "price": 8705,
       "location": {
@@ -1180,6 +1298,7 @@
       }
    },
    {
+      "id": "h-3b4e1ce3",
       "title": "HotelKiezPensionBerlin",
       "price": 10087,
       "location": {
@@ -1190,6 +1309,7 @@
       }
    },
    {
+      "id": "h-1b8af5d7",
       "title": "SeminarisCampusHotelBerlin",
       "price": 11554,
       "location": {
@@ -1200,6 +1320,7 @@
       }
    },
    {
+      "id": "h-03c00745",
       "title": "CourtyardbyMarriottBerlinCityCenter",
       "price": 15616,
       "location": {
@@ -1210,6 +1331,7 @@
       }
    },
    {
+      "id": "h-9ae0048f",
       "title": "HolidayInnBerlinCityCenterEastPrenzlauerBerg,anIHGHotel",
       "price": 15332,
       "location": {
@@ -1220,6 +1342,7 @@
       }
    },
    {
+      "id": "h-63ba6f36",
       "title": "HolidayInnBerlinCityEastSide,anIHGHotel",
       "price": 13374,
       "location": {
@@ -1230,6 +1353,7 @@
       }
    },
    {
+      "id": "h-1f1b0c40",
       "title": "HotelBrandiesanderMesse",
       "price": 10535,
       "location": {
@@ -1240,6 +1364,7 @@
       }
    },
    {
+      "id": "h-ac1cc90d",
       "title": "Meli\u00e1Berlin",
       "price": 18282,
       "location": {
@@ -1250,6 +1375,7 @@
       }
    },
    {
+      "id": "h-be121bf1",
       "title": "LindnerHotelAmKu'damm-Berlin",
       "price": 12709,
       "location": {
@@ -1260,6 +1386,7 @@
       }
    },
    {
+      "id": "h-084462b3",
       "title": "YOTELEdinburgh",
       "price": 44303,
       "location": {
@@ -1270,6 +1397,7 @@
       }
    },
    {
+      "id": "h-2e09d1bd",
       "title": "HolidayInnExpressEdinburghCityWest,anIHGHotel",
       "price": 27920,
       "location": {
@@ -1280,6 +1408,7 @@
       }
    },
    {
+      "id": "h-7bd7927c",
       "title": "HolidayInnExpressEdinburghCityCentre,anIHGHotel",
       "price": 28646,
       "location": {
@@ -1290,6 +1419,7 @@
       }
    },
    {
+      "id": "h-24f5b95c",
       "title": "MalmaisonEdinburgh",
       "price": 31594,
       "location": {
@@ -1300,6 +1430,7 @@
       }
    },
    {
+      "id": "h-99b64b76",
       "title": "BritanniaEdinburghHotel",
       "price": 23920,
       "location": {
@@ -1310,6 +1441,7 @@
       }
    },
    {
+      "id": "h-752a2d91",
       "title": "MercureEdinburghCity-PrincesStreetHotel",
       "price": 26232,
       "location": {
@@ -1320,6 +1452,7 @@
       }
    },
    {
+      "id": "h-9876306b",
       "title": "MoxyEdinburghFountainbridge",
       "price": 28633,
       "location": {
@@ -1330,6 +1463,7 @@
       }
    },
    {
+      "id": "h-4e545636",
       "title": "MelvilleCastleHotel",
       "price": 35479,
       "location": {
@@ -1340,6 +1474,7 @@
       }
    },
    {
+      "id": "h-77f14f46",
       "title": "EdinburghMarriottHotel",
       "price": 21519,
       "location": {
@@ -1350,6 +1485,7 @@
       }
    },
    {
+      "id": "h-1b93a9f4",
       "title": "SheratonGrandHotel&Spa",
       "price": 46377,
       "location": {
@@ -1360,6 +1496,7 @@
       }
    },
    {
+      "id": "h-c611cee0",
       "title": "EdinburghWestSideHostel",
       "price": 2223,
       "location": {
@@ -1370,6 +1507,7 @@
       }
    },
    {
+      "id": "h-da3341c8",
       "title": "DalmahoyHotel&CountryClub",
       "price": 21208,
       "location": {
@@ -1380,6 +1518,7 @@
       }
    },
    {
+      "id": "h-f6451228",
       "title": "VillageHotelEdinburgh",
       "price": 24569,
       "location": {
@@ -1390,6 +1529,7 @@
       }
    },
    {
+      "id": "h-74854f76",
       "title": "WaldorfAstoriaEdinburgh-TheCaledonian",
       "price": 60735,
       "location": {
@@ -1400,6 +1540,7 @@
       }
    },
    {
+      "id": "h-1783944c",
       "title": "TheBonham",
       "price": 45705,
       "location": {
@@ -1410,6 +1551,7 @@
       }
    },
    {
+      "id": "h-051c66cd",
       "title": "StewartbyHeetonConcept-AparthotelEdinburgh",
       "price": 75943,
       "location": {
@@ -1420,6 +1562,7 @@
       }
    },
    {
+      "id": "h-56c03aee",
       "title": "HotelDuVinEdinburgh",
       "price": 58710,
       "location": {
@@ -1430,6 +1573,7 @@
       }
    },
    {
+      "id": "h-17589762",
       "title": "MalmaisonEdinburghCity",
       "price": 33705,
       "location": {
@@ -1440,6 +1584,7 @@
       }
    },
    {
+      "id": "h-dd407d6e",
       "title": "OceanMistLeith",
       "price": 23475,
       "location": {
@@ -1450,6 +1595,7 @@
       }
    },
    {
+      "id": "h-45a8c5ef",
       "title": "HomelyandQuirky2-Bed,2minsFromTheMeadows",
       "price": 73746,
       "location": {
@@ -1460,6 +1606,7 @@
       }
    },
    {
+      "id": "h-cc50fd11",
       "title": "BruntonGardens,MontgomeryStreet",
       "price": 64023,
       "location": {
@@ -1470,6 +1617,7 @@
       }
    },
    {
+      "id": "h-923202f9",
       "title": "HotelInjuHills",
       "price": 1629,
       "location": {
@@ -1480,6 +1628,7 @@
       }
    },
    {
+      "id": "h-9539ac09",
       "title": "HELLOINNbudgethotel",
       "price": 799,
       "location": {
@@ -1490,6 +1639,7 @@
       }
    },
    {
+      "id": "h-6834323f",
       "title": "HotelKapsula",
       "price": 799,
       "location": {
@@ -1500,6 +1650,7 @@
       }
    },
    {
+      "id": "h-5f2ffc77",
       "title": "LionHotel",
       "price": 1847,
       "location": {
@@ -1510,6 +1661,7 @@
       }
    },
    {
+      "id": "h-36364f34",
       "title": "AltynEcoPark",
       "price": 1917,
       "location": {
@@ -1520,6 +1672,7 @@
       }
    },
    {
+      "id": "h-97277973",
       "title": "ComfortHotelAstana",
       "price": 3000,
       "location": {
@@ -1530,6 +1683,7 @@
       }
    },
    {
+      "id": "h-0cfcba25",
       "title": "TorgayHotel",
       "price": 1757,
       "location": {
@@ -1540,6 +1694,7 @@
       }
    },
    {
+      "id": "h-11cbe732",
       "title": "SKYVersal",
       "price": 1597,
       "location": {
@@ -1550,6 +1705,7 @@
       }
    },
    {
+      "id": "h-999f4204",
       "title": "AirportHotel",
       "price": 3195,
       "location": {
@@ -1560,6 +1716,7 @@
       }
    },
    {
+      "id": "h-8252d72e",
       "title": "AltynDalaHotel",
       "price": 1725,
       "location": {
@@ -1570,6 +1727,7 @@
       }
    },
    {
+      "id": "h-353f70c7",
       "title": "BrownHotel",
       "price": 2492,
       "location": {
@@ -1580,6 +1738,7 @@
       }
    },
    {
+      "id": "h-e703c32a",
       "title": "HotelDuman",
       "price": 4270,
       "location": {
@@ -1590,6 +1749,7 @@
       }
    },
    {
+      "id": "h-7a4adab9",
       "title": "WyndhamGardenAstana",
       "price": 4553,
       "location": {
@@ -1600,6 +1760,7 @@
       }
    },
    {
+      "id": "h-0e49b5cd",
       "title": "HiltonGardenInnAstana",
       "price": 5343,
       "location": {
@@ -1610,6 +1771,7 @@
       }
    },
    {
+      "id": "h-f2cbe3d3",
       "title": "HostelSsize",
       "price": 527,
       "location": {
@@ -1620,6 +1782,7 @@
       }
    },
    {
+      "id": "h-1ab06c2d",
       "title": "AstanaMarriottHotel",
       "price": 4745,
       "location": {
@@ -1630,6 +1793,7 @@
       }
    },
    {
+      "id": "h-8e5100f1",
       "title": "VipHouseHotel",
       "price": 3666,
       "location": {
@@ -1640,6 +1804,7 @@
       }
    },
    {
+      "id": "h-4b1a8fbc",
       "title": "RamadabyWyndhamNur-Sultan",
       "price": 3688,
       "location": {
@@ -1650,6 +1815,7 @@
       }
    },
    {
+      "id": "h-bb115472",
       "title": "HamptonByHiltonAstanaTriumphalArch",
       "price": 3465,
       "location": {
@@ -1660,6 +1826,7 @@
       }
    },
    {
+      "id": "h-74fff064",
       "title": "NomadHotel",
       "price": 1597,
       "location": {
@@ -1670,6 +1837,7 @@
       }
    },
    {
+      "id": "h-905ea2a2",
       "title": "OrynborBoutiqueHotel",
       "price": 2875,
       "location": {
@@ -1680,6 +1848,7 @@
       }
    },
    {
+      "id": "h-8835f805",
       "title": "Mini-HotelPulsar",
       "price": 2157,
       "location": {
@@ -1690,6 +1859,7 @@
       }
    },
    {
+      "id": "h-6facaea5",
       "title": "HotelMonaco",
       "price": 3527,
       "location": {
@@ -1700,6 +1870,7 @@
       }
    },
    {
+      "id": "h-5d18ceb5",
       "title": "KingHotelAstana",
       "price": 3195,
       "location": {
@@ -1710,6 +1881,7 @@
       }
    },
    {
+      "id": "h-04d749db",
       "title": "HERAKLESHOTEL",
       "price": 4259,
       "location": {
@@ -1720,6 +1892,7 @@
       }
    },
    {
+      "id": "h-20cba7f1",
       "title": "MAR\u0130NAHOTEL",
       "price": 1569,
       "location": {
@@ -1730,6 +1903,7 @@
       }
    },
    {
+      "id": "h-91e54deb",
       "title": "DoubleTreeByHiltonIzmirAirport",
       "price": 3151,
       "location": {
@@ -1740,6 +1914,7 @@
       }
    },
    {
+      "id": "h-ddfac151",
       "title": "HayHotelAlsancak",
       "price": 3736,
       "location": {
@@ -1750,6 +1925,7 @@
       }
    },
    {
+      "id": "h-a6fd7d2d",
       "title": "GrandCornerBoutiqueHotel",
       "price": 1943,
       "location": {
@@ -1760,6 +1936,7 @@
       }
    },
    {
+      "id": "h-e79b6adb",
       "title": "SwissotelBuyukEfesIzmir",
       "price": 8715,
       "location": {
@@ -1770,6 +1947,7 @@
       }
    },
    {
+      "id": "h-cf70e9a2",
       "title": "IzmirMarriottHotel",
       "price": 8368,
       "location": {
@@ -1780,6 +1958,7 @@
       }
    },
    {
+      "id": "h-bf455d3a",
       "title": "IzmirPalasHotel",
       "price": 2989,
       "location": {
@@ -1790,6 +1969,7 @@
       }
    },
    {
+      "id": "h-3d9bc3d8",
       "title": "BestWesternPremierKarsiyakaConvention&SpaHotel",
       "price": 3411,
       "location": {
@@ -1800,6 +1980,7 @@
       }
    },
    {
+      "id": "h-33368bf9",
       "title": "PianoHotel",
       "price": 1718,
       "location": {
@@ -1810,6 +1991,7 @@
       }
    },
    {
+      "id": "h-c10a4919",
       "title": "TempoResidenceComfortIzmir",
       "price": 2914,
       "location": {
@@ -1820,6 +2002,7 @@
       }
    },
    {
+      "id": "h-216f4588",
       "title": "SmartHotel\u0130zmir",
       "price": 3315,
       "location": {
@@ -1830,6 +2013,7 @@
       }
    },
    {
+      "id": "h-7c9a0b55",
       "title": "TAVAirportHotelIzmir",
       "price": 3631,
       "location": {
@@ -1840,6 +2024,7 @@
       }
    },
    {
+      "id": "h-8458ad9d",
       "title": "ibisStylesIzmirBornova",
       "price": 4132,
       "location": {
@@ -1850,6 +2035,7 @@
       }
    },
    {
+      "id": "h-421cf97c",
       "title": "TheNewHotelZeybek",
       "price": 1718,
       "location": {
@@ -1860,6 +2046,7 @@
       }
    },
    {
+      "id": "h-74009ae1",
       "title": "AntikhanHotel",
       "price": 1195,
       "location": {
@@ -1870,6 +2057,7 @@
       }
    },
    {
+      "id": "h-4820ab58",
       "title": "OglakciogluParkBoutiqueHotel",
       "price": 2242,
       "location": {
@@ -1880,6 +2068,7 @@
       }
    },
    {
+      "id": "h-ec64197c",
       "title": "WyndhamGrand\u0130zmir\u00d6zdilek",
       "price": 7869,
       "location": {
@@ -1890,6 +2079,7 @@
       }
    },
    {
+      "id": "h-2a4d185c",
       "title": "OrtyAirportHotel",
       "price": 2981,
       "location": {
@@ -1900,6 +2090,7 @@
       }
    },
    {
+      "id": "h-4e8d34aa",
       "title": "Ye\u015filyurtResidence",
       "price": 1569,
       "location": {
@@ -1910,6 +2101,7 @@
       }
    },
    {
+      "id": "h-8fb1daea",
       "title": "BestWesternPlusHotelKonak",
       "price": 5525,
       "location": {
@@ -1920,6 +2112,7 @@
       }
    },
    {
+      "id": "h-46bae49d",
       "title": "BalcovaTermalHotel",
       "price": 2466,
       "location": {
@@ -1930,6 +2123,7 @@
       }
    },
    {
+      "id": "h-95325adf",
       "title": "NewParkHotel",
       "price": 2058,
       "location": {
@@ -1940,6 +2134,7 @@
       }
    },
    {
+      "id": "h-7c766310",
       "title": "OccidentalAnkara",
       "price": 3586,
       "location": {
@@ -1950,6 +2145,7 @@
       }
    },
    {
+      "id": "h-64a006ce",
       "title": "KahyaHotelAnkara",
       "price": 1987,
       "location": {
@@ -1960,6 +2156,7 @@
       }
    },
    {
+      "id": "h-cf082405",
       "title": "G\u00fcvenayBusinessHotel",
       "price": 2548,
       "location": {
@@ -1970,6 +2167,7 @@
       }
    },
    {
+      "id": "h-3e86051b",
       "title": "TheWingsHotelsNevaPalas",
       "price": 3400,
       "location": {
@@ -1980,6 +2178,7 @@
       }
    },
    {
+      "id": "h-45cc9599",
       "title": "HotelIckale",
       "price": 2615,
       "location": {
@@ -1990,6 +2189,7 @@
       }
    },
    {
+      "id": "h-d117a21e",
       "title": "HotelCinnah",
       "price": 2075,
       "location": {
@@ -2000,6 +2200,7 @@
       }
    },
    {
+      "id": "h-f965fbf0",
       "title": "GrandMercureAnkara",
       "price": 3934,
       "location": {
@@ -2010,6 +2211,7 @@
       }
    },
    {
+      "id": "h-d8d479aa",
       "title": "AnkaraPlazaHotel",
       "price": 2210,
       "location": {
@@ -2020,6 +2222,7 @@
       }
    },
    {
+      "id": "h-0beb9825",
       "title": "IlciResidenceHotel",
       "price": 2466,
       "location": {
@@ -2030,6 +2233,7 @@
       }
    },
    {
+      "id": "h-ef30b9d4",
       "title": "ibisAnkaraAirportHotel",
       "price": 3833,
       "location": {
@@ -2040,6 +2244,7 @@
       }
    },
    {
+      "id": "h-7c2349d1",
       "title": "Inn14Hostel",
       "price": 448,
       "location": {
@@ -2050,6 +2255,7 @@
       }
    },
    {
+      "id": "h-c6a0d177",
       "title": "MovenpickHotelAnkara",
       "price": 5371,
       "location": {
@@ -2060,6 +2266,7 @@
       }
    },
    {
+      "id": "h-9f48ffd4",
       "title": "LionCityHotelK\u0131z\u0131lay",
       "price": 1521,
       "location": {
@@ -2070,6 +2277,7 @@
       }
    },
    {
+      "id": "h-21514409",
       "title": "DemontiHotel",
       "price": 3979,
       "location": {
@@ -2080,6 +2288,7 @@
       }
    },
    {
+      "id": "h-2e5a9179",
       "title": "LatanyaHotelAnkara",
       "price": 7098,
       "location": {
@@ -2090,6 +2299,7 @@
       }
    },
    {
+      "id": "h-617e28c6",
       "title": "FirstApartHotel",
       "price": 1729,
       "location": {
@@ -2100,6 +2310,7 @@
       }
    },
    {
+      "id": "h-823d730b",
       "title": "GrandSeraHotel",
       "price": 1420,
       "location": {
@@ -2110,6 +2321,7 @@
       }
    },
    {
+      "id": "h-2374ba4b",
       "title": "GrandAnkaraHotelConventionCenter",
       "price": 6650,
       "location": {
@@ -2120,6 +2332,7 @@
       }
    },
    {
+      "id": "h-f29293b4",
       "title": "DemoraHotel",
       "price": 3291,
       "location": {
@@ -2130,6 +2343,7 @@
       }
    },
    {
+      "id": "h-29507412",
       "title": "LionCityHotelAnkara",
       "price": 1073,
       "location": {
@@ -2140,6 +2354,7 @@
       }
    },
    {
+      "id": "h-d574663a",
       "title": "SonnoBoutiqueRooms&Suites",
       "price": 3063,
       "location": {
@@ -2150,6 +2365,7 @@
       }
    },
    {
+      "id": "h-87a55747",
       "title": "AnkaraHiltonSA",
       "price": 7182,
       "location": {
@@ -2160,6 +2376,7 @@
       }
    },
    {
+      "id": "h-a7a2af53",
       "title": "WyndhamAnkara",
       "price": 5366,
       "location": {
@@ -2170,6 +2387,7 @@
       }
    },
    {
+      "id": "h-9bd3ca24",
       "title": "NewParkHotel",
       "price": 2058,
       "location": {
@@ -2180,6 +2398,7 @@
       }
    },
    {
+      "id": "h-a3f77e4a",
       "title": "OccidentalAnkara",
       "price": 3586,
       "location": {
@@ -2190,6 +2409,7 @@
       }
    },
    {
+      "id": "h-7de679a5",
       "title": "KahyaHotelAnkara",
       "price": 1987,
       "location": {
@@ -2200,6 +2420,7 @@
       }
    },
    {
+      "id": "h-3fae937c",
       "title": "G\u00fcvenayBusinessHotel",
       "price": 2548,
       "location": {
@@ -2210,6 +2431,7 @@
       }
    },
    {
+      "id": "h-41725e0c",
       "title": "TheWingsHotelsNevaPalas",
       "price": 3400,
       "location": {
@@ -2220,6 +2442,7 @@
       }
    },
    {
+      "id": "h-542f719a",
       "title": "HotelIckale",
       "price": 2615,
       "location": {
@@ -2230,6 +2453,7 @@
       }
    },
    {
+      "id": "h-12288a3b",
       "title": "HotelCinnah",
       "price": 2075,
       "location": {
@@ -2240,6 +2464,7 @@
       }
    },
    {
+      "id": "h-61f55c52",
       "title": "GrandMercureAnkara",
       "price": 3934,
       "location": {
@@ -2250,6 +2475,7 @@
       }
    },
    {
+      "id": "h-e9f44c82",
       "title": "AnkaraPlazaHotel",
       "price": 2210,
       "location": {
@@ -2260,6 +2486,7 @@
       }
    },
    {
+      "id": "h-9a593635",
       "title": "IlciResidenceHotel",
       "price": 2466,
       "location": {
@@ -2270,6 +2497,7 @@
       }
    },
    {
+      "id": "h-b304daf9",
       "title": "ibisAnkaraAirportHotel",
       "price": 3833,
       "location": {
@@ -2280,6 +2508,7 @@
       }
    },
    {
+      "id": "h-c96bcd51",
       "title": "Inn14Hostel",
       "price": 448,
       "location": {
@@ -2290,6 +2519,7 @@
       }
    },
    {
+      "id": "h-fc859b25",
       "title": "MovenpickHotelAnkara",
       "price": 5371,
       "location": {
@@ -2300,6 +2530,7 @@
       }
    },
    {
+      "id": "h-f922ff16",
       "title": "LionCityHotelK\u0131z\u0131lay",
       "price": 1521,
       "location": {
@@ -2310,6 +2541,7 @@
       }
    },
    {
+      "id": "h-b2cab2f8",
       "title": "DemontiHotel",
       "price": 3979,
       "location": {
@@ -2320,6 +2552,7 @@
       }
    },
    {
+      "id": "h-3f8a687c",
       "title": "LatanyaHotelAnkara",
       "price": 7098,
       "location": {
@@ -2330,6 +2563,7 @@
       }
    },
    {
+      "id": "h-46630382",
       "title": "FirstApartHotel",
       "price": 1729,
       "location": {
@@ -2340,6 +2574,7 @@
       }
    },
    {
+      "id": "h-ad8907f3",
       "title": "GrandSeraHotel",
       "price": 1420,
       "location": {
@@ -2350,6 +2585,7 @@
       }
    },
    {
+      "id": "h-8cb24971",
       "title": "GrandAnkaraHotelConventionCenter",
       "price": 6650,
       "location": {
@@ -2360,6 +2596,7 @@
       }
    },
    {
+      "id": "h-69fcbad3",
       "title": "DemoraHotel",
       "price": 3291,
       "location": {
@@ -2370,6 +2607,7 @@
       }
    },
    {
+      "id": "h-c7be1804",
       "title": "LionCityHotelAnkara",
       "price": 1073,
       "location": {
@@ -2380,6 +2618,7 @@
       }
    },
    {
+      "id": "h-5af7b6ab",
       "title": "SonnoBoutiqueRooms&Suites",
       "price": 3063,
       "location": {
@@ -2390,6 +2629,7 @@
       }
    },
    {
+      "id": "h-bb754504",
       "title": "AnkaraHiltonSA",
       "price": 7182,
       "location": {
@@ -2400,6 +2640,7 @@
       }
    },
    {
+      "id": "h-e8f0da59",
       "title": "WyndhamAnkara",
       "price": 5366,
       "location": {
@@ -2410,6 +2651,7 @@
       }
    },
    {
+      "id": "h-5833c534",
       "title": "Mai\u0130nciHotel",
       "price": 3980,
       "location": {
@@ -2420,6 +2662,7 @@
       }
    },
    {
+      "id": "h-d764788c",
       "title": "ArgosHotel",
       "price": 4173,
       "location": {
@@ -2430,6 +2673,7 @@
       }
    },
    {
+      "id": "h-6efacb6e",
       "title": "AleApartmentsHotel",
       "price": 2615,
       "location": {
@@ -2440,6 +2684,7 @@
       }
    },
    {
+      "id": "h-bd2bb25b",
       "title": "ElysiumGreenSuites",
       "price": 7397,
       "location": {
@@ -2450,6 +2695,7 @@
       }
    },
    {
+      "id": "h-54f3c0ab",
       "title": "ZeynelHotel",
       "price": 3228,
       "location": {
@@ -2460,6 +2706,7 @@
       }
    },
    {
+      "id": "h-7655a057",
       "title": "OnHotel",
       "price": 3147,
       "location": {
@@ -2470,6 +2717,7 @@
       }
    },
    {
+      "id": "h-1fc94635",
       "title": "OldTownPointHotel&SpaAntalya",
       "price": 3228,
       "location": {
@@ -2480,6 +2728,7 @@
       }
    },
    {
+      "id": "h-28f8a9b7",
       "title": "CrownePlazaAntalya,anIHGHotel",
       "price": 5903,
       "location": {
@@ -2490,6 +2739,7 @@
       }
    },
    {
+      "id": "h-947d1746",
       "title": "GrandGullukHotel&Spa",
       "price": 3228,
       "location": {
@@ -2500,6 +2750,7 @@
       }
    },
    {
+      "id": "h-56446f5e",
       "title": "OlbiaHotel",
       "price": 2690,
       "location": {
@@ -2510,6 +2761,7 @@
       }
    },
    {
+      "id": "h-8bbe2819",
       "title": "AntroyalHotel",
       "price": 2466,
       "location": {
@@ -2520,6 +2772,7 @@
       }
    },
    {
+      "id": "h-4553d9cf",
       "title": "ToprakApartOtel",
       "price": 2466,
       "location": {
@@ -2530,6 +2783,7 @@
       }
    },
    {
+      "id": "h-d5420830",
       "title": "HolidayInnAntalya-Lara,anIHGHotel",
       "price": 5820,
       "location": {
@@ -2540,6 +2794,7 @@
       }
    },
    {
+      "id": "h-20342b20",
       "title": "LaraDincHotel",
       "price": 2017,
       "location": {
@@ -2550,6 +2805,7 @@
       }
    },
    {
+      "id": "h-766036d9",
       "title": "AdalyaPortHotel",
       "price": 4217,
       "location": {
@@ -2560,6 +2816,7 @@
       }
    },
    {
+      "id": "h-8d2ac3e6",
       "title": "RixosDowntownAntalyaAllInclusive-TheLandofLegendsAccess",
       "price": 26898,
       "location": {
@@ -2570,6 +2827,7 @@
       }
    },
    {
+      "id": "h-e67335d9",
       "title": "WhiteGardenHotel-AdultOnly",
       "price": 4483,
       "location": {
@@ -2580,6 +2838,7 @@
       }
    },
    {
+      "id": "h-666c056d",
       "title": "GoldenOrangeHotel",
       "price": 4483,
       "location": {
@@ -2590,6 +2849,7 @@
       }
    },
    {
+      "id": "h-4262c80b",
       "title": "TrianaHotel",
       "price": 2510,
       "location": {
@@ -2600,6 +2860,7 @@
       }
    },
    {
+      "id": "h-d569d361",
       "title": "Ayd\u0131nOtelPansiyon",
       "price": 598,
       "location": {
@@ -2610,6 +2871,7 @@
       }
    },
    {
+      "id": "h-f814056a",
       "title": "HeldHotel",
       "price": 1192,
       "location": {
@@ -2620,6 +2882,7 @@
       }
    },
    {
+      "id": "h-7f799a09",
       "title": "PudingMarinaResidence",
       "price": 7262,
       "location": {
@@ -2630,6 +2893,7 @@
       }
    },
    {
+      "id": "h-80480bc6",
       "title": "TheMoriClubHotel",
       "price": 4044,
       "location": {
@@ -2640,6 +2904,7 @@
       }
    },
    {
+      "id": "h-e66a6307",
       "title": "LarenSeaSideHotelSpa",
       "price": 3956,
       "location": {
@@ -2650,6 +2915,7 @@
       }
    },
    {
+      "id": "h-c2ae053a",
       "title": "BestWesternPlusKhanHotel",
       "price": 3671,
       "location": {
@@ -2660,6 +2926,7 @@
       }
    },
    {
+      "id": "h-73407f2a",
       "title": "PrimeHotelTours",
       "price": 2189,
       "location": {
@@ -2670,6 +2937,7 @@
       }
    },
    {
+      "id": "h-9430905a",
       "title": "SaryanHotelYerevan",
       "price": 6743,
       "location": {
@@ -2680,6 +2948,7 @@
       }
    },
    {
+      "id": "h-e836914e",
       "title": "YerevanCentreHotel",
       "price": 3790,
       "location": {
@@ -2690,6 +2959,7 @@
       }
    },
    {
+      "id": "h-514d9f5c",
       "title": "AndorHotel",
       "price": 1141,
       "location": {
@@ -2700,6 +2970,7 @@
       }
    },
    {
+      "id": "h-110192e5",
       "title": "RegardHotel",
       "price": 3356,
       "location": {
@@ -2710,6 +2981,7 @@
       }
    },
    {
+      "id": "h-aa72cf0d",
       "title": "RamadaHotel&SuitesbyWyndhamYerevan",
       "price": 4895,
       "location": {
@@ -2720,6 +2992,7 @@
       }
    },
    {
+      "id": "h-acf3ec2e",
       "title": "A&SHOTEL",
       "price": 1137,
       "location": {
@@ -2730,6 +3003,7 @@
       }
    },
    {
+      "id": "h-82e09c9b",
       "title": "VanGuesthouse",
       "price": 1680,
       "location": {
@@ -2740,6 +3014,7 @@
       }
    },
    {
+      "id": "h-08032cc0",
       "title": "KomitasAvenueGuestHouse",
       "price": 1586,
       "location": {
@@ -2750,6 +3025,7 @@
       }
    },
    {
+      "id": "h-6a4705dc",
       "title": "DominoHostel&Tours",
       "price": 711,
       "location": {
@@ -2760,6 +3036,7 @@
       }
    },
    {
+      "id": "h-3782c686",
       "title": "METROPOLHOTELYerevan",
       "price": 3790,
       "location": {
@@ -2770,6 +3047,7 @@
       }
    },
    {
+      "id": "h-212c4a28",
       "title": "NuryanHotelYerevan",
       "price": 3306,
       "location": {
@@ -2780,6 +3058,7 @@
       }
    },
    {
+      "id": "h-828e299e",
       "title": "IngaHotelYerevan",
       "price": 3067,
       "location": {
@@ -2790,6 +3069,7 @@
       }
    },
    {
+      "id": "h-a406f35c",
       "title": "NorthAvenueHotelYerevan",
       "price": 9143,
       "location": {
@@ -2800,6 +3080,7 @@
       }
    },
    {
+      "id": "h-616f6599",
       "title": "AvenueHostelYerevan",
       "price": 632,
       "location": {
@@ -2810,6 +3091,7 @@
       }
    },
    {
+      "id": "h-8eb86502",
       "title": "CenterHostelandTours",
       "price": 632,
       "location": {
@@ -2820,6 +3102,7 @@
       }
    },
    {
+      "id": "h-5cc946dd",
       "title": "BonjourGuestHouse",
       "price": 2511,
       "location": {
@@ -2830,6 +3113,7 @@
       }
    },
    {
+      "id": "h-5cb42147",
       "title": "DiamondHotelYerevan",
       "price": 8622,
       "location": {
@@ -2840,6 +3124,7 @@
       }
    },
    {
+      "id": "h-ea786afe",
       "title": "CastleFamilyHotel",
       "price": 3553,
       "location": {
@@ -2850,6 +3135,7 @@
       }
    },
    {
+      "id": "h-a8712651",
       "title": "LoftHostYerevan",
       "price": 711,
       "location": {
@@ -2860,6 +3146,7 @@
       }
    },
    {
+      "id": "h-b20ecddd",
       "title": "Ar\u00e8veR\u00e9sidenceBoutiqueHotel",
       "price": 2685,
       "location": {
@@ -2870,6 +3157,7 @@
       }
    },
    {
+      "id": "h-99100229",
       "title": "AzoyanGuestHouse",
       "price": 3948,
       "location": {
@@ -2880,6 +3168,7 @@
       }
    },
    {
+      "id": "h-66727337",
       "title": "ErebuniHotelYerevan",
       "price": 3474,
       "location": {
@@ -2890,6 +3179,7 @@
       }
    },
    {
+      "id": "h-e7023797",
       "title": "HolidayInnExpress-Yerevan,anIHGHotel",
       "price": 5116,
       "location": {
@@ -2900,6 +3190,7 @@
       }
    },
    {
+      "id": "h-17435641",
       "title": "PrimeHotelTours",
       "price": 2189,
       "location": {
@@ -2910,6 +3201,7 @@
       }
    },
    {
+      "id": "h-febed029",
       "title": "SaryanHotelYerevan",
       "price": 6743,
       "location": {
@@ -2920,6 +3212,7 @@
       }
    },
    {
+      "id": "h-342fefc0",
       "title": "YerevanCentreHotel",
       "price": 3790,
       "location": {
@@ -2930,6 +3223,7 @@
       }
    },
    {
+      "id": "h-3c028a56",
       "title": "AndorHotel",
       "price": 1141,
       "location": {
@@ -2940,6 +3234,7 @@
       }
    },
    {
+      "id": "h-58f17b0f",
       "title": "RegardHotel",
       "price": 3356,
       "location": {
@@ -2950,6 +3245,7 @@
       }
    },
    {
+      "id": "h-445a7cf1",
       "title": "RamadaHotel&SuitesbyWyndhamYerevan",
       "price": 4895,
       "location": {
@@ -2960,6 +3256,7 @@
       }
    },
    {
+      "id": "h-7f3d06ca",
       "title": "A&SHOTEL",
       "price": 1137,
       "location": {
@@ -2970,6 +3267,7 @@
       }
    },
    {
+      "id": "h-4278fd04",
       "title": "VanGuesthouse",
       "price": 1680,
       "location": {
@@ -2980,6 +3278,7 @@
       }
    },
    {
+      "id": "h-0a33869f",
       "title": "KomitasAvenueGuestHouse",
       "price": 1586,
       "location": {
@@ -2990,6 +3289,7 @@
       }
    },
    {
+      "id": "h-4c1ab161",
       "title": "DominoHostel&Tours",
       "price": 711,
       "location": {
@@ -3000,6 +3300,7 @@
       }
    },
    {
+      "id": "h-a790501e",
       "title": "METROPOLHOTELYerevan",
       "price": 3790,
       "location": {
@@ -3010,6 +3311,7 @@
       }
    },
    {
+      "id": "h-845447e4",
       "title": "NuryanHotelYerevan",
       "price": 3306,
       "location": {
@@ -3020,6 +3322,7 @@
       }
    },
    {
+      "id": "h-e9e866ef",
       "title": "IngaHotelYerevan",
       "price": 3067,
       "location": {
@@ -3030,6 +3333,7 @@
       }
    },
    {
+      "id": "h-8778be80",
       "title": "NorthAvenueHotelYerevan",
       "price": 9143,
       "location": {
@@ -3040,6 +3344,7 @@
       }
    },
    {
+      "id": "h-ec3423ef",
       "title": "AvenueHostelYerevan",
       "price": 632,
       "location": {
@@ -3050,6 +3355,7 @@
       }
    },
    {
+      "id": "h-00a193a5",
       "title": "CenterHostelandTours",
       "price": 632,
       "location": {
@@ -3060,6 +3366,7 @@
       }
    },
    {
+      "id": "h-ce402631",
       "title": "BonjourGuestHouse",
       "price": 2511,
       "location": {
@@ -3070,6 +3377,7 @@
       }
    },
    {
+      "id": "h-c11f21f4",
       "title": "DiamondHotelYerevan",
       "price": 8622,
       "location": {
@@ -3080,6 +3388,7 @@
       }
    },
    {
+      "id": "h-b69f3537",
       "title": "CastleFamilyHotel",
       "price": 3553,
       "location": {
@@ -3090,6 +3399,7 @@
       }
    },
    {
+      "id": "h-48d29781",
       "title": "LoftHostYerevan",
       "price": 711,
       "location": {
@@ -3100,6 +3410,7 @@
       }
    },
    {
+      "id": "h-f6070b50",
       "title": "Ar\u00e8veR\u00e9sidenceBoutiqueHotel",
       "price": 2685,
       "location": {
@@ -3110,6 +3421,7 @@
       }
    },
    {
+      "id": "h-9a2b07d5",
       "title": "AzoyanGuestHouse",
       "price": 3948,
       "location": {
@@ -3120,6 +3432,7 @@
       }
    },
    {
+      "id": "h-46a4b81a",
       "title": "ErebuniHotelYerevan",
       "price": 3474,
       "location": {
@@ -3130,6 +3443,7 @@
       }
    },
    {
+      "id": "h-d9d34647",
       "title": "HolidayInnExpress-Yerevan,anIHGHotel",
       "price": 5116,
       "location": {
@@ -3140,6 +3454,7 @@
       }
    },
    {
+      "id": "h-615246df",
       "title": "SolePalace",
       "price": 3576,
       "location": {
@@ -3150,6 +3465,7 @@
       }
    },
    {
+      "id": "h-6e606fcb",
       "title": "IrmeniHotel",
       "price": 2043,
       "location": {
@@ -3160,6 +3476,7 @@
       }
    },
    {
+      "id": "h-7e289071",
       "title": "BricksHotel",
       "price": 3866,
       "location": {
@@ -3170,6 +3487,7 @@
       }
    },
    {
+      "id": "h-fa8e1b44",
       "title": "DiumaHotel",
       "price": 3701,
       "location": {
@@ -3180,6 +3498,7 @@
       }
    },
    {
+      "id": "h-572e39af",
       "title": "AtFunicularHostel",
       "price": 564,
       "location": {
@@ -3190,6 +3509,7 @@
       }
    },
    {
+      "id": "h-d2987e48",
       "title": "TheOneTerrace",
       "price": 2903,
       "location": {
@@ -3200,6 +3520,7 @@
       }
    },
    {
+      "id": "h-339925b2",
       "title": "HotelBrigitteTbilisi",
       "price": 3553,
       "location": {
@@ -3210,6 +3531,7 @@
       }
    },
    {
+      "id": "h-cd6d92cc",
       "title": "TbilisiTimes",
       "price": 3065,
       "location": {
@@ -3220,6 +3542,7 @@
       }
    },
    {
+      "id": "h-6b0cc00b",
       "title": "Guesthousedifferent",
       "price": 1412,
       "location": {
@@ -3230,6 +3553,7 @@
       }
    },
    {
+      "id": "h-054c2a55",
       "title": "SotaMetekhiHotel",
       "price": 4458,
       "location": {
@@ -3240,6 +3564,7 @@
       }
    },
    {
+      "id": "h-c5ba6f4c",
       "title": "TbiliSeeBoutiqueHotel",
       "price": 5476,
       "location": {
@@ -3250,6 +3575,7 @@
       }
    },
    {
+      "id": "h-68ee21f4",
       "title": "RedrumTbilisiBoutiqueHotel",
       "price": 6038,
       "location": {
@@ -3260,6 +3586,7 @@
       }
    },
    {
+      "id": "h-b31bc1d4",
       "title": "ReikartzOrientalTbilisi",
       "price": 2879,
       "location": {
@@ -3270,6 +3597,7 @@
       }
    },
    {
+      "id": "h-0a8ebf85",
       "title": "MargoPalaceHotel",
       "price": 3379,
       "location": {
@@ -3280,6 +3608,7 @@
       }
    },
    {
+      "id": "h-c3cf1683",
       "title": "HotelCorner",
       "price": 2090,
       "location": {
@@ -3290,6 +3619,7 @@
       }
    },
    {
+      "id": "h-52a66ccf",
       "title": "HotelImperialHouse",
       "price": 2892,
       "location": {
@@ -3300,6 +3630,7 @@
       }
    },
    {
+      "id": "h-c6180e77",
       "title": "BrosseGarden",
       "price": 4157,
       "location": {
@@ -3310,6 +3641,7 @@
       }
    },
    {
+      "id": "h-08f5d523",
       "title": "PenthouseHotel",
       "price": 2868,
       "location": {
@@ -3320,6 +3652,7 @@
       }
    },
    {
+      "id": "h-b7b0acb7",
       "title": "HotelAquaLiberty",
       "price": 5573,
       "location": {
@@ -3330,6 +3663,7 @@
       }
    },
    {
+      "id": "h-fd437aae",
       "title": "TribecaHotel",
       "price": 4305,
       "location": {
@@ -3340,6 +3674,7 @@
       }
    },
    {
+      "id": "h-ef6f65a3",
       "title": "KindliHotel",
       "price": 4075,
       "location": {
@@ -3350,6 +3685,7 @@
       }
    },
    {
+      "id": "h-c4ec9469",
       "title": "MarionnHotel",
       "price": 4598,
       "location": {
@@ -3360,6 +3696,7 @@
       }
    },
    {
+      "id": "h-e35d4e0b",
       "title": "GeorgianGuestHouseonAsatiani",
       "price": 3019,
       "location": {
@@ -3370,6 +3707,7 @@
       }
    },
    {
+      "id": "h-3b128199",
       "title": "HotelVIP",
       "price": 3177,
       "location": {
@@ -3380,6 +3718,7 @@
       }
    },
    {
+      "id": "h-d74587e7",
       "title": "OctavaBoutiqueHotel",
       "price": 6479,
       "location": {
@@ -3390,6 +3729,7 @@
       }
    },
    {
+      "id": "h-7c5846f0",
       "title": "HestiaHotelKentmanni",
       "price": 6904,
       "location": {
@@ -3400,6 +3740,7 @@
       }
    },
    {
+      "id": "h-5c170a66",
       "title": "HestiaHotelEuropa",
       "price": 8368,
       "location": {
@@ -3410,6 +3751,7 @@
       }
    },
    {
+      "id": "h-ff2267da",
       "title": "CityboxTallinn",
       "price": 5155,
       "location": {
@@ -3420,6 +3762,7 @@
       }
    },
    {
+      "id": "h-ac75e7bb",
       "title": "Liivalaia40cozykitchenstudio",
       "price": 4035,
       "location": {
@@ -3430,6 +3773,7 @@
       }
    },
    {
+      "id": "h-25e4eb6a",
       "title": "TallinkSpa&ConferenceHotel",
       "price": 14869,
       "location": {
@@ -3440,6 +3784,7 @@
       }
    },
    {
+      "id": "h-f7d7a08e",
       "title": "HotelRegentTallinn",
       "price": 12328,
       "location": {
@@ -3450,6 +3795,7 @@
       }
    },
    {
+      "id": "h-ba9d59f9",
       "title": "HotelSt.Barbara",
       "price": 6181,
       "location": {
@@ -3460,6 +3806,7 @@
       }
    },
    {
+      "id": "h-7f8fa013",
       "title": "RijaOldTownHotel",
       "price": 6874,
       "location": {
@@ -3470,6 +3817,7 @@
       }
    },
    {
+      "id": "h-640db4f4",
       "title": "HestiaHotelBaronsOldTown",
       "price": 9115,
       "location": {
@@ -3480,6 +3828,7 @@
       }
    },
    {
+      "id": "h-7e54dd55",
       "title": "ReveltonSuitesTallinn",
       "price": 6725,
       "location": {
@@ -3490,6 +3839,7 @@
       }
    },
    {
+      "id": "h-715eb1eb",
       "title": "NordicHotelForum",
       "price": 10012,
       "location": {
@@ -3500,6 +3850,7 @@
       }
    },
    {
+      "id": "h-9ff4fa70",
       "title": "OriginalSokosHotelViru",
       "price": 7561,
       "location": {
@@ -3510,6 +3861,7 @@
       }
    },
    {
+      "id": "h-e3fb1d02",
       "title": "RevalHomeSelfCheck-InStudios",
       "price": 7098,
       "location": {
@@ -3520,6 +3872,7 @@
       }
    },
    {
+      "id": "h-77b78a78",
       "title": "16eur-OldTownMunkenhof",
       "price": 990,
       "location": {
@@ -3530,6 +3883,7 @@
       }
    },
    {
+      "id": "h-777d690a",
       "title": "RijaFonnentalDesignHotelTallinn",
       "price": 7322,
       "location": {
@@ -3540,6 +3894,7 @@
       }
    },
    {
+      "id": "h-46b6019f",
       "title": "TallinkExpressHotel",
       "price": 5903,
       "location": {
@@ -3550,6 +3905,7 @@
       }
    },
    {
+      "id": "h-5a38e424",
       "title": "HotelRoccaalMare",
       "price": 5043,
       "location": {
@@ -3560,6 +3916,7 @@
       }
    },
    {
+      "id": "h-5bc92a69",
       "title": "OldTownAlurHostel&Bar",
       "price": 961,
       "location": {
@@ -3570,6 +3927,7 @@
       }
    },
    {
+      "id": "h-c5c11a2c",
       "title": "CRUHotel",
       "price": 8219,
       "location": {
@@ -3580,6 +3938,7 @@
       }
    },
    {
+      "id": "h-500c0cb7",
       "title": "HektorContainerHotel",
       "price": 7472,
       "location": {
@@ -3590,6 +3949,7 @@
       }
    },
    {
+      "id": "h-fd2d3644",
       "title": "RoccaApartments",
       "price": 2859,
       "location": {
@@ -3600,6 +3960,7 @@
       }
    },
    {
+      "id": "h-393b3c82",
       "title": "Freedom65HostelandCaravan",
       "price": 1227,
       "location": {
@@ -3610,6 +3971,7 @@
       }
    },
    {
+      "id": "h-ad061182",
       "title": "CapsuleHostelsTallinn",
       "price": 2547,
       "location": {
@@ -3620,6 +3982,7 @@
       }
    },
    {
+      "id": "h-4aaf74c1",
       "title": "HotelTelegraaf,AutographCollection",
       "price": 31381,
       "location": {
@@ -3630,6 +3993,7 @@
       }
    },
    {
+      "id": "h-6da7a83b",
       "title": "\u00dclemisteCityResidences",
       "price": 6949,
       "location": {
@@ -3640,6 +4004,7 @@
       }
    },
    {
+      "id": "h-1b6756e1",
       "title": "HolidayInnLondon-Regent'sPark,anIHGHotel",
       "price": 18985,
       "location": {
@@ -3650,6 +4015,7 @@
       }
    },
    {
+      "id": "h-93587541",
       "title": "COGIEHOUSE",
       "price": 4535,
       "location": {
@@ -3660,6 +4026,7 @@
       }
    },
    {
+      "id": "h-6689bc3f",
       "title": "KensalGreenBackpackers2",
       "price": 1436,
       "location": {
@@ -3670,6 +4037,7 @@
       }
    },
    {
+      "id": "h-1d56bae0",
       "title": "CaringHotel",
       "price": 11254,
       "location": {
@@ -3680,6 +4048,7 @@
       }
    },
    {
+      "id": "h-1bcaf60e",
       "title": "Hotel55",
       "price": 12894,
       "location": {
@@ -3690,6 +4059,7 @@
       }
    },
    {
+      "id": "h-95c4bdbc",
       "title": "TheLondoner",
       "price": 39934,
       "location": {
@@ -3700,6 +4070,7 @@
       }
    },
    {
+      "id": "h-7bedf2a0",
       "title": "TheBeaufort",
       "price": 16612,
       "location": {
@@ -3710,6 +4081,7 @@
       }
    },
    {
+      "id": "h-7fbba8d6",
       "title": "EuroHotel",
       "price": 10137,
       "location": {
@@ -3720,6 +4092,7 @@
       }
    },
    {
+      "id": "h-71e5b691",
       "title": "GladstoneParkGuestHouse",
       "price": 4891,
       "location": {
@@ -3730,6 +4103,7 @@
       }
    },
    {
+      "id": "h-9b8727d4",
       "title": "AstorVictoriaHostel",
       "price": 3201,
       "location": {
@@ -3740,6 +4114,7 @@
       }
    },
    {
+      "id": "h-556d19ba",
       "title": "GeorgeHotel",
       "price": 14494,
       "location": {
@@ -3750,6 +4125,7 @@
       }
    },
    {
+      "id": "h-7ff48238",
       "title": "ibisStylesLondonGloucesterRoad",
       "price": 23030,
       "location": {
@@ -3760,6 +4136,7 @@
       }
    },
    {
+      "id": "h-4964197a",
       "title": "DraycottHotel",
       "price": 17784,
       "location": {
@@ -3770,6 +4147,7 @@
       }
    },
    {
+      "id": "h-69e5f9b9",
       "title": "citizenMLondonBankside",
       "price": 17695,
       "location": {
@@ -3780,6 +4158,7 @@
       }
    },
    {
+      "id": "h-034af62b",
       "title": "HolidayInnExpressLondon-Hammersmith,anIHGHotel",
       "price": 11915,
       "location": {
@@ -3790,6 +4169,7 @@
       }
    },
    {
+      "id": "h-b76214ec",
       "title": "DurrantsHotel",
       "price": 20007,
       "location": {
@@ -3800,6 +4180,7 @@
       }
    },
    {
+      "id": "h-09d06480",
       "title": "BestWesternBuckinghamPalaceRd",
       "price": 16806,
       "location": {
@@ -3810,6 +4191,7 @@
       }
    },
    {
+      "id": "h-e25d5423",
       "title": "citizenMLondonShoreditch",
       "price": 16806,
       "location": {
@@ -3820,6 +4202,7 @@
       }
    },
    {
+      "id": "h-614e4b8b",
       "title": "BlueprintLivingApartments-TurnmillStreet",
       "price": 88921,
       "location": {
@@ -3830,6 +4213,7 @@
       }
    },
    {
+      "id": "h-fb0fc48f",
       "title": "citizenMTowerofLondon",
       "price": 17695,
       "location": {
@@ -3840,6 +4224,7 @@
       }
    },
    {
+      "id": "h-48c2aa8f",
       "title": "AmericanaHotel",
       "price": 13872,
       "location": {
@@ -3850,6 +4235,7 @@
       }
    },
    {
+      "id": "h-704fbccb",
       "title": "WhiteHouseHotel&SPA",
       "price": 2981,
       "location": {
@@ -3860,6 +4246,7 @@
       }
    },
    {
+      "id": "h-327b1465",
       "title": "MaksimHotel",
       "price": 980,
       "location": {
@@ -3870,6 +4257,7 @@
       }
    },
    {
+      "id": "h-dfd75e0a",
       "title": "HappyInnHotel",
       "price": 800,
       "location": {
@@ -3880,6 +4268,7 @@
       }
    },
    {
+      "id": "h-0f694c0a",
       "title": "ElevenHotelBaku",
       "price": 2938,
       "location": {
@@ -3890,6 +4279,7 @@
       }
    },
    {
+      "id": "h-dbbc8ce4",
       "title": "CenterCityHotelBaku",
       "price": 2270,
       "location": {
@@ -3900,6 +4290,7 @@
       }
    },
    {
+      "id": "h-f484bf0f",
       "title": "AltusHotelBaku",
       "price": 634,
       "location": {
@@ -3910,6 +4301,7 @@
       }
    },
    {
+      "id": "h-2acbe0fe",
       "title": "MensenHotelBaku",
       "price": 1251,
       "location": {
@@ -3920,6 +4312,7 @@
       }
    },
    {
+      "id": "h-f83c3655",
       "title": "BestCenterHotel",
       "price": 3252,
       "location": {
@@ -3930,6 +4323,7 @@
       }
    },
    {
+      "id": "h-d2a2a214",
       "title": "TourHotelBaku",
       "price": 2501,
       "location": {
@@ -3940,6 +4334,7 @@
       }
    },
    {
+      "id": "h-3f368b86",
       "title": "RenaissancePalaceHotelBaku",
       "price": 2614,
       "location": {
@@ -3950,6 +4345,7 @@
       }
    },
    {
+      "id": "h-9155b25a",
       "title": "ACCESSHotel",
       "price": 1667,
       "location": {
@@ -3960,6 +4356,7 @@
       }
    },
    {
+      "id": "h-d986af70",
       "title": "MossArtBoutiqueHotel",
       "price": 2626,
       "location": {
@@ -3970,6 +4367,7 @@
       }
    },
    {
+      "id": "h-24404a68",
       "title": "BakuExoticaHotel",
       "price": 2501,
       "location": {
@@ -3980,6 +4378,7 @@
       }
    },
    {
+      "id": "h-ca75c57b",
       "title": "SupremeHotelBaku",
       "price": 2501,
       "location": {
@@ -3990,6 +4389,7 @@
       }
    },
    {
+      "id": "h-20cc4197",
       "title": "CityInnBoutiqueHotel",
       "price": 2032,
       "location": {
@@ -4000,6 +4400,7 @@
       }
    },
    {
+      "id": "h-bbe47deb",
       "title": "ZamZamHotel",
       "price": 2501,
       "location": {
@@ -4010,6 +4411,7 @@
       }
    },
    {
+      "id": "h-2392e41f",
       "title": "NordHotelBaku",
       "price": 1334,
       "location": {
@@ -4020,6 +4422,7 @@
       }
    },
    {
+      "id": "h-410178ad",
       "title": "HazzHotel",
       "price": 3673,
       "location": {
@@ -4030,6 +4433,7 @@
       }
    },
    {
+      "id": "h-7fd55fea",
       "title": "KristalHotel",
       "price": 1126,
       "location": {
@@ -4040,6 +4444,7 @@
       }
    },
    {
+      "id": "h-35052a49",
       "title": "PrestigeApartmentVIPH\u0130LTTON",
       "price": 6910,
       "location": {
@@ -4050,6 +4455,7 @@
       }
    },
    {
+      "id": "h-3df65b84",
       "title": "RoyalPalaceHotelBaku",
       "price": 2801,
       "location": {
@@ -4060,6 +4466,7 @@
       }
    },
    {
+      "id": "h-8af6f83f",
       "title": "YOTELNewYorkTimesSquare",
       "price": 20695,
       "location": {
@@ -4070,6 +4477,7 @@
       }
    },
    {
+      "id": "h-31885b78",
       "title": "Pod51",
       "price": 18344,
       "location": {
@@ -4080,6 +4488,7 @@
       }
    },
    {
+      "id": "h-d2e3fd84",
       "title": "PodTimesSquare",
       "price": 23301,
       "location": {
@@ -4090,6 +4499,7 @@
       }
    },
    {
+      "id": "h-d93e3888",
       "title": "RiuPlazaManhattanTimesSquare",
       "price": 31093,
       "location": {
@@ -4100,6 +4510,7 @@
       }
    },
    {
+      "id": "h-78293f86",
       "title": "HyattPlaceNewYorkCity/TimesSquare",
       "price": 45186,
       "location": {
@@ -4110,6 +4521,7 @@
       }
    },
    {
+      "id": "h-19db89d1",
       "title": "TheNewYorker,AWyndhamHotel",
       "price": 21106,
       "location": {
@@ -4120,6 +4532,7 @@
       }
    },
    {
+      "id": "h-73799e7a",
       "title": "HINYCHostel",
       "price": 4709,
       "location": {
@@ -4130,6 +4543,7 @@
       }
    },
    {
+      "id": "h-70b8ba7a",
       "title": "TheKnickerbocker",
       "price": 49578,
       "location": {
@@ -4140,6 +4554,7 @@
       }
    },
    {
+      "id": "h-5ec01e57",
       "title": "HyattPlaceNYCChelsea",
       "price": 38316,
       "location": {
@@ -4150,6 +4565,7 @@
       }
    },
    {
+      "id": "h-a44a8768",
       "title": "HotelEdisonTimesSquare",
       "price": 30384,
       "location": {
@@ -4160,6 +4576,7 @@
       }
    },
    {
+      "id": "h-4be03fd5",
       "title": "citizenMNewYorkTimesSquare",
       "price": 29322,
       "location": {
@@ -4170,6 +4587,7 @@
       }
    },
    {
+      "id": "h-9b41496e",
       "title": "NHCollectionNewYorkMadisonAvenue",
       "price": 25826,
       "location": {
@@ -4180,6 +4598,7 @@
       }
    },
    {
+      "id": "h-6532325b",
       "title": "SpringHillSuitesbyMarriottNewYorkMidtownManhattan/ParkAve",
       "price": 25426,
       "location": {
@@ -4190,6 +4609,7 @@
       }
    },
    {
+      "id": "h-a3aebf1d",
       "title": "FairfieldInn&SuitesbyMarriottNewYorkManhattan/TimesSquareSouth",
       "price": 26708,
       "location": {
@@ -4200,6 +4620,7 @@
       }
    },
    {
+      "id": "h-24325e81",
       "title": "HolidayInnManhattanFinancialDistrict,anIHGHotel",
       "price": 20791,
       "location": {
@@ -4210,6 +4631,7 @@
       }
    },
    {
+      "id": "h-428b8547",
       "title": "SoHo54",
       "price": 26843,
       "location": {
@@ -4220,6 +4642,7 @@
       }
    },
    {
+      "id": "h-d23dc351",
       "title": "WestSideYMCA",
       "price": 9151,
       "location": {
@@ -4230,6 +4653,7 @@
       }
    },
    {
+      "id": "h-99fdd68a",
       "title": "UHotelFifthAvenueIEmpireStateBuilding",
       "price": 25915,
       "location": {
@@ -4240,6 +4664,7 @@
       }
    },
    {
+      "id": "h-6b57fd30",
       "title": "FairfieldInn&SuitesbyMarriottNewYorkMidtownManhattan/PennStation",
       "price": 28620,
       "location": {
@@ -4250,6 +4675,7 @@
       }
    },
    {
+      "id": "h-3ff64ca4",
       "title": "FairfieldInnbyMarriottNewYorkManhattan/FinancialDistrict",
       "price": 21010,
       "location": {
@@ -4260,6 +4686,7 @@
       }
    },
    {
+      "id": "h-b7e39f34",
       "title": "HolidayInnManhattan6thAve-Chelsea,anIHGHotel",
       "price": 24158,
       "location": {
@@ -4270,6 +4697,7 @@
       }
    },
    {
+      "id": "h-aa7a75bb",
       "title": "RadissonHotelNewYorkMidtown-FifthAvenue",
       "price": 24868,
       "location": {
@@ -4280,6 +4708,7 @@
       }
    },
    {
+      "id": "h-889c53d7",
       "title": "HGUNewYork",
       "price": 25231,
       "location": {
@@ -4290,6 +4719,7 @@
       }
    },
    {
+      "id": "h-6ba0549e",
       "title": "TownePlaceSuitesbyMarriottNewYorkManhattan/TimesSquare",
       "price": 29538,
       "location": {
@@ -4300,6 +4730,7 @@
       }
    },
    {
+      "id": "h-88cfa66a",
       "title": "Nyma,TheNewYorkManhattanHotel",
       "price": 25426,
       "location": {
@@ -4310,6 +4741,7 @@
       }
    },
    {
+      "id": "h-2b729fb3",
       "title": "PentahotelMoscow.Arbat-HotelinArbat",
       "price": 5700,
       "location": {
@@ -4320,6 +4752,7 @@
       }
    },
    {
+      "id": "h-04007e10",
       "title": "AZIMUTHotelSmolenskayaMoscow-HotelinArbat",
       "price": 3300,
       "location": {
@@ -4330,6 +4763,7 @@
       }
    },
    {
+      "id": "h-76a4dbb3",
       "title": "HiltonMoscowLeningradskaya-HotelinKrasnoselsky",
       "price": 5100,
       "location": {
@@ -4340,6 +4774,7 @@
       }
    },
    {
+      "id": "h-d6f64cf3",
       "title": "RadissonCollectionHotelMoscow-HotelinThirdTransportRing",
       "price": 6600,
       "location": {
@@ -4350,6 +4785,7 @@
       }
    },
    {
+      "id": "h-197c69f8",
       "title": "SelectHotelPaveletskaya-HotelinZamoskvorechye",
       "price": 3700,
       "location": {
@@ -4360,6 +4796,7 @@
       }
    },
    {
+      "id": "h-34c80847",
       "title": "RadissonBluBelorusskaya-HotelinThirdTransportRing",
       "price": 9990,
       "location": {
@@ -4370,6 +4807,7 @@
       }
    },
    {
+      "id": "h-066398f6",
       "title": "AZIMUTHotelOlympicMoscow-HotelinMeshchansky",
       "price": 3612,
       "location": {
@@ -4380,6 +4818,7 @@
       }
    },
    {
+      "id": "h-f4e3cc3d",
       "title": "RadissonSlavyanskayaHotel&BusinessCenter-HotelinThirdTransportRing",
       "price": 6600,
       "location": {
@@ -4390,6 +4829,7 @@
       }
    },
    {
+      "id": "h-a4136ca3",
       "title": "MoscowMarriottTverskayaHotel-HotelinTverskoy",
       "price": 5400,
       "location": {
@@ -4400,6 +4840,7 @@
       }
    },
    {
+      "id": "h-f9214013",
       "title": "RadissonBluOlympiyskiyHotel-HotelinMeshchansky",
       "price": 6600,
       "location": {
@@ -4410,6 +4851,7 @@
       }
    },
    {
+      "id": "h-25eafb90",
       "title": "ParkInnbyRadissonYaroslavl-HotelinYaroslavl",
       "price": 4150,
       "location": {
@@ -4420,6 +4862,7 @@
       }
    },
    {
+      "id": "h-9d2b97c2",
       "title": "HotelComplexLubim-HotelinYaroslavl",
       "price": 2900,
       "location": {
@@ -4430,6 +4873,7 @@
       }
    },
    {
+      "id": "h-88613103",
       "title": "HotelBaccara-HotelinYaroslavl",
       "price": 2500,
       "location": {
@@ -4440,6 +4884,7 @@
       }
    },
    {
+      "id": "h-87f83cdf",
       "title": "IbisYaroslavlCenter-HotelinYaroslavl",
       "price": 3650,
       "location": {
@@ -4450,6 +4895,7 @@
       }
    },
    {
+      "id": "h-7f4668cd",
       "title": "AleshaPopovitchDvor-HotelinYaroslavl",
       "price": 2600,
       "location": {
@@ -4460,6 +4906,7 @@
       }
    },
    {
+      "id": "h-d5e65a7e",
       "title": "BoutiqueHotelIoannVasilievich-HotelinYaroslavl",
       "price": 3300,
       "location": {
@@ -4470,6 +4917,7 @@
       }
    },
    {
+      "id": "h-ad71a495",
       "title": "RingPremierHotel-HotelinYaroslavl",
       "price": 4750,
       "location": {
@@ -4480,6 +4928,7 @@
       }
    },
    {
+      "id": "h-97af05c9",
       "title": "KuptsovDom-HotelinYaroslavl",
       "price": 3652,
       "location": {
@@ -4490,6 +4939,7 @@
       }
    },
    {
+      "id": "h-44b134e0",
       "title": "BoutiqueHotelModern-HotelinYaroslavl",
       "price": 2500,
       "location": {
@@ -4500,6 +4950,7 @@
       }
    },
    {
+      "id": "h-42b8d65f",
       "title": "AZIMUTHotelYaroslavl-HotelinYaroslavl",
       "price": 2999,
       "location": {
@@ -4510,6 +4961,7 @@
       }
    },
    {
+      "id": "h-66bac235",
       "title": "DonKikhotHotel-HotelinCityCentre,Kazan",
       "price": 3136,
       "location": {
@@ -4520,6 +4972,7 @@
       }
    },
    {
+      "id": "h-aca7137b",
       "title": "AMAKSSafarHotel-HotelinKazan",
       "price": 2805,
       "location": {
@@ -4530,6 +4983,7 @@
       }
    },
    {
+      "id": "h-bd4054ab",
       "title": "Parkhotel-HotelinCityCentre,Kazan",
       "price": 3400,
       "location": {
@@ -4540,6 +4994,7 @@
       }
    },
    {
+      "id": "h-05d8a2f1",
       "title": "IbisKazanHotel-HotelinCityCentre,Kazan",
       "price": 4250,
       "location": {
@@ -4550,6 +5005,7 @@
       }
    },
    {
+      "id": "h-7c7ff242",
       "title": "OsobnyaknaTeatralnoy-HotelinCityCentre,Kazan",
       "price": 3700,
       "location": {
@@ -4560,6 +5016,7 @@
       }
    },
    {
+      "id": "h-74c705c7",
       "title": "MirageHotel-HotelinCityCentre,Kazan",
       "price": 8000,
       "location": {
@@ -4570,6 +5027,7 @@
       }
    },
    {
+      "id": "h-40d6c1e0",
       "title": "VolgaHotel-HotelinCityCentre,Kazan",
       "price": 1450,
       "location": {
@@ -4580,6 +5038,7 @@
       }
    },
    {
+      "id": "h-c5a079c4",
       "title": "DoubleTreebyHiltonKazanCityCenter-HotelinCityCentre,Kazan",
       "price": 6970,
       "location": {
@@ -4590,6 +5049,7 @@
       }
    },
    {
+      "id": "h-40321adf",
       "title": "TatarstanHotel-HotelinCityCentre,Kazan",
       "price": 2500,
       "location": {
@@ -4600,6 +5060,7 @@
       }
    },
    {
+      "id": "h-16657025",
       "title": "BilyarPalace-HotelinCityCentre,Kazan",
       "price": 5900,
       "location": {
@@ -4610,6 +5071,7 @@
       }
    },
    {
+      "id": "h-e9555ece",
       "title": "Saint-PetersburgHotel-HotelinVyborgsky,SaintPetersburg",
       "price": 6500,
       "location": {
@@ -4620,6 +5082,7 @@
       }
    },
    {
+      "id": "h-0b9b3b17",
       "title": "ParkInnbyRadissonPulkovoAirport-HotelinMoskovskiy,SaintPetersburg",
       "price": 8390,
       "location": {
@@ -4630,6 +5093,7 @@
       }
    },
    {
+      "id": "h-f74560a6",
       "title": "ParkInnbyRadissonPulkovskayaHotel&ConferenceCentreStPetersburg-HotelinMoskovskiy,SaintPetersburg",
       "price": 10530,
       "location": {
@@ -4640,6 +5104,7 @@
       }
    },
    {
+      "id": "h-84040785",
       "title": "RadissonRoyalHotel-HotelinTsentralny,SaintPetersburg",
       "price": 8390,
       "location": {
@@ -4650,6 +5115,7 @@
       }
    },
    {
+      "id": "h-55797a56",
       "title": "ParkInnbyRadissonPribaltiyskayaHotelandCongressCentre-HotelinVasileostrovskiy,SaintPetersburg",
       "price": 8390,
       "location": {
@@ -4660,6 +5126,7 @@
       }
    },
    {
+      "id": "h-91597c16",
       "title": "VedenskyHotel-HotelinPetrogradskiy,SaintPetersburg",
       "price": 5700,
       "location": {
@@ -4670,6 +5137,7 @@
       }
    },
    {
+      "id": "h-6a958b9f",
       "title": "CorinthiaHotelStPetersburg-HotelinTsentralny,SaintPetersburg",
       "price": 11940,
       "location": {
@@ -4680,6 +5148,7 @@
       }
    },
    {
+      "id": "h-735a5c17",
       "title": "ParkInnbyRadissonNevsky-HotelinTsentralny,SaintPetersburg",
       "price": 8390,
       "location": {
@@ -4690,6 +5159,7 @@
       }
    },
    {
+      "id": "h-d0057d3c",
       "title": "AZIMUTHotelSaint-Petersburg-HotelinAdmiralteyskiy,SaintPetersburg",
       "price": 4250,
       "location": {
@@ -4700,6 +5170,7 @@
       }
    },
    {
+      "id": "h-0ad0fcd8",
       "title": "AkyanSt.Petersburg-HotelinTsentralny,SaintPetersburg",
       "price": 4675,
       "location": {

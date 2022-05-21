@@ -4,10 +4,10 @@ from purchase import Purchase
 
 
 class Hotel(Purchase):
-    def __init__(self, title: str, price: Decimal, location: Location):
+    def __init__(self, purchase_id: str, title: str, price: Decimal, location: Location):
         self.title = title
         self.location = location
-        super().__init__(price)
+        super().__init__(purchase_id, price)
 
     def print_hotel_info(self):
         print(f'{self.title}, {self.price}, {self.location.print_location()}')
