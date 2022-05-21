@@ -50,6 +50,10 @@ class DB(metaclass=Singleton):
     def add_purchased_train_ticket_to_client(client: Client, purchased_train_ticket: PurchasedTrainTicket):
         client.add_purchased_train_ticket(purchased_train_ticket)
 
+    @staticmethod
+    def add_tour_to_client(client: Client, tour: Tour):
+        client.add_tour(tour)
+
 
 class Storage:
     def __init__(self, filename: str):

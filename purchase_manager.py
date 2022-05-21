@@ -18,3 +18,7 @@ class PurchaseManager:
     @staticmethod
     def buy_train_ticket(client: Client, purchased_train_ticket: PurchasedTrainTicket):
         DB.add_purchased_train_ticket_to_client(client, purchased_train_ticket)
+
+    @staticmethod
+    def buy_tour(client: Client, tour: Tour):
+        DB.add_tour_to_client(client, tour)

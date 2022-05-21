@@ -39,3 +39,6 @@ class Client:
 
     def add_purchased_train_ticket(self, purchased_train_ticket: PurchasedTrainTicket):
         self.list_of_purchased_train_tickets.append(purchased_train_ticket)
+
+    def add_tour(self, tour: Tour):
+        self.list_of_tours.append(tour)
