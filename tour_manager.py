@@ -5,8 +5,8 @@ from tour import *
 
 
 class TourManager:
-    def __init__(self, data_base: DB):
-        self.data_base = data_base
+    def __init__(self):
+        self.data_base = DB()
 
     @staticmethod
     def add_purchased_hotel_to_tour(tour: Tour, purchased_hotel: PurchasedHotel):
