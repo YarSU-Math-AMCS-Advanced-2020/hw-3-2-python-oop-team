@@ -16,11 +16,6 @@ class Client:
         self.phone_number = '+79000000000'
         self.password = 'qwerty123'
 
-        self.list_of_purchased_hotels: List[PurchasedHotel] = []
-        self.list_of_purchased_train_tickets: List[PurchasedTrainTicket] = []
-        self.list_of_purchased_plane_tickets: List[PurchasedPlaneTicket] = []
-        self.list_of_tours: List[Tour] = []
-
     def registration(self, first_name: str, last_name: str, birthdate: datetime, mail: str, phone_number: str,
                      password: str):
         self.first_name = first_name
@@ -31,15 +26,3 @@ class Client:
         self.password = password
 
     # TODO: getters, setters
-
-    def add_purchased_hotel(self, purchased_hotel: PurchasedHotel):
-        self.list_of_purchased_hotels.append(purchased_hotel)
-
-    def add_purchased_plane_ticket(self, purchased_plane_ticket: PurchasedPlaneTicket):
-        self.list_of_purchased_plane_tickets.append(purchased_plane_ticket)
-
-    def add_purchased_train_ticket(self, purchased_train_ticket: PurchasedTrainTicket):
-        self.list_of_purchased_train_tickets.append(purchased_train_ticket)
-
-    def add_tour(self, tour: Tour):
-        self.list_of_tours.append(tour)

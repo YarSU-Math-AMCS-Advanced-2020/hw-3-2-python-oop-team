@@ -43,3 +43,10 @@ class TicketFilters(Filters):
             self.filter_list.append(lambda x: x.get('from') == ticket_filters['from'])
         if ticket_filters.get('to'):
             self.filter_list.append(lambda x: x.get('to') == ticket_filters['to'])
+
+
+class ClientFilters(Filters):
+    def __init__(self, client_id: str):
+        super().__init__()
+        # Нужно, чтобы в modified_clients.json было поле client_id
+        self.filter_list.append(lambda x: x.get('client_id') == client_id)
