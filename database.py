@@ -29,10 +29,10 @@ class DB(metaclass=Singleton):
         return self.hotel_storage.find_hotels(hotel_filters)
 
     def find_train_tickets(self, ticket_filters: TicketFilters):
-        self.train_ticket_storage.find_train_tickets(ticket_filters)
+        return self.train_ticket_storage.find_train_tickets(ticket_filters)
 
     def find_plane_tickets(self, ticket_filters: TicketFilters):
-        self.plane_ticket_storage.find_plane_tickets(ticket_filters)
+        return self.plane_ticket_storage.find_plane_tickets(ticket_filters)
 
     @staticmethod
     def add_purchased_hotel_to_client(client: Client, purchased_hotel: PurchasedHotel):
