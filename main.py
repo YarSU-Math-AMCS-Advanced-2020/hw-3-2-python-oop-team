@@ -3,11 +3,17 @@ from request import Request
 
 
 if __name__ == '__main__':
-    ticket_dict = {'to': 'Москва'}
-    #hotel_dict = {'city': 'Kyiv', 'price': (123, 4123)}
-    #request = Request('find_plane_tickets', ticket_dict)
+    #plane_dict = {'id': 'pt-5e1f45b8'}
+    #request = Request('buy_plane_ticket', plane_dict)
+    #front_controller = FrontController()
+    #res = front_controller.handle(request)
 
-    hotel_dict = {'id': 'h-aa84dc1e'}
-    request = Request('buy_hotel', hotel_dict)
+    #hotel_dict = {'id': 'h-aa84dc1e'}
+    #request = Request('buy_hotel', hotel_dict)
+    #front_controller = FrontController()
+    #res = front_controller.handle(request)
+
+    train_dict = {'id': 'tt-e5f5f274'}
+    request = Request('buy_train_ticket', train_dict)
     front_controller = FrontController()
     res = front_controller.handle(request)

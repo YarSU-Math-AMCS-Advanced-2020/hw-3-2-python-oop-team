@@ -4,7 +4,6 @@ from hotel import Hotel
 from location import Location
 from ticket import Ticket, PlainTicket, TrainTicket, BusTicket
 from enum import Enum
-import datetime
 from decimal import Decimal
 
 
@@ -23,7 +22,7 @@ class TravelManager:
         self.type = operation_type
 
     def ticket_searching(self, from_location: Location, to_location: Location,
-                 departure_date: datetime, arrival_date: datetime,
+                 departure_date: str, arrival_date: str,
                  price: Decimal):
         return
         # TODO: this function

@@ -1,7 +1,6 @@
 from hotel import Hotel
 from location import Location
 from decimal import Decimal
-import datetime
 
 
 class PurchasedHotel(Hotel):
@@ -13,10 +12,10 @@ class PurchasedHotel(Hotel):
         self.check_out = check_out
         self.people_count = people_count
 
-    def set_check_in(self, check_in: datetime):
+    def set_check_in(self, check_in: str):
         self.check_in = check_in
 
-    def set_check_out(self, check_out: datetime):
+    def set_check_out(self, check_out: str):
         self.check_out = check_out
 
     def set_people_count(self, people_count: int):
