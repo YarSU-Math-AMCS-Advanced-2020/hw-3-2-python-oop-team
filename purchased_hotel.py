@@ -5,9 +5,10 @@ import datetime
 
 
 class PurchasedHotel(Hotel):
-    def __init__(self, title: str, price: Decimal, location: Location, check_in: datetime, check_out: datetime,
+    def __init__(self, hotel: Hotel, check_in: str, check_out: str,
                  people_count: int):
-        super().__init__(title, price, location)
+        super().__init__(hotel.get_purchase_id(), hotel.get_title(),
+                         hotel.get_price(), hotel.get_location())
         self.check_in = check_in
         self.check_out = check_out
         self.people_count = people_count

@@ -15,6 +15,8 @@ class Filters:
 class HotelFilters(Filters):
     def __init__(self, hotel_filters: dict):
         super().__init__()
+        if hotel_filters.get('id'):
+            self.filter_list.append(lambda x: x.get('id') == hotel_filters['id'])
         if hotel_filters.get('city'):
             self.filter_list.append(lambda x: x.get('location', {}).get('city') == hotel_filters['city'])
         if hotel_filters.get('country'):
@@ -26,6 +28,8 @@ class HotelFilters(Filters):
 class TicketFilters(Filters):
     def __init__(self, ticket_filters: dict):
         super().__init__()
+        if ticket_filters.get('id'):
+            self.filter_list.append(lambda x: x.get('id') == ticket_filters['id'])
         if ticket_filters.get('departure_time'):
             self.filter_list.append(lambda x: x.get('departure_time') == ticket_filters['departure_time'])
         if ticket_filters.get('arrival_time'):
