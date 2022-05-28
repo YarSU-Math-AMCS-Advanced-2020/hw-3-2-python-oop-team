@@ -56,10 +56,10 @@ class BuyHotelCommand(AbstractCommand):
 
     def execute(self):
         client = Client(self.args.get('client_id'))
-        hotel_dict = self.front_controller.search_manager.find_hotels(HotelFilters({'id': self.args.get('id')}))
-        hotel = Hotel(hotel_dict[0]['id'], hotel_dict[0]['title'], hotel_dict[0]['price'],
-                      Location(hotel_dict[0]['location']['street'], hotel_dict[0]['location']['city'],
-                               hotel_dict[0]['location']['district'], hotel_dict[0]['location']['country']))
+        hotel_dict = self.front_controller.search_manager.find_hotels(HotelFilters({'id': self.args.get('id')}))[0]
+        hotel = Hotel(hotel_dict['id'], hotel_dict['title'], hotel_dict['price'],
+                      Location(hotel_dict['location']['street'], hotel_dict['location']['city'],
+                               hotel_dict['location']['district'], hotel_dict['location']['country']))
         purchased_hotel = PurchasedHotel(hotel, self.args.get('check_in'), self.args.get('check_out'),
                                          self.args.get('people_count'))
         self.front_controller.purchase_manager.buy_hotel(client, purchased_hotel)
@@ -71,10 +71,11 @@ class BuyTrainCommand(AbstractCommand):
 
     def execute(self):
         client = Client(self.args.get('client_id'))
-        train_dict = self.front_controller.search_manager.find_train_tickets(TicketFilters({'id': self.args.get('id')}))
-        train_ticket = Ticket(train_dict[0]['id'], train_dict[0]['departure_time'], train_dict[0]['arrival_time'],
-                              train_dict[0]['departure_date'], train_dict[0]['arrival_date'], train_dict[0]['duration'],
-                              train_dict[0]['price'], train_dict[0]['from'], train_dict[0]['to'])
+        train_dict = \
+            self.front_controller.search_manager.find_train_tickets(TicketFilters({'id': self.args.get('id')}))[0]
+        train_ticket = Ticket(train_dict['id'], train_dict['departure_time'], train_dict['arrival_time'],
+                              train_dict['departure_date'], train_dict['arrival_date'], train_dict['duration'],
+                              train_dict['price'], train_dict['from'], train_dict['to'])
         purchased_train_ticket = PurchasedTrainTicket(train_ticket, self.args.get('seat'), self.args.get('carriage'))
         self.front_controller.purchase_manager.buy_train_ticket(client, purchased_train_ticket)
 
@@ -85,10 +86,10 @@ class BuyPlaneCommand(AbstractCommand):
 
     def execute(self):
         client = Client(self.args.get('client_id'))
-        plane_dict = self.front_controller.search_manager.find_plane_tickets(TicketFilters({'id': self.args.get('id')}))
-        plane_ticket = Ticket(plane_dict[0]['id'], plane_dict[0]['departure_time'], plane_dict[0]['arrival_time'],
-                              plane_dict[0]['departure_date'], plane_dict[0]['arrival_date'], plane_dict[0]['duration'],
-                              plane_dict[0]['price'], plane_dict[0]['from'], plane_dict[0]['to'])
+        plane_dict = \
+            self.front_controller.search_manager.find_plane_tickets(TicketFilters({'id': self.args.get('id')}))[0]
+        plane_ticket = Ticket(plane_dict['id'], plane_dict['departure_time'], plane_dict['arrival_time'],
+                              plane_dict['departure_date'], plane_dict['arrival_date'], plane_dict['duration'],
+                              plane_dict['price'], plane_dict['from'], plane_dict['to'])
         purchased_plane_ticket = PurchasedPlaneTicket(plane_ticket, self.args.get('seat'))
         self.front_controller.purchase_manager.buy_plane_ticket(client, purchased_plane_ticket)
-
