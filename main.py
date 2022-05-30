@@ -13,7 +13,10 @@ if __name__ == '__main__':
     #front_controller = FrontController()
     #res = front_controller.handle(request)
 
-    train_dict = {'id': 'tt-e5f5f274'}
-    request = Request('buy_train_ticket', train_dict)
-    front_controller = FrontController()
-    res = front_controller.handle(request)
+    #train_dict = {'id': 'tt-e5f5f274'}
+    #request = Request('buy_train_ticket', train_dict)
+    #front_controller = FrontController()
+    #res = front_controller.handle(request)
+
+    #dict = {'id': 'tt-e5f5f274', 'client_id': }
+    #request = Request('return_client_purchases')

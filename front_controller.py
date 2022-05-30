@@ -1,6 +1,6 @@
 import request as rq
 from command import AbstractCommand, FindHotelCommand, FindTrainTicketCommand, FindPlaneTicketCommand, BuyHotelCommand, \
-    BuyPlaneCommand, BuyTrainCommand
+    BuyPlaneCommand, BuyTrainCommand, FindPurchasesCommand
 from typing import Dict, Type
 
 from purchase_manager import PurchaseManager
@@ -13,7 +13,8 @@ class FrontController:
                                                       'find_train_tickets': FindTrainTicketCommand,
                                                       'find_plane_tickets': FindPlaneTicketCommand,
                                                       'buy_hotel': BuyHotelCommand, 'buy_plane_ticket': BuyPlaneCommand,
-                                                      'buy_train_ticket': BuyTrainCommand}
+                                                      'buy_train_ticket': BuyTrainCommand,
+                                                      'find_purchases': FindPurchasesCommand}
         self.search_manager = SearchManager()
         self.purchase_manager = PurchaseManager()
 

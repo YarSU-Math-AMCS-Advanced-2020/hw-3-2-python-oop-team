@@ -93,3 +93,12 @@ class BuyPlaneCommand(AbstractCommand):
                               plane_dict['price'], plane_dict['from'], plane_dict['to'])
         purchased_plane_ticket = PurchasedPlaneTicket(plane_ticket, self.args.get('seat'))
         self.front_controller.purchase_manager.buy_plane_ticket(client, purchased_plane_ticket)
+
+
+class FindPurchasesCommand(AbstractCommand):
+    def __init__(self, request: Request, front_controller):
+        super().__init__(request, front_controller)
+
+    def execute(self):
+        client = Client(self.args.get('client_id'))
+        self.front_controller.purchase_manager.find_purchases(client)
