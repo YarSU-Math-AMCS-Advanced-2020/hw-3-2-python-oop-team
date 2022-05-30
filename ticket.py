@@ -2,12 +2,11 @@ from location import Location
 from decimal import Decimal
 from enum import Enum
 from purchase import Purchase
-import datetime
 
 
 class Ticket(Purchase):
-    def __init__(self, purchase_id: str, departure_time: datetime, arrival_time: datetime, departure_date: datetime,
-                 arrival_date: datetime, duration: str, price: Decimal, from_location: str, to_location: str):
+    def __init__(self, purchase_id: str, departure_time: str, arrival_time: str, departure_date: str,
+                 arrival_date: str, duration: str, price: Decimal, from_location: str, to_location: str):
         super().__init__(purchase_id, price)
         self.departure_time = departure_time
         self.arrival_time = arrival_time
@@ -42,19 +41,19 @@ class Ticket(Purchase):
     def get_to_location(self):
         return self.to_location
 
-    def set_departure_time(self, departure_time: datetime):
+    def set_departure_time(self, departure_time: str):
         self.departure_time = departure_time
 
-    def set_arrival_time(self, arrival_time: datetime):
+    def set_arrival_time(self, arrival_time: str):
         self.arrival_time = arrival_time
 
-    def set_departure_date(self, departure_date: datetime):
+    def set_departure_date(self, departure_date: str):
         self.departure_date = departure_date
 
-    def set_arrival_date(self, arrival_date: datetime):
+    def set_arrival_date(self, arrival_date: str):
         self.arrival_date = arrival_date
 
-    def set_duration(self, duration: datetime):
+    def set_duration(self, duration: str):
         self.duration = duration
 
     def set_from_location(self, from_location: Location):

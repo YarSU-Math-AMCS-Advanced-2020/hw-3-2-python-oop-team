@@ -18,3 +18,6 @@ class PurchaseManager:
 
     def buy_tour(self, client: Client, tour: Tour):
         self.data_base.add_purchase(client, tour)
+
+    def find_purchases(self, client: Client):
+        self.data_base.find_purchases(client)

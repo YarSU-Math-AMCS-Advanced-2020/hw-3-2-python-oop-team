@@ -37,6 +37,9 @@ class DB(metaclass=Singleton):
     def add_purchase(self, client: Client, purchase: Purchase):
         self.client_storage.add_purchase(client, purchase)
 
+    def find_purchases(self, client: Client):
+        self.client_storage.find_purchases(client)
+
 
 class Storage:
     def __init__(self, filename: str):

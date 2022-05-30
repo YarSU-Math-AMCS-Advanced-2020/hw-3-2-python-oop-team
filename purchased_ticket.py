@@ -1,7 +1,6 @@
 from ticket import Ticket
 from location import Location
 from decimal import Decimal
-import datetime
 
 
 class PurchasedPlaneTicket(Ticket):
