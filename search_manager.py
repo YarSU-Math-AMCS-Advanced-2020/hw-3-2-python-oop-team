@@ -1,10 +1,10 @@
-from database import DB
-from filters import *
+from manager import Manager
+from filters import TicketFilters, HotelFilters
 
 
-class SearchManager:
+class SearchManager(Manager):
     def __init__(self):
-        self.data_base = DB()
+        super().__init__()
 
     def find_hotels(self, hotel_filters: HotelFilters):
         return self.data_base.find_hotels(hotel_filters)

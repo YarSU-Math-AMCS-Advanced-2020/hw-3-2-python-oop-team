@@ -1,6 +1,4 @@
 from ticket import Ticket
-from location import Location
-from decimal import Decimal
 
 
 class PurchasedPlaneTicket(Ticket):

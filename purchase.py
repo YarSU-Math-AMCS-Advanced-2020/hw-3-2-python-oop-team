@@ -1,10 +1,15 @@
 from decimal import Decimal
+from abc import ABC
 
 
-class Purchase:
+class Purchase(ABC):
     def __init__(self, purchase_id: str, price: Decimal):
         self.purchase_id = purchase_id
         self.price = price
+
+    @staticmethod
+    def is_tour():
+        return False
 
     def get_purchase_id(self):
         return self.purchase_id

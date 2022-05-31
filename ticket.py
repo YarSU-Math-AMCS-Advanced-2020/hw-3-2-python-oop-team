@@ -1,7 +1,7 @@
 from location import Location
-from decimal import Decimal
-from enum import Enum
 from purchase import Purchase
+
+from decimal import Decimal
 
 
 class Ticket(Purchase):

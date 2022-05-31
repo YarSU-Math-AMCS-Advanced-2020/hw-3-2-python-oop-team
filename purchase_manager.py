@@ -1,11 +1,13 @@
-from database import *
-from client import *
-from purchased_ticket import *
+from manager import Manager
+from client import Client
+from purchased_ticket import PurchasedPlaneTicket, PurchasedTrainTicket
+from purchased_hotel import PurchasedHotel
+from tour import Tour
 
 
-class PurchaseManager:
+class PurchaseManager(Manager):
     def __init__(self):
-        self.data_base = DB()
+        super().__init__()
 
     def buy_hotel(self, client: Client, purchased_hotel: PurchasedHotel):
         self.data_base.add_purchase(client, purchased_hotel)

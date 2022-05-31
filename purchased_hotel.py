@@ -1,6 +1,4 @@
 from hotel import Hotel
-from location import Location
-from decimal import Decimal
 
 
 class PurchasedHotel(Hotel):

@@ -1,6 +1,7 @@
 from location import Location
-from decimal import Decimal
 from purchase import Purchase
+
+from decimal import Decimal
 
 
 class Hotel(Purchase):
@@ -26,4 +27,3 @@ class Hotel(Purchase):
 
     def get_location(self):
         return self.location
-

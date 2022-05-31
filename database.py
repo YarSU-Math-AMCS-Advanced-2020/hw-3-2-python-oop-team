@@ -1,11 +1,10 @@
-import json
-from typing import *
 from client import Client
 from filters import HotelFilters, TicketFilters
 from purchase import Purchase
-from purchased_hotel import PurchasedHotel
-from purchased_ticket import PurchasedPlaneTicket, PurchasedTrainTicket
 from tour import Tour
+
+import json
+from typing import List, Iterable, Callable
 
 
 class Singleton(type):

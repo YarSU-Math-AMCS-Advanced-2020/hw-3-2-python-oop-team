@@ -1,9 +1,3 @@
-from typing import List
-from purchased_hotel import PurchasedHotel
-from purchased_ticket import PurchasedTrainTicket, PurchasedPlaneTicket
-from tour import Tour
-
-
 class Client:
     def __init__(self, client_id: str):
         self.client_id = client_id
