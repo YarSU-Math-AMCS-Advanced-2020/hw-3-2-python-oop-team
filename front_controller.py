@@ -16,7 +16,9 @@ class FrontController:
                                                       'buy_plane_ticket': BuyPlaneCommand,
                                                       'buy_train_ticket': BuyTrainCommand,
                                                       'find_purchases': FindPurchasesCommand,
-                                                      'add_hotel_to_tour': AddHotelToTourCommand}
+                                                      'add_hotel_to_tour': AddHotelToTourCommand,
+                                                      'add_train_ticket_to_tour': AddTrainTicketToTourCommand,
+                                                      'add_plane_ticket_to_tour': AddPlaneTicketToTourCommand}
         self.search_manager = SearchManager()
         self.purchase_manager = PurchaseManager()
         self.tour_manager = TourManager()

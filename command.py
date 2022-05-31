@@ -119,4 +119,32 @@ class AddHotelToTourCommand(AbstractCommand):
                                          self.args.get('people_count'))
         self.front_controller.tour_manager.add_purchase_to_tour(tour, purchased_hotel)
 
-        # TODO: AddTrainTicketToTourCommand, AddPlaneTicketToTourCommand
+
+class AddTrainTicketToTourCommand(AbstractCommand):
+    def __init__(self, request: Request, front_controller):
+        super().__init__(request, front_controller)
+
+    def execute(self):
+        tour = Tour(self.args.get('tour_id'))
+        train_dict = \
+            self.front_controller.search_manager.find_train_tickets(TicketFilters({'id': self.args.get('id')}))[0]
+        train_ticket = Ticket(train_dict['id'], train_dict['departure_time'], train_dict['arrival_time'],
+                              train_dict['departure_date'], train_dict['arrival_date'], train_dict['duration'],
+                              train_dict['price'], train_dict['from'], train_dict['to'])
+        purchased_train_ticket = PurchasedTrainTicket(train_ticket, self.args.get('seat'), self.args.get('carriage'))
+        self.front_controller.tour_manager.add_purchase_to_tour(tour, purchased_train_ticket)
+
+
+class AddPlaneTicketToTourCommand(AbstractCommand):
+    def __init__(self, request: Request, front_controller):
+        super().__init__(request, front_controller)
+
+    def execute(self):
+        tour = Tour(self.args.get('tour_id'))
+        plane_dict = \
+            self.front_controller.search_manager.find_plane_tickets(TicketFilters({'id': self.args.get('id')}))[0]
+        plane_ticket = Ticket(plane_dict['id'], plane_dict['departure_time'], plane_dict['arrival_time'],
+                              plane_dict['departure_date'], plane_dict['arrival_date'], plane_dict['duration'],
+                              plane_dict['price'], plane_dict['from'], plane_dict['to'])
+        purchased_plane_ticket = PurchasedPlaneTicket(plane_ticket, self.args.get('seat'))
+        self.front_controller.tour_manager.add_purchase_to_tour(tour, purchased_plane_ticket)
