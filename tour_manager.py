@@ -21,6 +21,8 @@ class TourManager:
         tour.add_purchase(purchased_train_ticket)
 
     # Если нужно воспользоваться общей функцией (замена трём предыдущим)
-    @staticmethod
-    def add_purchase_to_tour(tour: Tour, purchase: Purchase):
-        tour.add_purchase(purchase)
+    def add_purchase_to_tour(self, tour: Tour, purchase: Purchase):
+        addable = [PurchasedHotel, PurchasedPlaneTicket, PurchasedTrainTicket]
+        if purchase in addable:
+            self.data_base.add_purchase_to_tour(tour, purchase)
+

@@ -2,13 +2,13 @@ from purchase import Purchase
 
 
 class Tour(Purchase):
-    def __init__(self, purchase_id: str, purchase_list: list[Purchase]):
+    def __init__(self, purchase_id: str):
         # Айди задаётся в конструкторе тура, изначальная цена - 0
         super().__init__(purchase_id, 0)
-        self.purchase_list = purchase_list
+        self.purchase_list = []
 
     def get_purchase_list(self):
-        purchase_list_copy = self.purchase_list
+        purchase_list_copy = self.purchase_list.copy()
         return purchase_list_copy
 
     def count_price(self):

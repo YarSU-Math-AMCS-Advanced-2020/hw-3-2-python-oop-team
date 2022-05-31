@@ -8,6 +8,7 @@ from abc import ABC, abstractmethod
 from client import Client
 from hotel import Hotel
 from ticket import Ticket
+from tour import Tour
 
 
 class AbstractCommand(ABC):
@@ -102,3 +103,20 @@ class FindPurchasesCommand(AbstractCommand):
     def execute(self):
         client = Client(self.args.get('client_id'))
         self.front_controller.purchase_manager.find_purchases(client)
+
+
+class AddHotelToTourCommand(AbstractCommand):
+    def __init__(self, request: Request, front_controller):
+        super().__init__(request, front_controller)
+
+    def execute(self):
+        tour = Tour(self.args.get('tour_id'))
+        hotel_dict = self.front_controller.search_manager.find_hotels(HotelFilters({'id': self.args.get('id')}))[0]
+        hotel = Hotel(hotel_dict['id'], hotel_dict['title'], hotel_dict['price'],
+                      Location(hotel_dict['location']['street'], hotel_dict['location']['city'],
+                               hotel_dict['location']['district'], hotel_dict['location']['country']))
+        purchased_hotel = PurchasedHotel(hotel, self.args.get('check_in'), self.args.get('check_out'),
+                                         self.args.get('people_count'))
+        self.front_controller.tour_manager.add_purchase_to_tour(tour, purchased_hotel)
+
+        # TODO: AddTrainTicketToTourCommand, AddPlaneTicketToTourCommand

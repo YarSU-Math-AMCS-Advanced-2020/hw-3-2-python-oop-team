@@ -24,6 +24,7 @@ class DB(metaclass=Singleton):
         self.train_ticket_storage = TrainTicketStorage()
         self.plane_ticket_storage = PlaneTicketStorage()
         self.client_storage = ClientStorage()
+        self.tour_storage = TourStorage()
 
     def find_hotels(self, hotel_filters: HotelFilters):
         return self.hotel_storage.find_hotels(hotel_filters)
@@ -39,6 +40,9 @@ class DB(metaclass=Singleton):
 
     def find_purchases(self, client: Client):
         self.client_storage.find_purchases(client)
+
+    def add_purchase_to_tour(self, tour: Tour, purchase: Purchase):
+        self.tour_storage.add_purchase(tour, purchase)
 
 
 class Storage:
@@ -93,3 +97,17 @@ class ClientStorage(Storage):
 
     def find_purchases(self, client: Client) -> List[Purchase]:  # Зробити фільтри
         return self.data.get(client.client_id, [])
+
+
+class TourStorage(Storage):
+    def __init__(self):
+        super().__init__('modified_tours.json')
+
+    def add_tour(self, tour: Tour):
+        if not self.data.get(tour.purchase_id):
+            self.data[tour.purchase_id] = tour
+
+    def add_purchase(self, tour: Tour, purchase: Purchase):
+        if not self.data.get(tour.purchase_id):
+            self.data[tour.purchase_id] = tour
+        self.data[tour.purchase_id].add_purchase(purchase)
