@@ -56,7 +56,10 @@ class BuyHotelCommand(AbstractCommand):
         super().__init__(request, front_controller)
 
     def execute(self):
-        client = Client(self.args.get('client_id'))
+        if not self.args.get('client_id') or not self.args.get('id') or not self.args.get('check_in') \
+                or not self.args.get('check_out') or not self.args.get('people_count'):
+            return False
+        client = Client(self.args['client_id'])
         hotel_dict = self.front_controller.search_manager.find_hotels(HotelFilters({'id': self.args.get('id')}))[0]
         hotel = Hotel(hotel_dict['id'], hotel_dict['title'], hotel_dict['price'],
                       Location(hotel_dict['location']['street'], hotel_dict['location']['city'],
@@ -64,13 +67,17 @@ class BuyHotelCommand(AbstractCommand):
         purchased_hotel = PurchasedHotel(hotel, self.args.get('check_in'), self.args.get('check_out'),
                                          self.args.get('people_count'))
         self.front_controller.purchase_manager.buy_hotel(client, purchased_hotel)
+        return True
 
 
-class BuyTrainCommand(AbstractCommand):
+class BuyTrainTicketCommand(AbstractCommand):
     def __init__(self, request: Request, front_controller):
         super().__init__(request, front_controller)
 
     def execute(self):
+        if not self.args.get('client_id') or not self.args.get('id') \
+                or not self.args.get('seat') or not self.args.get('carriage'):
+            return False
         client = Client(self.args.get('client_id'))
         train_dict = \
             self.front_controller.search_manager.find_train_tickets(TicketFilters({'id': self.args.get('id')}))[0]
@@ -79,13 +86,17 @@ class BuyTrainCommand(AbstractCommand):
                               train_dict['price'], train_dict['from'], train_dict['to'])
         purchased_train_ticket = PurchasedTrainTicket(train_ticket, self.args.get('seat'), self.args.get('carriage'))
         self.front_controller.purchase_manager.buy_train_ticket(client, purchased_train_ticket)
+        return True
 
 
-class BuyPlaneCommand(AbstractCommand):
+class BuyPlaneTicketCommand(AbstractCommand):
     def __init__(self, request: Request, front_controller):
         super().__init__(request, front_controller)
 
     def execute(self):
+        if not self.args.get('client_id') or not self.args.get('id') \
+                or not self.args.get('seat'):
+            return False
         client = Client(self.args.get('client_id'))
         plane_dict = \
             self.front_controller.search_manager.find_plane_tickets(TicketFilters({'id': self.args.get('id')}))[0]
@@ -94,6 +105,7 @@ class BuyPlaneCommand(AbstractCommand):
                               plane_dict['price'], plane_dict['from'], plane_dict['to'])
         purchased_plane_ticket = PurchasedPlaneTicket(plane_ticket, self.args.get('seat'))
         self.front_controller.purchase_manager.buy_plane_ticket(client, purchased_plane_ticket)
+        return True
 
 
 class FindPurchasesCommand(AbstractCommand):
@@ -101,8 +113,11 @@ class FindPurchasesCommand(AbstractCommand):
         super().__init__(request, front_controller)
 
     def execute(self):
+        if not self.args.get('client_id'):
+            return False
         client = Client(self.args.get('client_id'))
         self.front_controller.purchase_manager.find_purchases(client)
+        return True
 
 
 class AddHotelToTourCommand(AbstractCommand):
@@ -110,6 +125,9 @@ class AddHotelToTourCommand(AbstractCommand):
         super().__init__(request, front_controller)
 
     def execute(self):
+        if not self.args.get('client_id') or not self.args.get('id') or not self.args.get('check_in') \
+                or not self.args.get('check_out') or not self.args.get('people_count'):
+            return False
         tour = Tour(self.args.get('tour_id'))
         hotel_dict = self.front_controller.search_manager.find_hotels(HotelFilters({'id': self.args.get('id')}))[0]
         hotel = Hotel(hotel_dict['id'], hotel_dict['title'], hotel_dict['price'],
@@ -118,6 +136,7 @@ class AddHotelToTourCommand(AbstractCommand):
         purchased_hotel = PurchasedHotel(hotel, self.args.get('check_in'), self.args.get('check_out'),
                                          self.args.get('people_count'))
         self.front_controller.tour_manager.add_purchase_to_tour(tour, purchased_hotel)
+        return True
 
 
 class AddTrainTicketToTourCommand(AbstractCommand):
@@ -125,6 +144,9 @@ class AddTrainTicketToTourCommand(AbstractCommand):
         super().__init__(request, front_controller)
 
     def execute(self):
+        if not self.args.get('client_id') or not self.args.get('id') \
+                or not self.args.get('seat') or not self.args.get('carriage'):
+            return False
         tour = Tour(self.args.get('tour_id'))
         train_dict = \
             self.front_controller.search_manager.find_train_tickets(TicketFilters({'id': self.args.get('id')}))[0]
@@ -133,6 +155,7 @@ class AddTrainTicketToTourCommand(AbstractCommand):
                               train_dict['price'], train_dict['from'], train_dict['to'])
         purchased_train_ticket = PurchasedTrainTicket(train_ticket, self.args.get('seat'), self.args.get('carriage'))
         self.front_controller.tour_manager.add_purchase_to_tour(tour, purchased_train_ticket)
+        return True
 
 
 class AddPlaneTicketToTourCommand(AbstractCommand):
@@ -140,6 +163,9 @@ class AddPlaneTicketToTourCommand(AbstractCommand):
         super().__init__(request, front_controller)
 
     def execute(self):
+        if not self.args.get('client_id') or not self.args.get('id') \
+                or not self.args.get('seat'):
+            return False
         tour = Tour(self.args.get('tour_id'))
         plane_dict = \
             self.front_controller.search_manager.find_plane_tickets(TicketFilters({'id': self.args.get('id')}))[0]
@@ -148,3 +174,4 @@ class AddPlaneTicketToTourCommand(AbstractCommand):
                               plane_dict['price'], plane_dict['from'], plane_dict['to'])
         purchased_plane_ticket = PurchasedPlaneTicket(plane_ticket, self.args.get('seat'))
         self.front_controller.tour_manager.add_purchase_to_tour(tour, purchased_plane_ticket)
+        return True
