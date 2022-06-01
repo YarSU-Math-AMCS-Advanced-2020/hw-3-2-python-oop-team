@@ -12,6 +12,7 @@ from tour import Tour
 from response import Response
 
 from typing import Tuple
+from decimal import Decimal
 
 
 class AbstractAction(ABC):
@@ -129,6 +130,22 @@ class FindPurchasesAction(AbstractAction):
         client = Client(self.args['client_id'])
         self.purchase_manager.find_purchases(client)
         return Response(Response.Type.BOOL, True)
+
+
+class GetPurchasesPriceAction(AbstractAction):
+    def __init__(self, request: Request, managers: Tuple[Manager]):
+        super().__init__(request, managers)
+        self.purchase_manager = managers[0]
+
+    def execute(self):
+        if not self.args.get('client_id'):
+            return Response(Response.Type.BOOL, False)
+        client = Client(self.args['client_id'])
+        purchases = self.purchase_manager.find_purchases(client)
+        price = Decimal(0)
+        for purchase in purchases:
+            price += purchase.count_price()
+        return Response(Response.Type.DECIMAL, price)
 
 
 class AddHotelToTourAction(AbstractAction):
