@@ -12,4 +12,4 @@ class TourManager(Manager):
             self.data_base.add_purchase_to_tour(tour, purchase)
 
     def find_tour(self, tour: Tour):
-        self.data_base.find_tour(tour)
+        return self.data_base.find_tour(tour)

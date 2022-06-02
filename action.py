@@ -220,7 +220,7 @@ class BuyTourAction(AbstractAction):
             return Response(Response.Type.BOOL, False)
         client = Client(self.args['client_id'])
         tour = Tour(self.args['tour_id'])
-        if not self.tour_manager.find_tour(tour):
+        if self.tour_manager.find_tour(tour) is None:
             return Response(Response.Type.BOOL, False)
         self.purchase_manager.buy_tour(client, tour)
         return Response(Response.Type.BOOL, True)
