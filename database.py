@@ -110,3 +110,7 @@ class TourStorage(Storage):
         if not self.data.get(tour.purchase_id):
             self.data[tour.purchase_id] = tour
         self.data[tour.purchase_id].add_purchase(purchase)
+
+    def find_tour(self, tour: Tour):
+        return self.data.get(tour.purchase_id)
+

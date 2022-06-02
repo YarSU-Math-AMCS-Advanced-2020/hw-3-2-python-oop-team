@@ -123,6 +123,7 @@ class FindPurchasesAction(AbstractAction):
     def __init__(self, request: Request, managers: Tuple[Manager]):
         super().__init__(request, managers)
         self.search_manager = managers[0]
+        self.purchase_manager = managers[1]
 
     def execute(self):
         if not self.args.get('client_id'):
@@ -206,4 +207,21 @@ class AddPlaneTicketToTourAction(AbstractAction):
                               plane_dict['price'], plane_dict['from'], plane_dict['to'])
         purchased_plane_ticket = PurchasedPlaneTicket(plane_ticket, self.args['seat'])
         self.tour_manager.add_purchase_to_tour(tour, purchased_plane_ticket)
+        return Response(Response.Type.BOOL, True)
+
+
+class BuyTourAction(AbstractAction):
+    def __init__(self, request: Request, managers: Tuple[Manager]):
+        super().__init__(request, managers)
+        self.purchase_manager = managers[0]
+        self.tour_manager = managers[1]
+
+    def execute(self):
+        if not self.args.get('tour_id'):
+            return Response(Response.Type.BOOL, False)
+        client = Client(self.args['client_id'])
+        tour = Tour(self.args['tour_id'])
+        if self.tour_manager.find(tour) is None:
+            return Response(Response.Type.BOOL, False)
+        self.purchase_manager.buy_tour(client, tour)
         return Response(Response.Type.BOOL, True)
