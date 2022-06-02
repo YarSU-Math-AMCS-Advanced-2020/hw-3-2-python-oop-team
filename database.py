@@ -34,6 +34,9 @@ class DB(metaclass=Singleton):
     def find_plane_tickets(self, ticket_filters: TicketFilters):
         return self.plane_ticket_storage.find_plane_tickets(ticket_filters)
 
+    def find_tour(self, tour: Tour):
+        return self.tour_storage.find_tour(tour)
+
     def add_purchase(self, client: Client, purchase: Purchase):
         self.client_storage.add_purchase(client, purchase)
 
@@ -113,4 +116,3 @@ class TourStorage(Storage):
 
     def find_tour(self, tour: Tour):
         return self.data.get(tour.purchase_id)
-
