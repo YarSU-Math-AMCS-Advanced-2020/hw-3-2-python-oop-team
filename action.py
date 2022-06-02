@@ -217,7 +217,7 @@ class BuyTourAction(AbstractAction):
         self.tour_manager = managers[1]
 
     def execute(self):
-        if not self.args.get('tour_id'):
+        if not all((self.args.get('tour_id'), self.args.get('client_id'))):
             return Response(Response.Type.BOOL, False)
         client = Client(self.args['client_id'])
         tour = Tour(self.args['tour_id'])
