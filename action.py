@@ -72,8 +72,8 @@ class BuyHotelAction(AbstractAction):
         client = Client(self.args['client_id'])
         hotel_dict = self.search_manager.find_hotels(HotelFilters({'id': self.args['id']}))[0]
         hotel = Hotel(hotel_dict['id'], hotel_dict['title'], hotel_dict['price'],
-                      Location(hotel_dict['location']['street'], hotel_dict['location']['city'],
-                               hotel_dict['location']['district'], hotel_dict['location']['country']))
+                      Location(hotel_dict['location']['street'], hotel_dict['location']['district'],
+                               hotel_dict['location']['city'], hotel_dict['location']['country']))
         purchased_hotel = PurchasedHotel(hotel, self.args['check_in'], self.args['check_out'],
                                          self.args['people_count'])
         self.purchase_manager.buy_hotel(client, purchased_hotel)
