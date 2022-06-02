@@ -25,3 +25,6 @@ class Purchase(ABC):
 
     def count_price(self):
         return self.price
+
+    def info(self):
+        return

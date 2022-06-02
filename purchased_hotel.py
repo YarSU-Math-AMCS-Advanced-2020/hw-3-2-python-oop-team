@@ -30,3 +30,7 @@ class PurchasedHotel(Hotel):
 
     def count_price(self):
         return self.price * (self.check_in.days() - self.check_out.days()) * self.people_count
+
+    def info(self):
+        return f'{super().info()}Check-in: {self.check_in}\nCheck-out: {self.check_out}\n' \
+               f'People count: {self.people_count}\n'

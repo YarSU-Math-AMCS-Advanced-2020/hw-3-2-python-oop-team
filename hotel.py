@@ -27,3 +27,6 @@ class Hotel(Purchase):
 
     def get_location(self):
         return self.location
+
+    def info(self):
+        return f'Hotel: {self.title}\nLocation: {self.location.print_location()}\nPrice: {self.price}\n'

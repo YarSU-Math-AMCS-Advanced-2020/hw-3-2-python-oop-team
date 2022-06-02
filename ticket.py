@@ -61,3 +61,7 @@ class Ticket(Purchase):
 
     def set_to_location(self, to_location: Location):
         self.from_location = to_location
+
+    def info(self):
+        return f'From-location: {self.from_location}\nTo-location: {self.to_location}\n' \
+               f'Departure date: {self.departure_date}\nArrival date: {self.arrival_date}\nPrice: {self.price}\n'

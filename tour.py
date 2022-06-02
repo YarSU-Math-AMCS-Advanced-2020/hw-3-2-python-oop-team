@@ -24,3 +24,9 @@ class Tour(Purchase):
 
     def add_purchase(self, purchase: Purchase):
         self.purchase_list.append(purchase)
+
+    def info(self):
+        info_string = ''
+        for purchase_object in self.purchase_list:
+            info_string = f'{info_string}{purchase_object.info()}\n'
+        return info_string

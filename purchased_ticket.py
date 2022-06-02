@@ -14,6 +14,9 @@ class PurchasedPlaneTicket(Ticket):
     def set_seat(self, seat: int):
         self.seat = seat
 
+    def info(self):
+        return f'{super().info()}Seat: {self.seat}\n'
+
 
 class PurchasedTrainTicket(Ticket):
     def __init__(self, ticket: Ticket, seat: int, carriage: int):
@@ -34,6 +37,9 @@ class PurchasedTrainTicket(Ticket):
 
     def set_carriage(self, carriage: int):
         self.carriage = carriage
+
+    def info(self):
+        return f'{super().info()}Seat: {self.seat}\nCarriage: {self.carriage}\n'
 
 
 class PurchasedBusTicket(Ticket):
@@ -56,4 +62,6 @@ class PurchasedBusTicket(Ticket):
     def set_bus_number(self, bus_number: str):
         self.bus_number = bus_number
 
+    def info(self):
+        return f'{super().info()}Seat: {self.seat}\nBus number: {self.bus_number}\n'
 # TODO Добавить такие же поля, как и в Ticket
