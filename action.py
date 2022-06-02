@@ -129,8 +129,7 @@ class FindPurchasesAction(AbstractAction):
         if not self.args.get('client_id'):
             return Response(Response.Type.BOOL, False)
         client = Client(self.args['client_id'])
-        self.purchase_manager.find_purchases(client)
-        return Response(Response.Type.BOOL, True)
+        return Response(Response.Type.LIST, self.purchase_manager.find_purchases(client))
 
 
 class GetPurchasesPriceAction(AbstractAction):
