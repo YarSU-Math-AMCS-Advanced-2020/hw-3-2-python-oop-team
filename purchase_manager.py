@@ -22,4 +22,4 @@ class PurchaseManager(Manager):
         self.data_base.add_purchase(client, tour)
 
     def find_purchases(self, client: Client):
-        self.data_base.find_purchases(client)
+        return self.data_base.find_purchases(client)

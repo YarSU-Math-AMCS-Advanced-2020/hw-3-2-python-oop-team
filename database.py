@@ -38,7 +38,7 @@ class DB(metaclass=Singleton):
         self.client_storage.add_purchase(client, purchase)
 
     def find_purchases(self, client: Client):
-        self.client_storage.find_purchases(client)
+        return self.client_storage.find_purchases(client)
 
     def add_purchase_to_tour(self, tour: Tour, purchase: Purchase):
         self.tour_storage.add_purchase(tour, purchase)
@@ -95,7 +95,7 @@ class ClientStorage(Storage):
         self.data[client.client_id].append(purchase)
 
     def find_purchases(self, client: Client) -> List[Purchase]:  # Зробити фільтри
-        return self.data.get(client.client_id, [])
+        return self.data.get(client.client_id)
 
 
 class TourStorage(Storage):
