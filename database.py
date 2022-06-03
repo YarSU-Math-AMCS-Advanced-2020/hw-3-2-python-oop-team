@@ -66,7 +66,7 @@ class Storage:
 
 class HotelStorage(Storage):
     def __init__(self):
-        super().__init__('modified_hotels.json')
+        super().__init__(r'data\modified_hotels.json')
 
     def find_hotels(self, hotel_filters: HotelFilters):
         return HotelStorage.find(self.data, hotel_filters.is_valid)
@@ -74,7 +74,7 @@ class HotelStorage(Storage):
 
 class TrainTicketStorage(Storage):
     def __init__(self):
-        super().__init__('modified_train_tickets.json')
+        super().__init__(r'data\modified_train_tickets.json')
 
     def find_train_tickets(self, ticket_filters: TicketFilters):
         return TrainTicketStorage.find(self.data, ticket_filters.is_valid)
@@ -82,7 +82,7 @@ class TrainTicketStorage(Storage):
 
 class PlaneTicketStorage(Storage):
     def __init__(self):
-        super().__init__('modified_plane_tickets.json')
+        super().__init__(r'data\modified_plane_tickets.json')
 
     def find_plane_tickets(self, ticket_filters: TicketFilters):
         return PlaneTicketStorage.find(self.data, ticket_filters.is_valid)
@@ -90,7 +90,7 @@ class PlaneTicketStorage(Storage):
 
 class ClientStorage(Storage):
     def __init__(self):
-        super().__init__('modified_clients.json')
+        super().__init__(r'data\modified_clients.json')
 
     def add_purchase(self, client: Client, purchase: Purchase):
         if not self.data.get(client.client_id):
@@ -103,7 +103,7 @@ class ClientStorage(Storage):
 
 class TourStorage(Storage):
     def __init__(self):
-        super().__init__('modified_tours.json')
+        super().__init__(r'data\modified_tours.json')
 
     def add_tour(self, tour: Tour):
         if not self.data.get(tour.purchase_id):
