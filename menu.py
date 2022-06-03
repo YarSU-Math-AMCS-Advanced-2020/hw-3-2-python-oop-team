@@ -15,7 +15,6 @@ while True != False:
     info = []
     if fin == 'Exit':
         exit()
-
     if fin == 'Корзина':
         request = Request('find_purchases', {'client_id': client_id})
         list_purchases = front_controller.handle(request).data
@@ -133,6 +132,7 @@ while True != False:
     if fin == 'Туры':
         tour_id = f't-{str(uuid4()).split("-")[0]}'
         while True:
+            info.clear()
             choice = easygui.buttonbox(msg='Что вы хотите добавить?',
                                        choices=('Отели', 'Авиа', 'Ж/Д', 'Оформить тур'),
                                        image=r'pictures/tour.png',
