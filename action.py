@@ -224,3 +224,12 @@ class BuyTourAction(AbstractAction):
             return Response(Response.Type.BOOL, False)
         self.purchase_manager.buy_tour(client, tour)
         return Response(Response.Type.BOOL, True)
+
+
+class GetCitiesWithHotelAction(AbstractAction):
+    def __init__(self, request: Request, managers: Tuple[Manager]):
+        super().__init__(request, managers)
+        self.search_manager = managers[0]
+
+    def execute(self):
+        return Response(Response.Type.LIST, self.search_manager.get_cities_with_hotel())

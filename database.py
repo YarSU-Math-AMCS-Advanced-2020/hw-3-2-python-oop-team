@@ -46,6 +46,9 @@ class DB(metaclass=Singleton):
     def add_purchase_to_tour(self, tour: Tour, purchase: Purchase):
         self.tour_storage.add_purchase(tour, purchase)
 
+    def get_cities_from_hotel_storage(self):
+        return self.hotel_storage.get_cities()
+
 
 class Storage:
     def __init__(self, filename: str):
@@ -70,6 +73,12 @@ class HotelStorage(Storage):
 
     def find_hotels(self, hotel_filters: HotelFilters):
         return HotelStorage.find(self.data, hotel_filters.is_valid)
+
+    def get_cities(self):
+        cities = []
+        for item in self.data:
+            cities.append(item['location']['city'])
+        return list(set(cities))
 
 
 class TrainTicketStorage(Storage):

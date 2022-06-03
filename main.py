@@ -4,13 +4,13 @@ from request import Request
 if __name__ == '__main__':
     hotel_dict = {'from': 'Москва'}
     front_controller = FrontController()
-    request = Request('buy_hotel',
-                      {'client_id': '1', 'id': 'h-1b1379dc', 'check_in': '1', 'check_out': '23', 'people_count': 2})
+    # request = Request('buy_hotel',
+    #                  {'client_id': '1', 'id': 'h-1b1379dc', 'check_in': '1', 'check_out': '23', 'people_count': 2})
 
-    res = front_controller.handle(request)
-    print(res)
+    # res = front_controller.handle(request)
+    # print(res)
 
-    request = Request('find_purchases', {'client_id': '1'})
+    request = Request('get_cities_with_hotel', {})
     res = front_controller.handle(request)
 
     print(res)

@@ -1,6 +1,6 @@
 from action import AbstractAction, FindHotelAction, FindTrainTicketAction, FindPlaneTicketAction, BuyHotelAction, \
     BuyTrainTicketAction, BuyPlaneTicketAction, FindPurchasesAction, AddHotelToTourAction, AddTrainTicketToTourAction, \
-    AddPlaneTicketToTourAction, GetPurchasesPriceAction, BuyTourAction
+    AddPlaneTicketToTourAction, GetPurchasesPriceAction, BuyTourAction, GetCitiesWithHotelAction
 from request import Request
 from response import Response
 
@@ -28,7 +28,9 @@ class FrontController:
             'add_hotel_to_tour': (AddHotelToTourAction, (self.search_manager, self.tour_manager)),
             'add_train_ticket_to_tour': (AddTrainTicketToTourAction, (self.search_manager, self.tour_manager)),
             'add_plane_ticket_to_tour': (AddPlaneTicketToTourAction, (self.search_manager, self.tour_manager)),
-            'buy_tour': (BuyTourAction, (self.purchase_manager, self.tour_manager))}
+            'buy_tour': (BuyTourAction, (self.purchase_manager, self.tour_manager)),
+            'get_cities_with_hotel': (GetCitiesWithHotelAction, (self.search_manager,))
+        }
 
     def handle(self, request: Request) -> Response:
         if self.map.get(request.action):

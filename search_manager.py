@@ -14,3 +14,6 @@ class SearchManager(Manager):
 
     def find_plane_tickets(self, ticket_filters: TicketFilters):
         return self.data_base.find_plane_tickets(ticket_filters)
+
+    def get_cities_with_hotel(self):
+        return self.data_base.get_cities_from_hotel_storage()
