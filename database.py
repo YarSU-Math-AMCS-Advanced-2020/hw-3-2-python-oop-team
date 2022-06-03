@@ -34,17 +34,17 @@ class DB(metaclass=Singleton):
     def find_plane_tickets(self, ticket_filters: TicketFilters):
         return self.plane_ticket_storage.find_plane_tickets(ticket_filters)
 
-    def find_tour(self, tour: Tour):
-        return self.tour_storage.find_tour(tour)
-
     def add_purchase(self, client: Client, purchase: Purchase):
         self.client_storage.add_purchase(client, purchase)
 
-    def find_purchases(self, client: Client):
+    def find_client_purchases(self, client: Client):
         return self.client_storage.find_purchases(client)
 
     def add_purchase_to_tour(self, tour: Tour, purchase: Purchase):
         self.tour_storage.add_purchase(tour, purchase)
+
+    def find_tour(self, tour: Tour):
+        return self.tour_storage.find_tour(tour)
 
     def get_cities_from_hotel_storage(self):
         return self.hotel_storage.get_cities()

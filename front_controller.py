@@ -1,5 +1,5 @@
 from action import AbstractAction, FindHotelAction, FindTrainTicketAction, FindPlaneTicketAction, BuyHotelAction, \
-    BuyTrainTicketAction, BuyPlaneTicketAction, FindPurchasesAction, AddHotelToTourAction, AddTrainTicketToTourAction, \
+    BuyTrainTicketAction, BuyPlaneTicketAction, GetPurchasesAction, AddHotelToTourAction, AddTrainTicketToTourAction, \
     AddPlaneTicketToTourAction, GetPurchasesPriceAction, BuyTourAction, GetCitiesWithHotelAction
 from request import Request
 from response import Response
@@ -23,7 +23,7 @@ class FrontController:
             'buy_hotel': (BuyHotelAction, (self.search_manager, self.purchase_manager)),
             'buy_train_ticket': (BuyTrainTicketAction, (self.search_manager, self.purchase_manager)),
             'buy_plane_ticket': (BuyPlaneTicketAction, (self.search_manager, self.purchase_manager)),
-            'find_purchases': (FindPurchasesAction, (self.search_manager, self.purchase_manager)),
+            'find_purchases': (GetPurchasesAction, (self.search_manager, self.purchase_manager)),
             'get_purchases_price': (GetPurchasesPriceAction, (self.purchase_manager,)),
             'add_hotel_to_tour': (AddHotelToTourAction, (self.search_manager, self.tour_manager)),
             'add_train_ticket_to_tour': (AddTrainTicketToTourAction, (self.search_manager, self.tour_manager)),

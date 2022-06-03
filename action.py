@@ -119,7 +119,7 @@ class BuyPlaneTicketAction(AbstractAction):
         return Response(Response.Type.BOOL, True)
 
 
-class FindPurchasesAction(AbstractAction):
+class GetPurchasesAction(AbstractAction):
     def __init__(self, request: Request, managers: Tuple[Manager]):
         super().__init__(request, managers)
         self.search_manager = managers[0]
@@ -129,7 +129,7 @@ class FindPurchasesAction(AbstractAction):
         if not self.args.get('client_id'):
             return Response(Response.Type.BOOL, False)
         client = Client(self.args['client_id'])
-        return Response(Response.Type.LIST, self.purchase_manager.find_purchases(client))
+        return Response(Response.Type.LIST, self.purchase_manager.find_client_purchases(client))
 
 
 class GetPurchasesPriceAction(AbstractAction):
@@ -141,7 +141,7 @@ class GetPurchasesPriceAction(AbstractAction):
         if not self.args.get('client_id'):
             return Response(Response.Type.BOOL, False)
         client = Client(self.args['client_id'])
-        purchases = self.purchase_manager.find_purchases(client)
+        purchases = self.purchase_manager.find_client_purchases(client)
         price = Decimal(0)
         for purchase in purchases:
             price += purchase.count_price()
