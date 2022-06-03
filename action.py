@@ -64,7 +64,7 @@ class BuyHotelAction(AbstractAction):
         self.search_manager = managers[0]
         self.purchase_manager = managers[1]
 
-    def execute(self):
+    def execute(self) -> Response:
         if not all(
                 (self.args.get('client_id'), self.args.get('id'), self.args.get('check_in'), self.args.get('check_out'),
                  self.args.get('people_count'))):
@@ -86,7 +86,7 @@ class BuyTrainTicketAction(AbstractAction):
         self.search_manager = managers[0]
         self.purchase_manager = managers[1]
 
-    def execute(self):
+    def execute(self) -> Response:
         if not all((self.args.get('client_id'), self.args.get('id'), self.args.get('seat'),
                     self.args.get('carriage'))):
             return Response(Response.Type.BOOL, False)
@@ -106,7 +106,7 @@ class BuyPlaneTicketAction(AbstractAction):
         self.search_manager = managers[0]
         self.purchase_manager = managers[1]
 
-    def execute(self):
+    def execute(self) -> Response:
         if not all((self.args.get('client_id'), self.args.get('id'), self.args.get('seat'))):
             return Response(Response.Type.BOOL, False)
         client = Client(self.args['client_id'])
@@ -125,7 +125,7 @@ class GetPurchasesAction(AbstractAction):
         self.search_manager = managers[0]
         self.purchase_manager = managers[1]
 
-    def execute(self):
+    def execute(self) -> Response:
         if not self.args.get('client_id'):
             return Response(Response.Type.BOOL, False)
         client = Client(self.args['client_id'])
@@ -137,7 +137,7 @@ class GetPurchasesPriceAction(AbstractAction):
         super().__init__(request, managers)
         self.purchase_manager = managers[0]
 
-    def execute(self):
+    def execute(self) -> Response:
         if not self.args.get('client_id'):
             return Response(Response.Type.BOOL, False)
         client = Client(self.args['client_id'])
@@ -154,7 +154,7 @@ class AddHotelToTourAction(AbstractAction):
         self.search_manager = managers[0]
         self.tour_manager = managers[1]
 
-    def execute(self):
+    def execute(self) -> Response:
         if not all(
                 (self.args.get('tour_id'), self.args.get('id'), self.args.get('check_in'), self.args.get('check_out'),
                  self.args.get('people_count'))):
@@ -176,7 +176,7 @@ class AddTrainTicketToTourAction(AbstractAction):
         self.search_manager = managers[0]
         self.tour_manager = managers[1]
 
-    def execute(self):
+    def execute(self) -> Response:
         if not all((self.args.get('tour_id'), self.args.get('id'), self.args.get('seat'),
                     self.args.get('carriage'))):
             return Response(Response.Type.BOOL, False)
@@ -196,7 +196,7 @@ class AddPlaneTicketToTourAction(AbstractAction):
         self.search_manager = managers[0]
         self.tour_manager = managers[1]
 
-    def execute(self):
+    def execute(self) -> Response:
         if not all((self.args.get('tour_id'), self.args.get('id'), self.args.get('seat'))):
             return Response(Response.Type.BOOL, False)
         tour = Tour(self.args['tour_id'])
@@ -215,7 +215,7 @@ class BuyTourAction(AbstractAction):
         self.purchase_manager = managers[0]
         self.tour_manager = managers[1]
 
-    def execute(self):
+    def execute(self) -> Response:
         if not all((self.args.get('tour_id'), self.args.get('client_id'))):
             return Response(Response.Type.BOOL, False)
         client = Client(self.args['client_id'])
@@ -231,5 +231,65 @@ class GetCitiesWithHotelAction(AbstractAction):
         super().__init__(request, managers)
         self.search_manager = managers[0]
 
-    def execute(self):
+    def execute(self) -> Response:
         return Response(Response.Type.LIST, self.search_manager.get_cities_with_hotel())
+
+
+class GetTrainDepartureCitiesAction(AbstractAction):
+    def __init__(self, request: Request, managers: Tuple[Manager]):
+        super().__init__(request, managers)
+        self.search_manager = managers[0]
+
+    def execute(self) -> Response:
+        return Response(Response.Type.LIST, self.search_manager.get_train_departure_cities())
+
+
+class GetTrainArrivalCitiesAction(AbstractAction):
+    def __init__(self, request: Request, managers: Tuple[Manager]):
+        super().__init__(request, managers)
+        self.search_manager = managers[0]
+
+    def execute(self) -> Response:
+        return Response(Response.Type.LIST, self.search_manager.get_train_arrival_cities())
+
+
+class GetTrainArrivalCitiesByDepartureAction(AbstractAction):
+    def __init__(self, request: Request, managers: Tuple[Manager]):
+        super().__init__(request, managers)
+        self.search_manager = managers[0]
+
+    def execute(self) -> Response:
+        if not self.args.get('from') or len(self.args) != 1:
+            return Response(Response.Type.BOOL, False)
+        return Response(Response.Type.LIST,
+                        self.search_manager.get_train_arrival_cities_by_departure(TicketFilters(self.args)))
+
+
+class GetPlaneDepartureCitiesAction(AbstractAction):
+    def __init__(self, request: Request, managers: Tuple[Manager]):
+        super().__init__(request, managers)
+        self.search_manager = managers[0]
+
+    def execute(self) -> Response:
+        return Response(Response.Type.LIST, self.search_manager.get_plane_departure_cities())
+
+
+class GetPlaneArrivalCitiesAction(AbstractAction):
+    def __init__(self, request: Request, managers: Tuple[Manager]):
+        super().__init__(request, managers)
+        self.search_manager = managers[0]
+
+    def execute(self) -> Response:
+        return Response(Response.Type.LIST, self.search_manager.get_plane_arrival_cities())
+
+
+class GetPlaneArrivalCitiesByDepartureAction(AbstractAction):
+    def __init__(self, request: Request, managers: Tuple[Manager]):
+        super().__init__(request, managers)
+        self.search_manager = managers[0]
+
+    def execute(self) -> Response:
+        if not self.args.get('from') or len(self.args) != 1:
+            return Response(Response.Type.BOOL, False)
+        return Response(Response.Type.LIST,
+                        self.search_manager.get_plane_arrival_cities_by_departure(TicketFilters(self.args)))

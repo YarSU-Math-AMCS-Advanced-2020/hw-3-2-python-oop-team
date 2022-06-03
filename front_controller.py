@@ -1,6 +1,8 @@
 from action import AbstractAction, FindHotelAction, FindTrainTicketAction, FindPlaneTicketAction, BuyHotelAction, \
     BuyTrainTicketAction, BuyPlaneTicketAction, GetPurchasesAction, AddHotelToTourAction, AddTrainTicketToTourAction, \
-    AddPlaneTicketToTourAction, GetPurchasesPriceAction, BuyTourAction, GetCitiesWithHotelAction
+    AddPlaneTicketToTourAction, GetPurchasesPriceAction, BuyTourAction, GetCitiesWithHotelAction, \
+    GetTrainDepartureCitiesAction, GetTrainArrivalCitiesAction, GetPlaneDepartureCitiesAction, \
+    GetPlaneArrivalCitiesAction, GetTrainArrivalCitiesByDepartureAction, GetPlaneArrivalCitiesByDepartureAction
 from request import Request
 from response import Response
 
@@ -29,7 +31,13 @@ class FrontController:
             'add_train_ticket_to_tour': (AddTrainTicketToTourAction, (self.search_manager, self.tour_manager)),
             'add_plane_ticket_to_tour': (AddPlaneTicketToTourAction, (self.search_manager, self.tour_manager)),
             'buy_tour': (BuyTourAction, (self.purchase_manager, self.tour_manager)),
-            'get_cities_with_hotel': (GetCitiesWithHotelAction, (self.search_manager,))
+            'get_cities_with_hotel': (GetCitiesWithHotelAction, (self.search_manager,)),
+            'get_train_departure_cities': (GetTrainDepartureCitiesAction, (self.search_manager,)),
+            'get_train_arrival_cities': (GetTrainArrivalCitiesAction, (self.search_manager,)),
+            'get_train_arrival_by_departure_cities': (GetTrainArrivalCitiesByDepartureAction, (self.search_manager,)),
+            'get_plane_departure_cities': (GetPlaneDepartureCitiesAction, (self.search_manager,)),
+            'get_plane_arrival_cities': (GetPlaneArrivalCitiesAction, (self.search_manager,)),
+            'get_plane_arrival_by_departure_cities': (GetPlaneArrivalCitiesByDepartureAction, (self.search_manager,))
         }
 
     def handle(self, request: Request) -> Response:
