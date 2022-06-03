@@ -13,8 +13,7 @@ class Tour(Purchase):
         return True
 
     def get_purchase_list(self):
-        purchase_list_copy = self.purchase_list.copy()
-        return purchase_list_copy
+        return self.purchase_list
 
     def count_price(self):
         price_sum = 0.0

@@ -71,6 +71,12 @@ class BuyHotelAction(AbstractAction):
             return Response(Response.Type.BOOL, False)
         client = Client(self.args['client_id'])
         hotel_dict = self.search_manager.find_hotels(HotelFilters({'id': self.args['id']}))[0]
+        if not all(
+                (hotel_dict.get('id'), hotel_dict.get('title'), hotel_dict.get('price'), hotel_dict.get('location'))):
+            return Response(Response.Type.BOOL, False)
+        if not all((hotel_dict['location'].get('street'), hotel_dict['location'].get('city'),
+                    hotel_dict['location'].get('country'))):
+            return Response(Response.Type.BOOL, False)
         hotel = Hotel(hotel_dict['id'], hotel_dict['title'], hotel_dict['price'],
                       Location(hotel_dict['location']['street'], hotel_dict['location']['district'],
                                hotel_dict['location']['city'], hotel_dict['location']['country']))
@@ -92,6 +98,10 @@ class BuyTrainTicketAction(AbstractAction):
             return Response(Response.Type.BOOL, False)
         client = Client(self.args['client_id'])
         train_dict = self.search_manager.find_train_tickets(TicketFilters({'id': self.args['id']}))[0]
+        if not all((train_dict.get('id'), train_dict.get('departure_time'), train_dict.get('arrival_time'),
+                    train_dict.get('departure_date'), train_dict.get('arrival_date'), train_dict.get('duration'),
+                    train_dict.get('price'), train_dict.get('from'), train_dict.get('to'))):
+            return Response(Response.Type.BOOL, False)
         train_ticket = Ticket(train_dict['id'], train_dict['departure_time'], train_dict['arrival_time'],
                               train_dict['departure_date'], train_dict['arrival_date'], train_dict['duration'],
                               train_dict['price'], train_dict['from'], train_dict['to'])
@@ -111,6 +121,10 @@ class BuyPlaneTicketAction(AbstractAction):
             return Response(Response.Type.BOOL, False)
         client = Client(self.args['client_id'])
         plane_dict = self.search_manager.find_plane_tickets(TicketFilters({'id': self.args['id']}))[0]
+        if not all((plane_dict.get('id'), plane_dict.get('departure_time'), plane_dict.get('arrival_time'),
+                    plane_dict.get('departure_date'), plane_dict.get('arrival_date'), plane_dict.get('duration'),
+                    plane_dict.get('price'), plane_dict.get('from'), plane_dict.get('to'))):
+            return Response(Response.Type.BOOL, False)
         plane_ticket = Ticket(plane_dict['id'], plane_dict['departure_time'], plane_dict['arrival_time'],
                               plane_dict['departure_date'], plane_dict['arrival_date'], plane_dict['duration'],
                               plane_dict['price'], plane_dict['from'], plane_dict['to'])
@@ -161,6 +175,12 @@ class AddHotelToTourAction(AbstractAction):
             return Response(Response.Type.BOOL, False)
         tour = Tour(self.args['tour_id'])
         hotel_dict = self.search_manager.find_hotels(HotelFilters({'id': self.args['id']}))[0]
+        if not all(
+                (hotel_dict.get('id'), hotel_dict.get('title'), hotel_dict.get('price'), hotel_dict.get('location'))):
+            return Response(Response.Type.BOOL, False)
+        if not all((hotel_dict['location'].get('street'), hotel_dict['location'].get('city'),
+                    hotel_dict['location'].get('country'))):
+            return Response(Response.Type.BOOL, False)
         hotel = Hotel(hotel_dict['id'], hotel_dict['title'], hotel_dict['price'],
                       Location(hotel_dict['location']['street'], hotel_dict['location']['city'],
                                hotel_dict['location']['district'], hotel_dict['location']['country']))
@@ -182,6 +202,10 @@ class AddTrainTicketToTourAction(AbstractAction):
             return Response(Response.Type.BOOL, False)
         tour = Tour(self.args['tour_id'])
         train_dict = self.search_manager.find_train_tickets(TicketFilters({'id': self.args.get('id')}))[0]
+        if not all((train_dict.get('id'), train_dict.get('departure_time'), train_dict.get('arrival_time'),
+                    train_dict.get('departure_date'), train_dict.get('arrival_date'), train_dict.get('duration'),
+                    train_dict.get('price'), train_dict.get('from'), train_dict.get('to'))):
+            return Response(Response.Type.BOOL, False)
         train_ticket = Ticket(train_dict['id'], train_dict['departure_time'], train_dict['arrival_time'],
                               train_dict['departure_date'], train_dict['arrival_date'], train_dict['duration'],
                               train_dict['price'], train_dict['from'], train_dict['to'])
@@ -201,6 +225,10 @@ class AddPlaneTicketToTourAction(AbstractAction):
             return Response(Response.Type.BOOL, False)
         tour = Tour(self.args['tour_id'])
         plane_dict = self.search_manager.find_plane_tickets(TicketFilters({'id': self.args['id']}))[0]
+        if not all((plane_dict.get('id'), plane_dict.get('departure_time'), plane_dict.get('arrival_time'),
+                    plane_dict.get('departure_date'), plane_dict.get('arrival_date'), plane_dict.get('duration'),
+                    plane_dict.get('price'), plane_dict.get('from'), plane_dict.get('to'))):
+            return Response(Response.Type.BOOL, False)
         plane_ticket = Ticket(plane_dict['id'], plane_dict['departure_time'], plane_dict['arrival_time'],
                               plane_dict['departure_date'], plane_dict['arrival_date'], plane_dict['duration'],
                               plane_dict['price'], plane_dict['from'], plane_dict['to'])

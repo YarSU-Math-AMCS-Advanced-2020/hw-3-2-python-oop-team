@@ -1,3 +1,4 @@
+from typing import Union
 from dataclasses import dataclass
 from enum import Enum, auto
 from decimal import Decimal
@@ -12,4 +13,4 @@ class Response:
         DECIMAL = auto()
 
     type: Type
-    data: bool | list | dict | Decimal
+    data: Union[bool, list, dict, Decimal]

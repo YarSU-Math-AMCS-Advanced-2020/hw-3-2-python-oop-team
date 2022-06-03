@@ -1,11 +1,13 @@
-from purchase import Purchase
+from decimal import Decimal
+from typing import Dict, Union
 
+from purchase import Purchase
 
 class Filters:
     def __init__(self):
         self.filter_list = []
 
-    def is_valid(self, item: Purchase):
+    def is_valid(self, item: Purchase) -> bool:
         for filter in self.filter_list:
             if not filter(item):
                 return False
@@ -13,7 +15,7 @@ class Filters:
 
 
 class HotelFilters(Filters):
-    def __init__(self, hotel_filters: dict):
+    def __init__(self, hotel_filters: Dict[str, Union[str, Decimal, Dict[str, str]]]):
         super().__init__()
         if hotel_filters.get('id'):
             self.filter_list.append(lambda x: x.get('id') == hotel_filters['id'])
@@ -26,7 +28,7 @@ class HotelFilters(Filters):
 
 
 class TicketFilters(Filters):
-    def __init__(self, ticket_filters: dict):
+    def __init__(self, ticket_filters: Dict[str, Union[str, Decimal]]):
         super().__init__()
         if ticket_filters.get('id'):
             self.filter_list.append(lambda x: x.get('id') == ticket_filters['id'])
