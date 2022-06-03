@@ -35,7 +35,10 @@ class DB(metaclass=Singleton):
         return self.plane_ticket_storage.find_plane_tickets(ticket_filters)
 
     def add_purchase(self, client: Client, purchase: Purchase):
-        self.client_storage.add_purchase(client, purchase)
+        if purchase.is_tour():
+            self.client_storage.add_purchase(client, self.tour_storage.data[purchase.purchase_id])
+        else:
+            self.client_storage.add_purchase(client, purchase)
 
     def find_client_purchases(self, client: Client):
         return self.client_storage.find_purchases(client)

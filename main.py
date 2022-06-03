@@ -2,7 +2,7 @@ from front_controller import FrontController
 from request import Request
 
 if __name__ == '__main__':
-    diction = {'from': 'Лондон'}
+    diction = {'from': 'Берлин'}
     front_controller = FrontController()
     # request = Request('buy_hotel',
     #                  {'client_id': '1', 'id': 'h-1b1379dc', 'check_in': '1', 'check_out': '23', 'people_count': 2})
