@@ -226,7 +226,7 @@ while True != False:
                         pup = easygui.buttonbox(msg=f'Для выбора доступен только один город: {list_arrival_cities[0]}',
                                                 choices=(
                                                 'Я хочу полететь в этот город', 'Я не хочу лететь в этот город'),
-                                                image=r'pictures/pubg.jpg', title='Авиослейвс ПутешествиЯ')
+                                                image=r'pictures/uza.png', title='Авиослейвс ПутешествиЯ')
                         if pup == 'Я хочу полететь в этот город':
                             arrival_cities = list_arrival_cities[0]
                         else:
