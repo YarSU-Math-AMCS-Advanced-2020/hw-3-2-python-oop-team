@@ -49,6 +49,18 @@ class DB(metaclass=Singleton):
     def get_cities_from_hotel_storage(self):
         return self.hotel_storage.get_cities()
 
+    def get_departure_cities_from_train_storage(self):
+        return self.train_ticket_storage.get_departure_cities()
+
+    def get_arrival_cities_from_train_storage(self):
+        return self.train_ticket_storage.get_arrival_cities()
+
+    def get_departure_cities_from_plane_storage(self):
+        return self.plane_ticket_storage.get_departure_cities()
+
+    def get_arrival_cities_from_plane_storage(self):
+        return self.plane_ticket_storage.get_departure_cities()
+
 
 class Storage:
     def __init__(self, filename: str):
@@ -88,6 +100,18 @@ class TrainTicketStorage(Storage):
     def find_train_tickets(self, ticket_filters: TicketFilters):
         return TrainTicketStorage.find(self.data, ticket_filters.is_valid)
 
+    def get_departure_cities(self):
+        cities = []
+        for item in self.data:
+            cities.append(item['from'])
+        return list(set(cities))
+
+    def get_arrival_cities(self):
+        cities = []
+        for item in self.data:
+            cities.append(item['to'])
+        return list(set(cities))
+
 
 class PlaneTicketStorage(Storage):
     def __init__(self):
@@ -95,6 +119,18 @@ class PlaneTicketStorage(Storage):
 
     def find_plane_tickets(self, ticket_filters: TicketFilters):
         return PlaneTicketStorage.find(self.data, ticket_filters.is_valid)
+
+    def get_departure_cities(self):
+        cities = []
+        for item in self.data:
+            cities.append(item['from'])
+        return list(set(cities))
+
+    def get_arrival_cities(self):
+        cities = []
+        for item in self.data:
+            cities.append(item['to'])
+        return list(set(cities))
 
 
 class ClientStorage(Storage):

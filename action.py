@@ -233,3 +233,39 @@ class GetCitiesWithHotelAction(AbstractAction):
 
     def execute(self):
         return Response(Response.Type.LIST, self.search_manager.get_cities_with_hotel())
+
+
+class GetTrainDepartureCitiesAction(AbstractAction):
+    def __init__(self, request: Request, managers: Tuple[Manager]):
+        super().__init__(request, managers)
+        self.search_manager = managers[0]
+
+    def execute(self):
+        return Response(Response.Type.LIST, self.search_manager.get_train_departure_cities())
+
+
+class GetTrainArrivalCitiesAction(AbstractAction):
+    def __init__(self, request: Request, managers: Tuple[Manager]):
+        super().__init__(request, managers)
+        self.search_manager = managers[0]
+
+    def execute(self):
+        return Response(Response.Type.LIST, self.search_manager.get_train_arrival_cities())
+
+
+class GetPlaneDepartureCitiesAction(AbstractAction):
+    def __init__(self, request: Request, managers: Tuple[Manager]):
+        super().__init__(request, managers)
+        self.search_manager = managers[0]
+
+    def execute(self):
+        return Response(Response.Type.LIST, self.search_manager.get_plane_departure_cities())
+
+
+class GetPlaneArrivalCitiesAction(AbstractAction):
+    def __init__(self, request: Request, managers: Tuple[Manager]):
+        super().__init__(request, managers)
+        self.search_manager = managers[0]
+
+    def execute(self):
+        return Response(Response.Type.LIST, self.search_manager.get_plane_arrival_cities())

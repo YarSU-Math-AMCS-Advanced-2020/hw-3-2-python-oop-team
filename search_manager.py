@@ -17,3 +17,15 @@ class SearchManager(Manager):
 
     def get_cities_with_hotel(self):
         return self.data_base.get_cities_from_hotel_storage()
+
+    def get_train_departure_cities(self):
+        return self.data_base.get_departure_cities_from_train_storage()
+
+    def get_train_arrival_cities(self):
+        return self.data_base.get_arrival_cities_from_train_storage()
+
+    def get_plane_departure_cities(self):
+        return self.data_base.get_departure_cities_from_plane_storage()
+
+    def get_plane_arrival_cities(self):
+        return self.data_base.get_arrival_cities_from_plane_storage()
