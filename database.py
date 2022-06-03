@@ -55,11 +55,17 @@ class DB(metaclass=Singleton):
     def get_arrival_cities_from_train_storage(self):
         return self.train_ticket_storage.get_arrival_cities()
 
+    def get_arrival_cities_by_departure_from_train_storage(self, ticket_filters: TicketFilters):
+        return self.train_ticket_storage.get_arrival_cities_by_departure(ticket_filters)
+
     def get_departure_cities_from_plane_storage(self):
         return self.plane_ticket_storage.get_departure_cities()
 
     def get_arrival_cities_from_plane_storage(self):
         return self.plane_ticket_storage.get_departure_cities()
+
+    def get_arrival_cities_by_departure_from_plane_storage(self, ticket_filters: TicketFilters):
+        return self.plane_ticket_storage.get_arrival_cities_by_departure(ticket_filters)
 
 
 class Storage:
@@ -98,7 +104,7 @@ class TrainTicketStorage(Storage):
         super().__init__(r'data\modified_train_tickets.json')
 
     def find_train_tickets(self, ticket_filters: TicketFilters):
-        return TrainTicketStorage.find(self.data, ticket_filters.is_valid)
+        return self.find(self.data, ticket_filters.is_valid)
 
     def get_departure_cities(self):
         cities = []
@@ -112,13 +118,20 @@ class TrainTicketStorage(Storage):
             cities.append(item['to'])
         return list(set(cities))
 
+    def get_arrival_cities_by_departure(self, ticket_filters: TicketFilters):
+        cities = []
+        targets = self.find(self.data, ticket_filters.is_valid)
+        for item in targets:
+            cities.append(item['to'])
+        return list(set(cities))
+
 
 class PlaneTicketStorage(Storage):
     def __init__(self):
         super().__init__(r'data\modified_plane_tickets.json')
 
     def find_plane_tickets(self, ticket_filters: TicketFilters):
-        return PlaneTicketStorage.find(self.data, ticket_filters.is_valid)
+        return self.find(self.data, ticket_filters.is_valid)
 
     def get_departure_cities(self):
         cities = []
@@ -129,6 +142,13 @@ class PlaneTicketStorage(Storage):
     def get_arrival_cities(self):
         cities = []
         for item in self.data:
+            cities.append(item['to'])
+        return list(set(cities))
+
+    def get_arrival_cities_by_departure(self, ticket_filters: TicketFilters):
+        cities = []
+        targets = self.find(self.data, ticket_filters.is_valid)
+        for item in targets:
             cities.append(item['to'])
         return list(set(cities))
 
